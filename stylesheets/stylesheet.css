@@ -104,7 +104,8 @@ nav img {
 .page-header {
   color: #fff;
   text-align: center;
-  background: url(/MicroWebsiteTemplate/assets/RePhone-8.jpg) no-repeat fixed center, linear-gradient(120deg, #2da9de, #602480);
+  /*background: url(/MicroWebsiteTemplate/assets/RePhone-8.jpg) no-repeat fixed center, linear-gradient(120deg, #2da9de, #602480);*/
+  background: url(https://i.ytimg.com/vi/AUUVfPy0UgI/maxresdefault.jpg) no-repeat fixed center, linear-gradient(120deg, #2da9de, #602480);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
