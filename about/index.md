@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Prototype01 by opencare.cc
+title: About openrampette by opencare.cc
 ---
 
 # About page
