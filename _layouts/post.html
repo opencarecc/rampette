@@ -1,14 +1,25 @@
 ---
+
 layout: default
+
 ---
+
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
+<p class="category">filed under:
+    {% for category in page.categories %}
+        <a href="{{site.baseurl}}/category/{{category}}" class="post-tag">
+            {{ category }}
+        </a>
+    {% endfor %}
+</p>
+
 <div class="post">
-  {{ content }}
+    {{ content }}
 </div>
 
 <!-- Post comments -->
 <div class="notecomments">
-  {% include disqus.html %}  
+    {% include disqus.html %}
 </div>

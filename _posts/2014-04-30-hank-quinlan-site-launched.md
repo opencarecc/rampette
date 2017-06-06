@@ -3,6 +3,10 @@ layout: post
 title: "Hank Quinlan, Horrible Cop, Launches Site"
 date: 2014-04-30
 image: "https://i.ytimg.com/vi/AUUVfPy0UgI/maxresdefault.jpg"
+categories:
+  - procedura
+  - chiamata
+  - evento
 
 ---
 
