@@ -1,9 +1,12 @@
 name: openrampette by opencare
 markdown: kramdown
-baseurl: 
+baseurl:
 permalink: /blog/:year/:month/:day/:title/
 gems:
   - jekyll-sitemap
   - jekyll-paginate
 paginate: 10
 paginate_path: /blog/page:num/
+
+title: openrampette
+tagline: this is the repo for the openrampette project
