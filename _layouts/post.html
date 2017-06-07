@@ -5,12 +5,7 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-
-<img src="{{ page.image }}">
-
-
 <p class="meta">{{ page.date | date_to_string }}</p>
-
 <p class="category">filed under:
     {% for category in page.categories %}
         <a href="{{site.baseurl}}/category/{{category}}" class="post-tag">
@@ -18,6 +13,8 @@ layout: default
         </a>
     {% endfor %}
 </p>
+
+<img src="{{ page.image }}">
 
 <div class="post">
     {{ content }}
