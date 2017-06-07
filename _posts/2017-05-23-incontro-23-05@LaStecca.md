@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "incontro 23.05 @ LaStecca3.0 - La Procedura"
-subtitle: ""
+subtitle: "indagine sulla tematica della procedura"
 date: 2017-05-23
 image: "https://farm5.staticflickr.com/4252/34721103722_cdb80a2769_k_d.jpg"
 categories: [procedura, evento]

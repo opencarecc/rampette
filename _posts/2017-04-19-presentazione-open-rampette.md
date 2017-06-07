@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WeMake e il comune di Milano presentano Open Rampette"
-subtitle: ""
+subtitle: "un percorso di co-progettazione portatori di interesse, esercenti, policy maker, designer, maker"
 date: 2017-04-19
 image: "https://farm3.staticflickr.com/2833/34126794252_c01dd7adb2_h_d.jpg"
 categories: [evento]
