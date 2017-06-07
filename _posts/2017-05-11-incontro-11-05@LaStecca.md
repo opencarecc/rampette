@@ -13,7 +13,7 @@ Incentrato sull’approfondimento dell’esperienza legata all’accessibilità 
 
 Dopo la presentazione ed introduzione al progetto open rampette, i partecipanti sono stati divisi nei due gruppi di interesse: il gruppo Dionisio (incentrato sulle riflessioni di chi deve effettuare la chiamata per accedere all’esercizio commerciale) e il gruppo di Minerva (incentrato sulle riflessioni di chi deve ricevere la chiamata e garantire l’accesso al proprio negozio).
 
-[Trovi su edgeryders un report estensivo su come si è svolta la setata e la metodologi adottata](https://edgeryders.eu/en/open-rampette-la-chiamata-incontro-1105-lastecca30)
+[Trovi su edgeryders un report estensivo su come si è svolta la setata e la metodologia adottata](https://edgeryders.eu/en/open-rampette-la-chiamata-incontro-1105-lastecca30)
 
 Clicca [qui](https://edgeryders.eu/en/node/7915) per leggere il report del gruppo di Dionisio, e [qui](https://edgeryders.eu/en/node/7916) per il gruppo di Minerva.
 
