@@ -9,7 +9,8 @@ title: All the News about openrampette
 	  {% for post in paginator.posts %}
 	    <li>
         <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><h3>› {{ post.title }}</h3></a>
-        <p class="postdate">{{ post.date | date_to_string }}</p> 
+        <p class="postdate">{{ post.date | date_to_string }}</p>
+        <img src="{{ post.image }}">
         {{ post.excerpt }}
         <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">Read more...</a>
       </li>
@@ -25,10 +26,8 @@ title: All the News about openrampette
     {% if paginator.total_pages > 1 %}
       <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% endif %}
-    
+
     {% if paginator.next_page %}
       <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next »</a>
     {% endif %}
   </div>
-
-	
