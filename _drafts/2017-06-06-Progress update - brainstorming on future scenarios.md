@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Progress update - mappatura possibili scenari futuri"
-subtitle: ""
-date: 2017-05-23
+subtitle: "abbiamo visualizzato la possibile l'esperienza futura di Dioniso"
+date: 2017-06-06
 image: "https://edgeryders.eu/sites/edgeryders.eu/files/inline-images/mappatura-06.png"
 categories: [chiamata]
 by: "Lorenzo"

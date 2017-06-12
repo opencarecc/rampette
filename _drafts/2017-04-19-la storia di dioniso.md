@@ -3,10 +3,9 @@ layout: post
 title: "La storia di dioniso e minerva"
 subtitle: "discutere situazioni conflittuali attraverso lo storytelling"
 date: 2017-04-19
-image: "https://farm3.staticflickr.com/2833/34126794252_c01dd7adb2_h_d.jpg"
+image: "https://farm5.staticflickr.com/4192/34613102235_59594c04b7_k_d.jpg"
 categories: [evento]
 by: "Lorenzo"
-draft:"true"
 ---
 La progettazione partecipata, che coinvolge la comunità interessata assistita da addetti ai lavori come designer, makers, e policy makers non è mai facile. Spesso richiede un grosso sforzo progettuale da parte di chi guida il processo e conosce bene la metodologia e gli obbiettivi da raggiungere.
 
