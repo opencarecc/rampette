@@ -17,6 +17,6 @@ Dopo la presentazione ed introduzione al progetto open rampette, i partecipanti 
 
 Clicca [qui](https://edgeryders.eu/en/node/7915) per leggere il report del gruppo di Dionisio, e [qui](https://edgeryders.eu/en/node/7916) per il gruppo di Minerva.
 
-[Quì le slides ](https://www.flickr.com/photos/wemake_cc/sets/72157683629824436/with/34227097530/)
+[qui le slides ](https://www.flickr.com/photos/wemake_cc/sets/72157683629824436/with/34227097530/)
 
-[Quì le foto dell'evento quì](https://www.flickr.com/photos/wemake_cc/sets/72157683629824436/with/34227097530/)
+[qui le foto dell'evento qui](https://www.flickr.com/photos/wemake_cc/sets/72157683629824436/with/34227097530/)

@@ -17,6 +17,6 @@ Durante questo secondo incontro, abbiamo svolto un’indagine sulla tematica del
 
 [Trovi su edgeryders un report estensivo su come si è svolta la setata e la metodologia adottata](https://edgeryders.eu/en/open-rampette-la-procedura-incontro-2305-lastecca30)
 
-[Quì le slides con tutte le spiegazioni tecniche utili per comprendere più facilmente alcuni elementi della procedura ](https://docs.google.com/presentation/d/1lzHEWSHhxOgQtSfgQL7zgcRrO0Ie_1Ty9Wfhyn5P7RU/edit?usp=sharing)
+[qui le slides con tutte le spiegazioni tecniche utili per comprendere più facilmente alcuni elementi della procedura ](https://docs.google.com/presentation/d/1lzHEWSHhxOgQtSfgQL7zgcRrO0Ie_1Ty9Wfhyn5P7RU/edit?usp=sharing)
 
-[Quì le foto dell'evento quì](https://www.flickr.com/photos/wemake_cc/albums/72157682301398590)
+[qui le foto dell'evento qui](https://www.flickr.com/photos/wemake_cc/albums/72157682301398590)

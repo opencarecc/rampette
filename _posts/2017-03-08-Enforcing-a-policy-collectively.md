@@ -12,5 +12,5 @@ by: "Lorenzo"
 
 [Matteo Matteini](https://twitter.com/bazarov23) ci racconta dell'attuale normativa in vigore nel comune di Milano e dell'approccio bottom up adottato dal progetto open rampette.
 
-[Trovi l'articolo intero su edgeryders quì.
+[Trovi l'articolo intero su edgeryders qui.
 ](https://edgeryders.eu/en/enforcing-a-policy-collectively)

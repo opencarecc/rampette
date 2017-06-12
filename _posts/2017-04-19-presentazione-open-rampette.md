@@ -20,4 +20,4 @@ Sono intervenuti:
 - **Rossana Torri** – Direzione Economia Urbana e Lavoro del Comune di Milano
 - **Costantino Bongiorno** – WeMake | Makerspace Fablab
 
-[Trovi le foto dell'evento quì](https://www.flickr.com/photos/wemake_cc/albums/72157682987324856/with/34126794252/)
+[Trovi le foto dell'evento qui](https://www.flickr.com/photos/wemake_cc/albums/72157682987324856/with/34126794252/)
