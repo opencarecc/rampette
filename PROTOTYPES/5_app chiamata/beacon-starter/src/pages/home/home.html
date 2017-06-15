@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>
+      Open rampette
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let beacon of beacons">
+    <img src="assets/img/vineria.jpg" />
+
+    <ion-card-content>
+      <ion-card-title>
+        Vineria Minerva
+      </ion-card-title>
+
+      <p>
+        Minerva vende liquori e vini in questa vineria da oltre 20 anni
+      </p>
+
+      <button ion-button (click)="connect()">RICHIEDI ASSISTENZA</button>
+
+
+      <ion-grid *ngIf="debug">
+        <ion-row>
+          <ion-col>Major:{{beacon.major}}</ion-col>
+          <ion-col>Minor:{{beacon.minor}} </ion-col>
+          <ion-col>RSSI:{{beacon.rssi}}</ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+
+  </ion-card>
+
+  <div *ngIf="connected">
+    <ion-card>
+      <img src="assets/img/vineria.jpg" />
+
+      <ion-card-content>
+        <ion-card-title>
+          Vineria Minerva
+        </ion-card-title>
+
+        <p>
+          Minerva vende liquori e vini in questa vineria da oltre 20 anni
+        </p>
+
+        <p>
+          Si prega di attendere...
+        </p>
+
+        <ion-grid *ngIf="debug">
+          <ion-row>
+            <ion-col>Major:{{beacon.major}}</ion-col>
+            <ion-col>Minor:{{beacon.minor}} </ion-col>
+            <ion-col>RSSI:{{beacon.rssi}}</ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card-content>
+
+    </ion-card>
+  </div>
+
+</ion-content>
