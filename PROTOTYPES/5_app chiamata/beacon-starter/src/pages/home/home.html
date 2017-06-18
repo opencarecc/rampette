@@ -46,9 +46,21 @@
           Minerva vende liquori e vini in questa vineria da oltre 20 anni
         </p>
 
-        <p>
-          Si prega di attendere...
-        </p>
+        <div *ngIf="beaconStatus==1">
+          <h2>
+            <ion-spinner name="bubbles"></ion-spinner>
+            ...Stiamo chiamando il negoziante...
+          </h2>
+
+        </div>
+
+        <div *ngIf="beaconStatus==2">
+          <h2>
+          Chiamata ricevuta, stai per ricevere assistenza.
+        </h2>
+
+        </div>
+
 
         <ion-grid *ngIf="debug">
           <ion-row>

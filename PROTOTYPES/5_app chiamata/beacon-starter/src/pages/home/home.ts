@@ -26,6 +26,7 @@ export class HomePage {
   connected: boolean =false;
   device: any;
   debug:boolean=false;
+  beaconStatus:number=0; //0=disconnected, 1=connected and calling, 2=callreceived
 
   constructor(public navCtrl: NavController,
     public platform: Platform,
@@ -114,6 +115,7 @@ export class HomePage {
           this.connected=true;
           this.device=device;
           this.bleProvider.callBell();
+          this.beaconStatus=1;
         });
       });
     }
@@ -121,10 +123,16 @@ export class HomePage {
 
   listenToBleEvents(){
     this.events.subscribe('bleDisconnected', (data) => {
+      console.log("ble disconnected", data);
+
+      this.beaconStatus=0;
+      this.connected=false;
+
     });
 
     this.events.subscribe('characteristicUpdated', (data) => {
-      console.log("characteristic Updated", JSON.stringify(data));
+      console.log("characteristic Updated", data);
+      this.beaconStatus=data;
     });
   }
 

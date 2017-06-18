@@ -1,6 +1,9 @@
 #include <SPI.h>
 #include <BLEPeripheral.h>
 #include <iBeacon.h>
+#include <Microbit_display.h>
+Microbit_display screen = Microbit_display();
+
 
 #if !defined(NRF51) && !defined(NRF52) && !defined(__RFduino__)
 #error "This example only works with nRF51 boards"
@@ -16,13 +19,30 @@ unsigned short minor         = 1;
 unsigned short measuredPower = -55;
 
 int state = 0;
-int oldState=0;
+int oldState = 0;
+
+
+boolean bell[] = {
+  0, 0, 1, 0, 0,
+  0, 1, 1, 1, 0,
+  1, 0, 0, 0, 1,
+  1, 1, 1, 1, 1,
+  0, 0, 1, 0, 0,
+};
+
+boolean empty[] = {
+  0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0,
+};
 
 BLEPeripheral blePeripheral = BLEPeripheral();
 
 BLEService doorBellService = BLEService(serviceUUID);
 
-BLEIntCharacteristic callCharacteristic = BLEIntCharacteristic(callCharacteristicUUID,  BLERead | BLEWrite | BLENotify);
+BLECharCharacteristic callCharacteristic = BLECharCharacteristic(callCharacteristicUUID,  BLERead | BLEWrite | BLENotify);
 
 iBeacon beacon;
 
@@ -51,6 +71,7 @@ void setup() {
   beacon.begin(beaconserviceUUID, major, minor, measuredPower);
   pinMode(PIN_BUTTON_A, INPUT_PULLUP);
   pinMode(PIN_BUTTON_B, INPUT_PULLUP);
+  screen.begin();
 
 }
 
@@ -59,19 +80,22 @@ void loop() {
 
   printState();
 
-  if  (readButtonB()){
-    state=0;
+  if  (readButtonB()) {
+    state = 0;
     beacon.disconnect();
   }
-  
+
   switch (state) {
     case 0:
-      
+      screen.drawIcon(empty);
+
       break;
     case 1:
-      
+      screen.drawIcon(empty);
+
       break;
     case 2:
+      screen.drawIcon(bell);
       if (readButtonA()) {
         state = 3;
         Serial.println("ricevuto");
@@ -79,16 +103,18 @@ void loop() {
       }
       break;
     case 3:
+      screen.drawIcon(empty);
+
 
       break;
   }
 }
 
-void printState(){
-  if (oldState!=state){
+void printState() {
+  if (oldState != state) {
     Serial.println(state);
   }
-  oldState=state;
+  oldState = state;
 }
 
 void blePeripheralConnectHandler(BLECentral& central) {
@@ -105,16 +131,14 @@ void blePeripheralDisconnectHandler(BLECentral& central) {
   Serial.println(central.address());
   state = 0;
   Serial.println("waiting for someone");
-
-
 }
 
 void characteristicWritten(BLECentral& central, BLECharacteristic& characteristic) {
   // characteristic value written event handler
   Serial.print(F("Characteristic event, writen: "));
   Serial.println(callCharacteristic.value(), DEC);
-  if (callCharacteristic.value()==1){
-    state = 2;  
+  if (callCharacteristic.value() == 1) {
+    state = 2;
   }
 }
 
@@ -143,7 +167,7 @@ boolean readButtonB() {
 }
 
 
-void notifyReceivedCall(){
+void notifyReceivedCall() {
   callCharacteristic.setValue(2);
 }
 

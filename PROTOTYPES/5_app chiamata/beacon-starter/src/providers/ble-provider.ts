@@ -60,13 +60,29 @@ export class BleProvider {
           this.deviceName = device.name;
           this.checkConnection();
           resolve(device);
-        },
-        error => {
-          reject()
+        },device=>{
+          console.log('disconnected');
+          this.isConnected=false;
+          this.events.publish('bleDisconnected', device);
         }
       )
     });
   }
+
+
+
+  //
+  // BLE.connect(deviceID).subscribe(peripheralData => {
+  // console.log(peripheralData.characteristics);
+  // this.characteristics = peripheralData.characteristics;
+  // this.connecting = false;
+  // },
+  // peripheralData => {
+  // console.log(‘disconnected’);
+  // });
+  // }
+
+
 
 
   checkConnection(): Promise<any> {
@@ -99,15 +115,11 @@ export class BleProvider {
 
   registerToEvents() {
     BLE.startNotification(this.deviceID, this.call_service_UUID, this.callCharacteristic_UUID).subscribe(value => {
-
-      var adData = new Uint8Array(value);
-      console.log(adData);
-
-      BLE.read(this.deviceID, this.call_service_UUID, this.callCharacteristic_UUID).then((data)=>{
-        console.log(data);
-        this.events.publish('characteristicUpdated', data);
-      });
+      var status=new Uint8Array(value);
+      //the property is of thype char. the fitst byte represent the status of the beacon
+      this.events.publish('characteristicUpdated', status[0]);
     });
+
   }
 
 }
