@@ -47,6 +47,8 @@ void setup(void) {
 }
 
 void loop(void) {
+    ble.update(200);
+
 }
 
 void initBluetooth() {
@@ -123,13 +125,10 @@ void BleGattRX(int32_t chars_id, uint8_t data[], uint16_t len) {
   Serial.print( F("[BLE GATT RX] (" ) );
   Serial.print(chars_id);
   Serial.print(") ");
+  int32_t val;
+  memcpy(&val, data, len);
+  Serial.println(val);
 
-
-
-    int32_t val;
-    memcpy(&val, data, len);
-    Serial.println(val);
-  
 }
 
 void connected(void) {
