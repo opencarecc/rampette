@@ -1,27 +1,27 @@
-[
-  {
-    "beacon_UUID":"A1-96-C8-76-DE-8C-4C-47-AB-5A-D7-AF-D5-AE-71-27",
-    "maior_ID":"0x0000",
-    "minor_ID":"0x0001",
-    "shopName":"Vineria Minerva",
-    "photo":"minerva.png",
-    "description":"minerva spacca",
-    "can_Call":"yes",
-    "indirizzo":"via gino 80",
-    "indirizzo":"via gino 80",
-    "telefono":"+39 0571676188"
-  },
-  {
-    "beacon_UUID":"A1-96-C8-76-DE-8C-4C-47-AB-5A-D7-AF-D5-AE-71-27",
-    "maior_ID":"0x0000",
-    "minor_ID":"0x0001",
-    "shopName":"alimentari Minorca",
-    "photo":"minerva.png",
-    "description":"minerva spacca",
-    "can_Call":"yes",
-    "indirizzo":"via gino 80",
-    "indirizzo":"via gino 80",
-    "telefono":"+39 0571676188"
-  }
-
-]
+{
+  "shops": [{
+      "beacon_UUID": "A1-96-C8-76-DE-8C-4C-47-AB-5A-D7-AF-D5-AE-71-27",
+      "maior_ID": "0x0000",
+      "minor_ID": "0x0001",
+      "shopName": "Vineria Minerva",
+      "photo": "minerva.png",
+      "description": "minerva spacca",
+      "can_Call": "yes",
+      "indirizzo": "via gino 80",
+      "indirizzo": "via gino 80",
+      "telefono": "+39 0571676188"
+    },
+    {
+      "beacon_UUID": "A1-96-C8-76-DE-8C-4C-47-AB-5A-D7-AF-D5-AE-71-27",
+      "maior_ID": "0x0000",
+      "minor_ID": "0x0001",
+      "shopName": "alimentari Minorca",
+      "photo": "minerva.png",
+      "description": "minerva spacca",
+      "can_Call": "yes",
+      "indirizzo": "via gino 80",
+      "indirizzo": "via gino 80",
+      "telefono": "+39 0571676188"
+    }
+  ]
+}

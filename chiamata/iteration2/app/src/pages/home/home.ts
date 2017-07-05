@@ -10,6 +10,7 @@ import { BLE } from 'ionic-native';
 // providers
 import { BeaconProvider } from '../../providers/beacon-provider';
 import { BleProvider } from '../../providers/ble-provider';
+import { PlacesDataProvider } from '../../providers/places-data/places-data';
 
 // models
 import { BeaconModel } from '../../models/beacon-model';
@@ -34,13 +35,20 @@ export class HomePage {
     public events: Events,
     private LocalNotifications: LocalNotifications,
     private backgroundMode: BackgroundMode,
-    private bleProvider: BleProvider) {
+    private bleProvider: BleProvider,
+    public places:PlacesDataProvider
+  ) {
 
     // required for UI update
     this.zone = new NgZone({ enableLongStackTrace: false });
   }
 
   ionViewDidLoad() {
+
+    this.places.load().then(data=>{
+      console.log(data.shops);
+    })
+
     this.platform.ready().then(() => {
       if (BLE.isEnabled) {
         BLE.enable();

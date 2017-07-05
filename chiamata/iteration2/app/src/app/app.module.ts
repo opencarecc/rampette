@@ -12,6 +12,7 @@ import { BackgroundMode } from '@ionic-native/background-mode';
 import { BLE } from 'ionic-native';
 import { BleProvider } from '../providers/ble-provider';
 import { PlacesDataProvider } from '../providers/places-data/places-data';
+import { HttpModule } from '@angular/http';
 
 
 
@@ -22,7 +23,8 @@ import { PlacesDataProvider } from '../providers/places-data/places-data';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
