@@ -21,13 +21,15 @@ import { BeaconModel } from '../../models/beacon-model';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
   beacons: BeaconModel[] = [];
   zone: any;
   connected: boolean =false;
   device: any;
   debug:boolean=false;
   beaconStatus:number=0; //0=disconnected, 1=connected and calling, 2=callreceived
+  shops=[];
+  nearbyshops=[];
+
 
   constructor(public navCtrl: NavController,
     public platform: Platform,
@@ -44,9 +46,9 @@ export class HomePage {
   }
 
   ionViewDidLoad() {
-
     this.places.load().then(data=>{
       console.log(data.shops);
+      this.shops=data.shops;
     })
 
     this.platform.ready().then(() => {
@@ -110,6 +112,23 @@ export class HomePage {
             this.beacons[indexInArray].rssi = beacon.rssi;
           }
         });
+
+        this.nearbyshops=[];//empty the shops array
+        for (var i=0; i<this.beacons.length;i++){
+          for(var j=0; j<this.shops.length; j++){
+
+
+            console.log(this.beacons[i].minor);
+            console.log(this.shops[j].minor_ID);
+
+            if (this.beacons[i].minor==this.shops[j].minor_ID){
+              this.nearbyshops.push(this.shops[j]);
+              console.log(this.nearbyshops);
+            }
+          }
+        }
+
+
       });
     });
   }

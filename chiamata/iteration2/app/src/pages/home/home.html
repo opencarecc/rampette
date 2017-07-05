@@ -7,28 +7,19 @@
 </ion-header>
 
 <ion-content>
-  <ion-card *ngFor="let beacon of beacons">
-    <img src="assets/img/vineria.jpg" />
+  <ion-card *ngFor="let shop of nearbyshops">
+    <img src="assets/img/{{shop.image}}" />
 
     <ion-card-content>
       <ion-card-title>
-        Vineria Minerva
+        {{shop.name}}
       </ion-card-title>
 
       <p>
-        Minerva vende liquori e vini in questa vineria da oltre 20 anni
+      {{shop.description}}
       </p>
 
       <button ion-button (click)="connect()">RICHIEDI ASSISTENZA</button>
-
-
-      <ion-grid *ngIf="debug">
-        <ion-row>
-          <ion-col>Major:{{beacon.major}}</ion-col>
-          <ion-col>Minor:{{beacon.minor}} </ion-col>
-          <ion-col>RSSI:{{beacon.rssi}}</ion-col>
-        </ion-row>
-      </ion-grid>
     </ion-card-content>
 
   </ion-card>
