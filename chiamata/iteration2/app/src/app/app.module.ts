@@ -11,6 +11,7 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
 import { BackgroundMode } from '@ionic-native/background-mode';
 import { BLE } from 'ionic-native';
 import { BleProvider } from '../providers/ble-provider';
+import { PlacesDataProvider } from '../providers/places-data/places-data';
 
 
 
@@ -36,7 +37,8 @@ import { BleProvider } from '../providers/ble-provider';
     BackgroundMode,
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    PlacesDataProvider
   ]
 })
 export class AppModule {}
