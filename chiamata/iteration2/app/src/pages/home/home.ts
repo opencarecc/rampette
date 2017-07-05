@@ -60,6 +60,7 @@ export class HomePage {
       this.beaconProvider.initialise().then((isInitialised) => {
         if (isInitialised) {
           this.listenToBeaconEvents();
+          this.backgroundMode.setDefaults({ silent: true });
           this.backgroundMode.enable();
         }
       });
