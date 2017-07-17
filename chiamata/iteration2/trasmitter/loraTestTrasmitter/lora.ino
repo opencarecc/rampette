@@ -1,11 +1,10 @@
 #include <SPI.h>
 #include <RH_RF95.h>
-#include "Adafruit_SleepyDog.h"
 
 /* for feather32u4 */
-#define RFM95_CS 8
-#define RFM95_RST 4
-#define RFM95_INT 7
+#define RFM95_CS  10   // "B"
+#define RFM95_RST 11   // "A"
+#define RFM95_INT  6   // "D"
 #define VBATPIN A9  //  Pin where you can measure the battery power 
 #define RF95_FREQ 868.0
 
@@ -33,7 +32,7 @@ void initradio() {
   pinMode(RFM95_RST, OUTPUT);  // equivale al tasto del reset
   digitalWrite(RFM95_RST, HIGH);
   if (ECHO) {
-    //while (!Serial);
+   // while (!Serial);
     Serial.begin(9600);
     delay(100);
     Serial.println(" feather_TX_Celle.ino ");

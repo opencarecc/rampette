@@ -1,4 +1,4 @@
-int buttonPin = 5;
+int buttonPin = 13;
 
 boolean buttonState = 0;
 boolean buttonStateOLD = 0;
@@ -12,7 +12,7 @@ word ID_RX = 61308;   // ID  del modulo ricevente interno al negozio
 /////////////////////////////////////////////////////////////////////
 
 void setup() {
-  pinMode(buttonPin, INPUT);
+  pinMode(buttonPin, INPUT_PULLUP);
   pinMode(ledPin, OUTPUT);
   initradio();
 }
