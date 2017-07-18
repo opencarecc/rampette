@@ -2,7 +2,10 @@
 #include "NeoPatterns.h"
 #include "notes.h"
 
-//CONNECTIONS
+////////////////////////////////////////////
+/////////////////CONNECTIONS////////////////
+////////////////////////////////////////////
+
 #define BUTTON_PIN      A5
 #define VIBRATION_PIN   13
 #define MODE_A_PIN      10
@@ -10,11 +13,24 @@
 #define MODE_C_PIN      12
 #define SPEAKER_PIN     6
 
-//neopixel
+////////////////////////////////////////////
+//////////////////NEO_PIXELS////////////////
+////////////////////////////////////////////
+
 #define PIXELRING_PIN   9
 #define PIXELRING_COUNT 23
 
-//TX RX ID
+void ledComplete();
+NeoPatterns leds (PIXELRING_COUNT, PIXELRING_PIN, NEO_GRB + NEO_KHZ400, & ledComplete);
+
+uint32_t spento = leds.Color(0, 0, 0);
+uint32_t bianco = leds.Color(255, 255, 255);
+uint32_t blue = leds.Color(20, 20, 200);
+uint32_t indigo = leds.Color(75, 0, 130);
+
+////////////////////////////////////////////
+////////////////LORA_DEVICE_ID//////////////
+////////////////////////////////////////////
 const word ID = 61308;
 const word ID_RX = 61309;
 
@@ -26,22 +42,21 @@ const word ID_RX = 61309;
 //word ID = 61312;
 //word ID_RX = 61313;
 
-//STATE MACHINE
+
+////////////////////////////////////////////
+/////////////////STATE_MACHINE//////////////
+////////////////////////////////////////////
+
 int state = 0;
+
+////////////////////////////////////////////
+////////////////RECEIVER_MODE///////////////
+////////////////////////////////////////////
 
 int mode = 0 ;
 //0=light
 //1=light+vibration
 //2=light+vibration+sound
-
-void ledComplete();
-NeoPatterns leds (PIXELRING_COUNT, PIXELRING_PIN, NEO_GRB + NEO_KHZ400, & ledComplete);
-
-uint32_t spento = leds.Color(0, 0, 0);
-uint32_t bianco = leds.Color(255, 255, 255);
-uint32_t blue = leds.Color(20, 20, 200);
-uint32_t indigo = leds.Color(75, 0, 130);
-
 
 
 void setup() {
