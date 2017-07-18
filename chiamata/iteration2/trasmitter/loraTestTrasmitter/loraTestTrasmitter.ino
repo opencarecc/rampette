@@ -7,8 +7,8 @@ int state = 0;
 int ledPin = 12;
 
 ///////////////// ID of transmitting boards, choose one.//////////////
-word ID = 61308;   // ID di questo trasmettitore
-word ID_RX = 61308;   // ID  del modulo ricevente interno al negozio
+const word ID = 61309;   // ID di questo trasmettitore
+const word ID_RX = 61308;   // ID  del modulo ricevente interno al negozio
 /////////////////////////////////////////////////////////////////////
 
 void setup() {

@@ -1,8 +1,10 @@
+
+////////////////////////////////////////////
+///////////////////BUTTON///////////////////
+////////////////////////////////////////////
+
 boolean buttonState = 0;
 boolean buttonStateOLD = 0;
-
-
-//LOGIC FOR DEBOUNCING BUTTONS
 
 bool checkbutton() {
   buttonState = digitalRead(BUTTON_PIN);
@@ -18,30 +20,75 @@ bool checkbutton() {
   return (debounce);
 }
 
-
-//SOME CODE TO MAKE THE MELODY WORK
+////////////////////////////////////////////
+///////////////////MELODY///////////////////
+////////////////////////////////////////////
 
 int melody[] = {
   NOTE_C4,  NOTE_G3,  NOTE_G3,  NOTE_A3,  NOTE_G3,  0,     NOTE_B3, NOTE_C4
 };
-int noteDurations[] = {  
+int noteDurations[] = {
   4,        8,        8,        4,        4,        4,      4,       4
 };
-void playMelody(){
-  for (int thisNote = 0; thisNote < 8; thisNote++) {
 
-    // to calculate the note duration, take one second
-    // divided by the note type.
-    //e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
-    int noteDuration = 1000 / noteDurations[thisNote];
-    tone(SPEAKER_PIN, melody[thisNote], noteDuration);
+int melodyLength = 8;
+int playngNoteIndex = 0;
+long lastNotePlayedTime = 0;
+int noteDuration = 1000 / noteDurations[0];
+int pauseBetweenNotes = noteDuration * 1.10;
 
-    // to distinguish the notes, set a minimum time between them.
-    // the note's duration + 30% seems to work well:
-    int pauseBetweenNotes = noteDuration * 1.30;
-    delay(pauseBetweenNotes);
-    // stop the tone playing:
-    noTone(SPEAKER_PIN);
+
+void playMelody() {
+  if (millis() - lastNotePlayedTime > noteDuration + pauseBetweenNotes) {
+    lastNotePlayedTime = millis();
+    noteDuration = 1000 / noteDurations[playngNoteIndex];
+    pauseBetweenNotes = noteDuration * 1.30;
+    tone(SPEAKER_PIN, melody[playngNoteIndex], noteDuration);
+    playngNoteIndex++;
+    Serial.println(playngNoteIndex);
+
+    if (playngNoteIndex == melodyLength) { //se finisco la melodia ricomincio
+      playngNoteIndex = 0;
+    }
+  }
+}
+
+void resetMelody() {
+  playngNoteIndex = 0;
+}
+
+
+////////////////////////////////////////////
+//////////////////VIBRATION/////////////////
+////////////////////////////////////////////
+
+boolean vibrationStatus = false;
+long lastVibration = 0;
+void vibrate() {
+  if (millis() - lastVibration > 1000) {
+    vibrationStatus = !vibrationStatus;
+    lastVibration = millis();
+  }
+  digitalWrite(VIBRATION_PIN, vibrationStatus);
+}
+
+void stopVibration() {
+  digitalWrite(VIBRATION_PIN, LOW);
+}
+
+void checkMode() {
+//  Serial.print(digitalRead(MODE_A_PIN));
+//  Serial.print("-");
+//  Serial.print(digitalRead(MODE_B_PIN));
+//  Serial.print("-");
+//  Serial.println(digitalRead(MODE_C_PIN));
+
+  if (!digitalRead(MODE_A_PIN)) {
+    mode = 0;
+  } else if (!digitalRead(MODE_B_PIN)) {
+    mode = 1;
+  } else if (!digitalRead(MODE_C_PIN)) {
+    mode = 2;
   }
 }
 

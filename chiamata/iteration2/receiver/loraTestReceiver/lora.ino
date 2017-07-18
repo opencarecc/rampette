@@ -79,12 +79,9 @@ void sendData() {
   radiopacket[4]  = highByte(npacket);
   radiopacket[5]  = lowByte(npacket);
 
-
-
   if (ECHO) {
     Serial.println("Sending...");
   }
-
   rf95.send((uint8_t *)radiopacket, packetLength);
   delay(10);
   if (ECHO) {
@@ -118,16 +115,16 @@ boolean receiveData() {
         RH_RF95::printBuffer("Received: ", buf, len);
       }
 
-      ID = word(buf[0], buf[1]);
+      word ID_msg_sender = word(buf[0], buf[1]);
 
       if (ECHO) {
         Serial.print(" Ricevuto messaggio di "); Serial.print(len); Serial.print(" Byte da:");
-        Serial.print(" ID_TX "); Serial.println(ID);
+        Serial.print(" ID_TX "); Serial.println(ID_msg_sender);
         Serial.println();
         Serial.print(" RSSI: ");
         Serial.println(rf95.lastRssi(), DEC);
       }
-      if (ID == ID_RX) {
+      if (ID_msg_sender == ID_RX) {
         // spegne il LED verde
         received = true;
       }
