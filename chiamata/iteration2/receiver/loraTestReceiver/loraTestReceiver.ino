@@ -88,7 +88,9 @@ void stateMachine() {
 
       if (receiveData()) {
         state = 1;
-        leds.Fade(indigo, spento, 20, 20, FORWARD); //start fade animation
+        leds.Fade(bianco, spento, 20, 20, FORWARD); //start fade animation
+        resetTimer();
+
       }
       break;
 
@@ -109,6 +111,9 @@ void stateMachine() {
         state = 0;
         resetMelody();
         stopVibration();
+      }
+       if (timeout()) {
+        state = 0;
       }
       break;
   }

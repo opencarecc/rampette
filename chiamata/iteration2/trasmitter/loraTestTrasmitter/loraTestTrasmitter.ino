@@ -65,36 +65,36 @@ void loop() {
 void stateMachine() {
   switch (state) {
     case 0: //nothing is happening
-
+    analogWrite(ledPin, 0);
+      
       if (checkbutton()) {
         state = 1;
+        resetTimer();
         Serial.println("Going to state 1");
         //effettuo la chiamata
         sendData();
-        //accendo il led
-        digitalWrite(ledPin, HIGH);
       }
       break;
     case 1:
+      fadeLed();
       //aspetto conferma ricezione
       if (receiveData()) {
         state = 2;
+        resetTimer();
         Serial.println("Going to state 2");
         writeCharacteristic(1, 2);
         readCharacteristic(1);
+      } if (timeout()) {
+        state = 0;
       }
-        getGATTList();
 
-      //se rivevo conferma -> state=2
       break;
     case 2:
-      //notifico chiamata ricevuta
-      //aspetto e torno a stato 0
-      //delay(2000);
-      digitalWrite(ledPin, LOW);
-      Serial.println("Going to state 0");
-
-      state = 0;
+      digitalWrite(ledPin, HIGH);
+      if (timeout()) {
+       Serial.println("Going to state 0");
+        state = 0;
+      }
       break;
   }
 }

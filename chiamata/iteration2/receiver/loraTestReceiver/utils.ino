@@ -24,7 +24,7 @@ bool checkbutton() {
 ////////////////////////////////////////////
 
 int melody[] = {
-  NOTE_C4,  NOTE_G3,  NOTE_G3,  NOTE_A3,  NOTE_G3,  0,     NOTE_B3, NOTE_C4
+  NOTE_C6,  NOTE_G5,  NOTE_G5,  NOTE_A5,  NOTE_G5,  0,     NOTE_B5, NOTE_C6
 };
 int noteDurations[] = {
   4,        8,        8,        4,        4,        4,      4,       4
@@ -93,4 +93,26 @@ void checkMode() {
     mode = 2;
   }
 }
+
+
+////////////////////////////////////////////
+////////////////////TIMEOUT/////////////////
+////////////////////////////////////////////
+
+long timeStarted = 0;
+long timeout_interval = 10000;
+
+boolean timeout() {
+  if (millis() - timeStarted > timeout_interval) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+void resetTimer() {
+  timeStarted = millis();
+}
+
+
 

@@ -56,7 +56,7 @@ export class BleProvider {
     return new Promise((resolve, reject) => {
       BLE.connect(deviceID).subscribe(
         device => {
-          console.log(JSON.stringify(device));
+          //console.log(JSON.stringify(device));
           this.deviceName = device.name;
           this.checkConnection();
           resolve(device);
@@ -90,11 +90,11 @@ export class BleProvider {
 
       BLE.isConnected(this.deviceID)
         .then(() => {
-          console.log("connected")
+          //console.log("connected")
           this.isConnected = true;
           resolve(this.isConnected);
         }, () => {
-          console.log("disconnected")
+          //console.log("disconnected")
           this.isConnected = false;
           reject(this.isConnected);
         });
@@ -115,6 +115,9 @@ export class BleProvider {
 
   registerToEvents() {
     BLE.startNotification(this.deviceID, this.call_service_UUID, this.callCharacteristic_UUID).subscribe(value => {
+      console.log("received something");
+      console.log(value);
+
       var status=new Uint8Array(value);
       //the property is of thype char. the fitst byte represent the status of the beacon
       this.events.publish('characteristicUpdated', status[0]);

@@ -35,20 +35,19 @@ void setup(void) {
   Serial.begin(115200);
   initBluetooth();
 
-
-  /* Set callbacks */
-  ble.setConnectCallback(connected);
-  ble.setDisconnectCallback(disconnected);
-  ble.setBleGattRxCallback(1, BleGattRX);
-
-  setupBeacon();
+  //setupBeacon();
 
   setupGatt();
+
+    /* Set callbacks */
+  //ble.setConnectCallback(connected);
+  //ble.setDisconnectCallback(disconnected);
+  //ble.setBleGattRxCallback(1, BleGattRX);
 }
 
 void loop(void) {
     ble.update(200);
-
+//getGATTList();
 }
 
 void initBluetooth() {
@@ -118,7 +117,6 @@ void setupGatt() {
   ble.print("VALUE=1"             ); //set to notify
   ble.println();
   ble.waitForOK();
-
 }
 
 void BleGattRX(int32_t chars_id, uint8_t data[], uint16_t len) {
@@ -129,6 +127,12 @@ void BleGattRX(int32_t chars_id, uint8_t data[], uint16_t len) {
   memcpy(&val, data, len);
   Serial.println(val);
 
+}
+
+void getGATTList() {
+  ble.print("AT+GATTLIST"   );
+  ble.println();
+  ble.waitForOK();
 }
 
 void connected(void) {
