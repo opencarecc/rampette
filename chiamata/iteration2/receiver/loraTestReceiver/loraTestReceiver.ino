@@ -31,16 +31,14 @@ uint32_t indigo = leds.Color(75, 0, 130);
 ////////////////////////////////////////////
 ////////////////LORA_DEVICE_ID//////////////
 ////////////////////////////////////////////
-const word ID = 61308;
-const word ID_RX = 61309;
+//const word ID = 61308;
+//const word ID_RX = 61309;
 
-////TX RX ID
-//word ID = 61310;
-//word ID_RX = 61311;
-//
-////TX RX ID
-//word ID = 61312;
-//word ID_RX = 61313;
+const word ID = 61310;
+const word ID_RX = 61311;
+
+//const word ID = 61312;
+//const word ID_RX = 61313;
 
 
 ////////////////////////////////////////////
@@ -114,6 +112,9 @@ void stateMachine() {
       }
        if (timeout()) {
         state = 0;
+        leds.SetFullColor(spento);
+        resetMelody();
+        stopVibration();
       }
       break;
   }
