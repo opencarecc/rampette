@@ -22,7 +22,7 @@
 
 #define CALL_CHARACTERISTIC_UUID   "A1-96-C8-76-DE-8C-4C-47-AB-5A-D7-AF-D5-AE-71-28"
 
-#define LOCAL_NAME                 "vineriaMinerva"
+#define LOCAL_NAME                 "gino"
 
 #define MINIMUM_FIRMWARE_VERSION   "0.7.0"
 
@@ -35,14 +35,20 @@ void setup(void) {
   Serial.begin(115200);
   initBluetooth();
 
-  //setupBeacon();
+  setupBeacon();
 
   setupGatt();
 
-    /* Set callbacks */
-  //ble.setConnectCallback(connected);
-  //ble.setDisconnectCallback(disconnected);
-  //ble.setBleGattRxCallback(1, BleGattRX);
+  getGATTList();
+  /* Set callbacks */
+  ble.setConnectCallback(connected);
+  ble.setDisconnectCallback(disconnected);
+  ble.setBleGattRxCallback(1, BleGattRX);
+
+  ble.reset();
+
+  Serial.println();
+  
 }
 
 void loop(void) {
@@ -64,11 +70,20 @@ void initBluetooth() {
 
   ble.echo(true);
 
+  //set the name of the device
   ble.print("AT+GAPDEVNAME="        );
   ble.print(LOCAL_NAME               );
   ble.println();
 
-  //ble.println("ATZ");
+  //makes the device connectable;
+  ble.print("AT+GAPCONNECTABLE=1"); 
+  ble.println();
+  ble.waitForOK();
+
+  //start advertizing the properties
+  ble.print("AT+GAPSTARTADV"); 
+  ble.println();
+  ble.waitForOK();
 
   Serial.println("Requesting Bluefruit info:");
   ble.info();
@@ -117,6 +132,7 @@ void setupGatt() {
   ble.print("VALUE=1"             ); //set to notify
   ble.println();
   ble.waitForOK();
+  
 }
 
 void BleGattRX(int32_t chars_id, uint8_t data[], uint16_t len) {
