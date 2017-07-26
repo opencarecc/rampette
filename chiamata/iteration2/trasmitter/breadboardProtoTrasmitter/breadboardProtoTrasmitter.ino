@@ -21,10 +21,10 @@ int state = 0;
 ////////////////LORA_DEVICE_ID//////////////
 ////////////////////////////////////////////
 
-//const word ID = 61309; //Antoniazzi
+//const word ID = 61309;
 //const word ID_RX = 61308;
 
-const word ID = 61311; //Type
+const word ID = 61311;
 const word ID_RX = 61310;
 
 //const word ID = 61313;
@@ -51,7 +51,10 @@ void setup() {
   initBluetooth();
   setupBeacon();
   setupGatt();
+  getGATTList();
 
+  ble.reset(); //you ned to reset the ble after the configuration
+  Serial.println();
 }
 
 void loop() {
@@ -78,6 +81,7 @@ void stateMachine() {
     case 1:
       fadeLed();
       //aspetto conferma ricezione
+      
       if (receiveData()) {
         state = 2;
         resetTimer();
@@ -85,9 +89,9 @@ void stateMachine() {
         writeCharacteristic(1, 2);
         readCharacteristic(1);
       } if (timeout()) {
-        Serial.println("Going to state 2");
-        writeCharacteristic(1, 2);
-        state = 2;
+        Serial.println("TIMEOUT: Going to state 0");
+        writeCharacteristic(2, 0);
+        state = 0;
       }
 
       break;
@@ -106,6 +110,7 @@ void BLE_connected_callback(void) {
   Serial.println( "Going to state 1...");
   //accendo il led
   digitalWrite(ledPin, HIGH);
+  resetTimer();
   sendData();
   state = 1;
   BLE_connected = true;

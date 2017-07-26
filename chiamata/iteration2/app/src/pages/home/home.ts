@@ -137,8 +137,10 @@ export class HomePage {
   connect(){
     if (this.bleProvider.deviceID==null){
       this.bleProvider.scanDevices().then((device) => {
+        console.log(JSON.stringify(device));
+
         this.bleProvider.connect(device.id).then((device)=>{
-          //console.log(JSON.stringify(device));
+          console.log(JSON.stringify(device));
           this.bleProvider.registerToEvents();
           this.connected=true;
           this.device=device;

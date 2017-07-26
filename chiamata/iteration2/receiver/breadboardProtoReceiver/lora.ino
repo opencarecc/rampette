@@ -1,10 +1,11 @@
 #include <SPI.h>
 #include <RH_RF95.h>
 
-/* for feather32u4 */
-#define RFM95_CS  10   // "B"
-#define RFM95_RST 11   // "A"
-#define RFM95_INT  6   // "D"
+// for feather m0  
+#define RFM95_CS 8
+#define RFM95_RST 4
+#define RFM95_INT 3
+
 #define VBATPIN A9  //  Pin where you can measure the battery power 
 #define RF95_FREQ 868.0
 
@@ -32,7 +33,7 @@ void initradio() {
   pinMode(RFM95_RST, OUTPUT);  // equivale al tasto del reset
   digitalWrite(RFM95_RST, HIGH);
   if (ECHO) {
-    // while (!Serial);
+    //while (!Serial);
     Serial.begin(9600);
     delay(100);
     Serial.println(" feather_TX_Celle.ino ");
@@ -44,9 +45,7 @@ void initradio() {
   digitalWrite(RFM95_RST, HIGH);
   delay(10);
 
-  int i = 0;
-  while (!rf95.init() && i < 100) { //prova a connettermi 100 volte al lora altrimenti skippo
-    i++;
+  while (!rf95.init()) {
     if (ECHO) {
       Serial.println("LoRa radio init failed");
     }
@@ -80,7 +79,6 @@ void sendData() {
   radiopacket[4]  = highByte(npacket);
   radiopacket[5]  = lowByte(npacket);
 
-
   if (ECHO) {
     Serial.println("Sending...");
   }
@@ -89,9 +87,7 @@ void sendData() {
   if (ECHO) {
     Serial.println("Waiting for packet to complete...");
   }
-  int i = 0;
-  //  rf95.waitPacketSent();
-  
+  rf95.waitPacketSent();
   if (ECHO) {
     Serial.println(" packet complete ");
   }

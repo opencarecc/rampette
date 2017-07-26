@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include <RH_RF95.h>
 
-/* for feather32u4 */
+/* for feather wing on M0 */
 #define RFM95_CS  10   // "B"
 #define RFM95_RST 11   // "A"
 #define RFM95_INT  6   // "D"

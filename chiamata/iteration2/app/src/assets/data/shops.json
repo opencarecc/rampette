@@ -3,25 +3,23 @@
       "beacon_UUID": "a196c876-de8c-4c47-ab5a-d7afd5ae7127",
       "maior_ID": 0,
       "minor_ID": 1,
-      "name": "Vineria Minerva",
-      "image": "vineria.jpg",
-      "description": "minerva spacca",
+      "name": "urOboro",
+      "image": "uroboro.jpg",
+      "description": "Atelier di oreficeria artistica per il reinserimento sociale",
       "can_Call": "yes",
-      "indirizzo": "via gino 80",
-      "indirizzo": "via gino 80",
-      "telefono": "+39 0571676188"
+      "indirizzo": "Via G.Thaon di Revel, 19 – 20125 Milano",
+      "telefono": "+39 02 6682 3658"
     },
     {
       "beacon_UUID": "a196c876-de8c-4c47-ab5a-d7afd5ae7127",
       "maior_ID": 0,
       "minor_ID": 2,
       "shopName": "alimentari Minorca",
-      "image": "minerva.png",
-      "description": "minerva spacca",
+      "image": "type.png",
+      "description": "Al Type ogni Martedì d'estate ci si tuffa a bomba in un mare di birra!",
       "can_Call": "yes",
-      "indirizzo": "via gino 80",
-      "indirizzo": "via gino 80",
-      "telefono": "+39 0571676188"
+      "indirizzo": "Via Pietro Borsieri 34",
+      "telefono": "+39 02 3653 4735"
     }
   ]
 }
