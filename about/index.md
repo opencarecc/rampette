@@ -86,17 +86,6 @@ open rampette: finissage primo round di prototipi
 [http://wemake.cc/2017/07/13/open-rampette-finissage-primo-round-di-prototipi/](https://www.google.com/url?q=http://wemake.cc/2017/07/13/open-rampette-finissage-primo-round-di-prototipi/&sa=D&ust=1501168238380000&usg=AFQjCNF2pRV-M967-l6r03WgbmxBnJX3Rg)
 
 
-
-
-## Contatti:
-
-Costantino Bongiorno: <[costantino@wemake.cc](mailto:costantino@wemake.cc)- tel: 329 8616599
-
-Alessandro Contini: <[alessandro@wemake.cc](mailto:alessandro@wemake.cc)tel:
-
-Cristina Martellosio: <[cristina@wemake.cc](mailto:cristina@wemake.cc)- tel:
-
-
 ## Piattaforma Edgeryders
 
 
