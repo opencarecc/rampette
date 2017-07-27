@@ -3,7 +3,7 @@ layout: post
 title: "Questionario - utilizzo della rampa mobile a chiamata"
 subtitle: "Raccontaci la tua esperienza di accessibilità compilando il form"
 date: 2017-05-23
-image: "https://edgeryders.eu/sites/edgeryders.eu/files/styles/challenge_response_node/public/response-header-images/node-7964-header.jpg?itok=Adxvbl6D"
+image: /assets/images/flier.jpg
 categories: [chiamata]
 by: "Lorenzo"
 ---
