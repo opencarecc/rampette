@@ -29,7 +29,7 @@ void initBluetooth() {
     Serial.println(F("Couldn't factory reset"));
   }
 
-  ble.echo(true);
+  ble.echo(false); //important to disactivate this
 
   ble.print("AT+GAPDEVNAME="        );
   ble.print(LOCAL_NAME               );
@@ -52,8 +52,8 @@ void initBluetooth() {
   /* Set callbacks */
   ble.setConnectCallback(BLE_connected_callback);
   ble.setDisconnectCallback(BLE_disconnected_callback);
-  ble.setBleGattRxCallback(charid_number, BleGattRX_callback);
-
+  ble.setBleGattRxCallback(charid_number, BleGattRX);
+  ble.setBleGattRxCallback(charid_string, BleGattRX);
 }
 
 
@@ -91,6 +91,7 @@ void setupGatt() {
   ble.println();
   ble.waitForOK();
 
+  //this is duplicated because the same characteristic should notify and be writable at the same time
 
   //AT+GATTADDCHAR=UUID128=A1-96-C8-76-DE-8C-4C-47-AB-5A-D7-AF-D5-AE-71-28,PROPERTIES=0x10,MIN_LEN=1,VALUE=0
   ble.print("AT+GATTADDCHAR="       );
@@ -128,28 +129,54 @@ void writeCharacteristic(int id, int val) {
 }
 
 
-void BleGattRX_callback(int32_t chars_id, uint8_t data[], uint16_t len)
-{
+void BleGattRX(int32_t chars_id, uint8_t data[], uint16_t len) {
   Serial.print( F("[BLE GATT RX] (" ) );
   Serial.print(chars_id);
   Serial.print(") ");
 
-  if (chars_id == charid_string)
-  {
+  if (chars_id == charid_string)  {
     Serial.write(data, len);
     Serial.println();
-  } else if (chars_id == charid_number)
-  {
+  } else if (chars_id == charid_number) {
     int32_t val;
     memcpy(&val, data, len);
     Serial.println(val);
   }
 }
 
-void disconnect(){
-  
+String readBleResponse() {
+  char response[200];
+
+  for (int i = 0 ; ble.available() > 0 && i < 200 ; i++) {
+    response[i++] = ble.read();
+  }
+
+  if (strstr(response, "OK")) {
+    //Do your code to handle OK response
+  }
+  else if (strstr(response, "ERROR")) {
+    //Do your code to handle ERROR response
+  }
+  else {
+    // You got some other response
+//    Serial.print("resp:");
+//    Serial.println(response);
+  }
+  return (String(response));
 }
 
 
+boolean lookFor4(String s) {
+  boolean found = false;
+      Serial.println(s.length());
 
+  for (int i = 0; i < s.length(); i++) {
+    Serial.println(s[i]);
+    if (s[i] == '4') {
+      Serial.print("trovato");
+      found = true;
+    }
+  }
+  return (found);
+}
 

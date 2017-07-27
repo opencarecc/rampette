@@ -1,5 +1,5 @@
 import { Component, NgZone } from '@angular/core';
-import { NavController, Platform, Events } from 'ionic-angular';
+import { NavController, Platform, Events, AlertController } from 'ionic-angular';
 
 
 // plugins
@@ -29,6 +29,7 @@ export class HomePage {
   beaconStatus:number=0; //0=disconnected, 1=connected and calling, 2=callreceived
   shops=[];
   nearbyshops=[];
+  indexConnectedDevice:number=0;
 
 
   constructor(public navCtrl: NavController,
@@ -38,7 +39,9 @@ export class HomePage {
     private LocalNotifications: LocalNotifications,
     private backgroundMode: BackgroundMode,
     private bleProvider: BleProvider,
-    public places:PlacesDataProvider
+    public places:PlacesDataProvider,
+    public alertCtrl: AlertController
+
   ) {
 
     // required for UI update
@@ -102,7 +105,7 @@ export class HomePage {
 
             this.LocalNotifications.schedule({
               id: beaconObject.minor,
-              text: 'a beacon is in range',
+              text: 'open rampetta nelle vicinanze',
               icon: 'http://example.com/icon.png'
             });
 
@@ -118,13 +121,12 @@ export class HomePage {
         for (var i=0; i<this.beacons.length;i++){
           for(var j=0; j<this.shops.length; j++){
 
-
-            console.log(this.beacons[i].minor);
-            console.log(this.shops[j].minor_ID);
+            //console.log(this.beacons[i].minor);
+            //console.log(this.shops[j].minor_ID);
 
             if (this.beacons[i].minor==this.shops[j].minor_ID){
               this.nearbyshops.push(this.shops[j]);
-              console.log(this.nearbyshops);
+              //console.log(this.nearbyshops);
             }
           }
         }
@@ -134,13 +136,19 @@ export class HomePage {
     });
   }
 
-  connect(){
+  connect(index){
     if (this.bleProvider.deviceID==null){
       this.bleProvider.scanDevices().then((device) => {
         console.log(JSON.stringify(device));
 
+        //i think we need to check here if we are connectin to the right device
+      //  this.bleProvider.connect(this.nearbyshops[index].mac_address).then((device)=>{
+
         this.bleProvider.connect(device.id).then((device)=>{
+          this.indexConnectedDevice=index;
+
           console.log(JSON.stringify(device));
+
           this.bleProvider.registerToEvents();
           this.connected=true;
           this.device=device;
@@ -163,6 +171,10 @@ export class HomePage {
     this.events.subscribe('characteristicUpdated', (data) => {
       console.log("characteristic Updated", data);
       this.beaconStatus=data;
+
+      if (this.beaconStatus==2){
+        this.doAlert();
+      }
     });
   }
 
@@ -172,6 +184,31 @@ export class HomePage {
   // scan(){
   //   this.bleProvider.scanDevices();
   // }
+
+  doAlert() {
+    let alert = this.alertCtrl.create({
+      title: 'Chiamata ricevuta',
+      message: 'stai per ricevere assistenza.',
+      buttons: [
+        {
+          text: 'OK',
+          handler: data => {
+            console.log('back to begin');
+            this.resetToHome();
+          }
+        }
+      ]
+    });
+    alert.present();
+  }
+
+  resetToHome(){
+    this.bleProvider.askForDisconnect();
+    //this.bleProvider.disconnect();
+     this.connected=false;
+     this.beaconStatus=0; //0=disconnected, 1=connected and calling, 2=callreceived
+     this.indexConnectedDevice=0;
+  }
 
 
   findWithAttr(array, attr, value) {

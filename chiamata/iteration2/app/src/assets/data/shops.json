@@ -1,21 +1,23 @@
 {
   "shops": [{
+      "mac_address":"E8:D3:E7:1F:54:76",
       "beacon_UUID": "a196c876-de8c-4c47-ab5a-d7afd5ae7127",
       "maior_ID": 0,
       "minor_ID": 1,
       "name": "urOboro",
-      "image": "uroboro.jpg",
+      "image": "uroburo.jpg",
       "description": "Atelier di oreficeria artistica per il reinserimento sociale",
       "can_Call": "yes",
       "indirizzo": "Via G.Thaon di Revel, 19 – 20125 Milano",
       "telefono": "+39 02 6682 3658"
     },
     {
+      "mac_address":"E8:D3:E7:1F:54:76",
       "beacon_UUID": "a196c876-de8c-4c47-ab5a-d7afd5ae7127",
       "maior_ID": 0,
       "minor_ID": 2,
-      "shopName": "alimentari Minorca",
-      "image": "type.png",
+      "name": "TYPE",
+      "image": "type.jpg",
       "description": "Al Type ogni Martedì d'estate ci si tuffa a bomba in un mare di birra!",
       "can_Call": "yes",
       "indirizzo": "Via Pietro Borsieri 34",

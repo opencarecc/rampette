@@ -47,6 +47,7 @@ export class BleProvider {
   buf2hex(byteArray) { // buffer is an ArrayBuffer
     return Array.prototype.map.call(byteArray, x => ('00' + x.toString(16)).slice(-2)).join('');
   }
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad SingleDevicePage');
   }
@@ -60,13 +61,26 @@ export class BleProvider {
           this.deviceName = device.name;
           this.checkConnection();
           resolve(device);
-        },device=>{
+        }, device => {
           console.log('disconnected');
-          this.isConnected=false;
+          this.isConnected = false;
           this.events.publish('bleDisconnected', device);
         }
       )
     });
+  }
+
+  disconnect() {
+    console.log(this.deviceID);
+
+    BLE.disconnect(this.deviceID).then(() => {
+      console.log('disconnected');
+      this.isConnected = false;
+      this.events.publish('bleDisconnected');
+    }, (error) => {
+      console.log(error);
+    });
+
   }
 
 
@@ -113,12 +127,24 @@ export class BleProvider {
       });
   }
 
+  askForDisconnect(){
+    var bell = new Uint8Array(1);
+    bell[0] = 4;
+
+    BLE.write(this.deviceID, this.call_service_UUID, this.callCharacteristic_UUID, bell.buffer)
+      .then((response) => {
+        console.log(response);
+      }, (error) => {
+        console.log(error);
+      });
+  }
+
   registerToEvents() {
     BLE.startNotification(this.deviceID, this.call_service_UUID, this.callCharacteristic_UUID).subscribe(value => {
       console.log("received something");
       console.log(value);
 
-      var status=new Uint8Array(value);
+      var status = new Uint8Array(value);
       //the property is of thype char. the fitst byte represent the status of the beacon
       this.events.publish('characteristicUpdated', status[0]);
     });

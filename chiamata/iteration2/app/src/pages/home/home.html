@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-card *ngFor="let shop of nearbyshops">
+  <ion-card *ngFor="let shop of nearbyshops; let i = index">
     <img src="assets/img/{{shop.image}}" />
 
     <ion-card-content>
@@ -19,22 +19,25 @@
       {{shop.description}}
       </p>
 
-      <button ion-button (click)="connect()">RICHIEDI ASSISTENZA</button>
+      <button ion-button (click)="connect(i)">RICHIEDI ASSISTENZA</button>
     </ion-card-content>
 
   </ion-card>
 
   <div *ngIf="connected">
     <ion-card>
-      <img src="assets/img/vineria.jpg" />
+
+      <div *ngIf="nearbyshops[indexConnectedDevice].image">
+        <img src="assets/img/{{nearbyshops[indexConnectedDevice].image}}" />
+      </div>
 
       <ion-card-content>
         <ion-card-title>
-          Vineria Minerva
+          {{nearbyshops[indexConnectedDevice].name}}
         </ion-card-title>
 
         <p>
-          Minerva vende liquori e vini in questa vineria da oltre 20 anni
+          {{nearbyshops[indexConnectedDevice].description}}
         </p>
 
         <div *ngIf="beaconStatus==1">
@@ -45,12 +48,12 @@
 
         </div>
 
-        <div *ngIf="beaconStatus==2">
+        <!-- <div *ngIf="beaconStatus==2">
           <h2>
           Chiamata ricevuta, stai per ricevere assistenza.
         </h2>
 
-        </div>
+        </div> -->
 
 
         <ion-grid *ngIf="debug">

@@ -24,18 +24,18 @@ int state = 0;
 //const word ID = 61309;
 //const word ID_RX = 61308;
 
-const word ID = 61311;
-const word ID_RX = 61310;
+//const word ID = 61311;
+//const word ID_RX = 61310;
 
-//const word ID = 61313;
-//const word ID_RX = 613012;
+const word ID = 61313;
+const word ID_RX = 613012;
 
 ////////////////////////////////////////////
 /////////////////BLE_&_BEACON///////////////
 ////////////////////////////////////////////
 #define BEACON_MAJOR               "0x0000"
-#define BEACON_MINOR               "0x0001"
-#define LOCAL_NAME                 "vineriaMinerva"
+#define BEACON_MINOR               "0x0002"
+#define LOCAL_NAME                 "rampette"
 
 int32_t charid_string;
 int32_t charid_number;
@@ -60,7 +60,6 @@ void setup() {
 void loop() {
   stateMachine();
   ble.update(200);
-
 }
 
 
@@ -68,8 +67,8 @@ void loop() {
 void stateMachine() {
   switch (state) {
     case 0: //nothing is happening
-    analogWrite(ledPin, 0);
-      
+      analogWrite(ledPin, 0);
+
       if (checkbutton()) {
         state = 1;
         resetTimer();
@@ -81,7 +80,7 @@ void stateMachine() {
     case 1:
       fadeLed();
       //aspetto conferma ricezione
-      
+
       if (receiveData()) {
         state = 2;
         resetTimer();
@@ -97,9 +96,20 @@ void stateMachine() {
       break;
     case 2:
       digitalWrite(ledPin, HIGH);
+
+ //     this piece was introduced to try to read the value received by the app
+//      readCharacteristic(2);
+//      String returnMsg=readBleResponse();
+//      Serial.println(">>>>>>>>>>");
+//      Serial.println(returnMsg);
+//      Serial.println("<<<<<<<<<<");
+//
+//      lookFor4(returnMsg);
+//      
       if (timeout()) {
-       Serial.println("Going to state 0");
+        Serial.println("Going to state 0");
         state = 0;
+        ble.reset();
       }
       break;
   }
@@ -120,5 +130,8 @@ void BLE_disconnected_callback(void) {
   Serial.println( F("Disconnected") );
   BLE_connected = false;
 }
+
+
+
 
 
