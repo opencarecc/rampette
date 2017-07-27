@@ -8,7 +8,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; 
+  color: #606c71;
 }
 
 a {
@@ -32,7 +32,7 @@ nav {
   text-align: center;
   padding: 2rem 4rem;
   /*background: rgba(255,255,255,.5);*/
-  display: block; 
+  display: block;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -65,10 +65,10 @@ nav img {
   nav {
     max-width: 58rem;
     padding: 1rem 3rem;
-  } 
+  }
   nav ul {
     padding-top: 1rem;
-  } 
+  }
   nav img {
     max-width: 3.2rem;
   }
@@ -175,9 +175,9 @@ nav img {
 
 /* === HEADER CONTENT === */
 .page-header h1 {
-  font-family: 'Montserrat'; 
+  font-family: 'Montserrat';
   font-weight: 400;
-  color: #602480; 
+  color: #602480;
 }
 
 .project-name {
@@ -266,7 +266,7 @@ a:last-of-type.btn:hover {
   background-color: #FFA500;
   border: 1px solid #FFA500;
 }
-      
+
 /* BUTTONS media queries */
 @media screen and (min-width: 64em) {
   .btn {
@@ -304,7 +304,8 @@ a:last-of-type.btn:hover {
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   /*margin-top: 2rem;*/
   margin-bottom: 1rem;
@@ -506,8 +507,8 @@ a:last-of-type.btn:hover {
 }
 
 .site-footer-credits {
-  color: #819198; 
-  font-size: .8rem; 
+  color: #819198;
+  font-size: .8rem;
   float: left;
   max-width: 50%;
   margin: 1rem 0;
@@ -535,7 +536,7 @@ a:last-of-type.btn:hover {
   .site-footer {
     font-size: 0.9rem;
     text-align: center;
-  } 
+  }
   .site-footer-credits {
     clear: both;
     float: none;
@@ -551,21 +552,21 @@ a:last-of-type.btn:hover {
 
 
 /* === EMBED === */
-.embed-container { 
-  position: relative; 
-  padding-bottom: 56.25%!important; 
-  height: 0; 
-  overflow: hidden; 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%!important;
+  height: 0;
+  overflow: hidden;
   max-width: 100%;
-} 
+}
 
 .embed-container iframe,
 .embed-container object,
-.embed-container embed { 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
 }
 

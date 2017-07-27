@@ -3,7 +3,7 @@ layout: post
 title: "Questionario - utilizzo della rampa mobile a chiamata"
 subtitle: "Raccontaci la tua esperienza di accessibilità compilando il form"
 date: 2017-05-23
-image: /assets/images/flier.jpg
+image: /assets/images/research.jpg
 categories: [chiamata]
 by: "Lorenzo"
 ---
