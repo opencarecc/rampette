@@ -21,10 +21,10 @@ int state = 0;
 ////////////////LORA_DEVICE_ID//////////////
 ////////////////////////////////////////////
 
-//const word ID = 61309;
+//const word ID = 61309; //Antoniazzi
 //const word ID_RX = 61308;
 
-const word ID = 61311;
+const word ID = 61311; //Type
 const word ID_RX = 61310;
 
 //const word ID = 61313;

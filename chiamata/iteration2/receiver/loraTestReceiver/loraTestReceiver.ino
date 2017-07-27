@@ -31,10 +31,10 @@ uint32_t indigo = leds.Color(75, 0, 130);
 ////////////////////////////////////////////
 ////////////////LORA_DEVICE_ID//////////////
 ////////////////////////////////////////////
-//const word ID = 61308;
+//const word ID = 61308; //antoniazzi
 //const word ID_RX = 61309;
 
-const word ID = 61310;
+const word ID = 61310; //Type
 const word ID_RX = 61311;
 
 //const word ID = 61312;
