@@ -42,6 +42,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   float: right;
+  width: initial;
 }
 
 nav li {
