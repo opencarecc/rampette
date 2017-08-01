@@ -25,6 +25,7 @@ a:hover {
 ul {
   list-style-type: circle;
   -webkit-padding-start: 20px;
+  width: 100%;
 }
 
 /* === NAVIGATION BAR === */

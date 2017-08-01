@@ -1,7 +1,7 @@
 ---
 layout: "projectPage"
 title: "la chiamata"
-subtitle: "Quanto possiamo migliorare l’accessibilità dei negozi milanesi mediante un campanello custom e una comunicazione adeguata ?"
+subtitle: "Quanto possiamo migliorare l’accessibilità dei negozi milanesi mediante un campanello ad-hoc e una comunicazione adeguata?"
 shortTex: "Un'importante tema che abbiamo trattato è stato quello della chiamata; come possiamo migliorare l'accessibilità dei negozi milanesi migliorando l'esperienza di utilizzo del campanello di chiamata? Abbiamo sviluppato e testato un prototipo di un nuovo
 campanello (trasmettitore e ricevitore), utilizzabile anche via smartphome."
 buttons:
@@ -20,14 +20,29 @@ features:
   - "Conferma della corretta ricezione della chiamata"
 github_release_link: https://github.com/opencarecc/rampette
 gallery:
-  - "https://farm3.staticflickr.com/2839/33900113780_84a133df41_h_d.jpg"
-  - "/assets/images/risultati_questionario.png"
-  - "https://farm3.staticflickr.com/2839/33900113780_84a133df41_h_d.jpg"
-  - "/assets/images/risultati_questionario.png"
+  - "/assets/images/flier.jpg"
 newsCategory: chiamata
 ---
 
+Le soluzioni di chiamata proposte sono state progettate sulla base di una progettazione partecipara con le istituzioni, i negozianti ed i cittadini milanesi.
+I dispositivi sono stati progettati sulle necessità specifiche della communità e sono già state testate sul campo presso alcuni negozi di Isola.
+
+Per sapere di più riguardo alla metodologia di progetto ed i risultati della ricerca, puoi leggere:
+- incontro 11.05 @ LaStecca3.0 - La Chiamata
+- aggiornamento - brainstorming su possibili scenari futuri
 
 
-<!-- {% include release_notes.html %} -->
-<!-- {% include contribute.html %} -->
+### Prima iterazione
+
+Analizzati i dati del quationario ci siamo buttati di testa a ipotizzare possibili soluzioni, e, in ottica maker abbiamo costruito 7 prototipi per far toccare con mano le soluzioni ai nostri interlocutori.
+
+<iframe src="https://drive.google.com/file/d/0B2SJ8fygbNJmV09qcUJYNEFsS28/preview" width="800px" height="600px"></iframe>
+
+Con dei prototipi in mano, ci siamo di nuovo confrontati con la community per capire quale delle soluzioni proposte poteva avere il potenziale di migliorare drasticamente l'esperienza di utilizzo della rampa temporanea. Raccolte le considerazioni di tutti abbiamo iniziato a lavorare sui dei prototipi più dettagliati.
+
+### La soluzione proposta
+
+La soluzione proposta è composta da tre parti:
+1. Un campanello personalizzato con uno sticker che identifica il progetto: premendo il pulsante si richiede assistenza al negoziante.
+2. Una app per smartphone che notifica la persona con disabilità motorie ogni volta che si trova nei pressi di un negozio accessibile e permette di richiedere assistenza (suonando il campanello) tramite smartphone.
+3. Un ricevitore del campanello che notifica, con luce, suono o vibrazione, al negoziante la richiesta di assistenza.

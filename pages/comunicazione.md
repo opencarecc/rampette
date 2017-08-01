@@ -1,6 +1,6 @@
 ---
 layout: "projectPage"
-title: "la procedura"
+title: "la comunicazione"
 subtitle: ""
 shortTex: ""
 buttons:
@@ -15,7 +15,9 @@ features:
   -
 github_release_link: https://github.com/opencarecc/rampette
 gallery:
-  - "/assets/images/usertest_procedura.png"
-
-newsCategory: procedura
+  - "/assets/images/adesivo.jpg"
+  - "/assets/images/risultati_questionario.png"
+newsCategory: comunicazione
 ---
+
+Questo
