@@ -1,67 +1,76 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    {% include navbar.html %}
 
-    <section class="main-content">
-      <div class="row">
-        <h1>{{page.title}} </h1>
-        <h2>{{page.subtitle}}</h2>
-        <p class="short-about">
-          {{page.shortTex}}
-        </p>
-        <p>
-          {% for item in page.buttons %}
-            <a href="{{ item.link }} " class="btn">{{ item.text }} </a>
-          {% endfor %}
-        </p>
-      </div>
+<body>
+  <!--navigation-->
+  {% include navbar.html %}
 
-      <div class="row">
-        <div class="column">
-          <div class="row">
-            {% include slick_slider.html %}
-          </div>
+  <!--main contents-->
+  <section class="main-content">
+
+    <!--row con titolo, sottotitolo, descrizione breve e link a github\-->
+    <div class="row">
+      <h1>{{page.title}} </h1>
+      <h2>{{page.subtitle}}</h2>
+      <p class="short-about">
+        {{page.shortTex}}
+      </p>
+      <p>
+        {% for item in page.buttons %}
+        <a href="{{ item.link }} " class="btn">{{ item.text }} </a> {% endfor %}
+      </p>
+    </div>
+
+    <!--row con galleria foto e lista features-->
+    <div class="row">
+      <div class="column">
+        <div class="row">
+          {% include params_slick_slider.html gallery=page.gallery%}
         </div>
-
-        <div class="column">
-          <h2>{{page.release}}</h2>
-          <ul>
-            {% for item in page.features %}
-              <li>{{item}}</li>
-            {% endfor %}
-          </ul>
-          <p>
-            <a href="{{page.github_release_link}}">
+      </div>
+      <div class="column">
+        <h2>{{page.release}}</h2>
+        <ul>
+          {% for item in page.features %}
+          <li>{{item}}</li>
+          {% endfor %}
+        </ul>
+        <p>
+          <a href="{{page.github_release_link}}">
               <em>More details »</em>
             </a>
-          </p>
-        </div>
+        </p>
       </div>
-
-      <div class="row">
-        {% include news.html %}
-      </div>
-
-      <div class="row" style="border:none">
-        {% include license.html %} {% include credits.html %}
-      </div>
+    </div>
+    <!--row con content in markdown-->
+    <div class="row">
+      {{content}}
+    </div>
 
 
-      <!-- Home page comments -->
-      <div class="notecomments">
-        {% include disqus.html %}
-      </div>
+    <!--row con contenuti relativi alla sezione-->
+    <div class="row">
+      {% include news.html category=page.newsCategory%}
+    </div>
+
+    <div class="row" style="border:none">
+      {% include license.html %} {% include credits.html %}
+    </div>
 
 
-      {% include footer.html %}
-    </section>
+    <!-- Home page comments -->
+    <div class="notecomments">
+      {% include disqus.html %}
+    </div>
 
-    {% include ganalytics.html %}
-    {% include jquery.html %}
-    {% include slick.html %}
-  </body>
+
+    {% include footer.html %}
+  </section>
+
+  {% include ganalytics.html %} {% include jquery.html %} {% include slick.html %}
+</body>
+
 </html>

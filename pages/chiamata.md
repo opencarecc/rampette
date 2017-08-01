@@ -13,10 +13,18 @@ buttons:
     link: https://github.com/opencarecc/openrampette/wiki
 release: Release 0.1 - 2016/09/12
 features:
-  - feat1
-  - feat2
-  - feat3
-github_release_link: www.github.com
+  - "Connessione LORA point to point"
+  - "Beacon notifica la presenza del negozio quando si è nelle vicinanze"
+  - "Possibilità di effettuare la chiamata via smartphone"
+  - "Ricevitore con tre modalità: luce/vibrazione/suono"
+  - "Conferma della corretta ricezione della chiamata"
+github_release_link: https://github.com/opencarecc/rampette
+gallery:
+  - "https://farm3.staticflickr.com/2839/33900113780_84a133df41_h_d.jpg"
+  - "/assets/images/risultati_questionario.png"
+  - "https://farm3.staticflickr.com/2839/33900113780_84a133df41_h_d.jpg"
+  - "/assets/images/risultati_questionario.png"
+newsCategory: chiamata
 ---
 
 
