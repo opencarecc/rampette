@@ -4,7 +4,7 @@ title: "Selezione dei concept finalisti"
 subtitle: "abbiamo ascoltato i vostri consigli, ecco il piano per il prototipo finale"
 date: 2017-07-05
 image: "/assets/images/prototype_plan.png"
-categories: [chiamata]
+categories: ["chiamata"]
 by: "Valeria"
 ---
 

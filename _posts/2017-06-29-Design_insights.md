@@ -4,7 +4,7 @@ title: "Utilizzo della rampa mobile a chiamata"
 subtitle: "abbiamo analizzato i dati raccolti dal Questionario online "
 date: 2017-06-29
 image: "/assets/images/risultati_questionario.png"
-categories: [chiamata]
+categories: ["chiamata"]
 by: "Lorenzo"
 ---
 

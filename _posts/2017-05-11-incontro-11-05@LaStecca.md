@@ -4,7 +4,7 @@ title: "incontro 11.05 @ LaStecca3.0 - La Chiamata"
 subtitle: "mappiamo l’esperienza di accessibilità in un esercizio commerciale"
 date: 2017-05-11
 image: "https://farm5.staticflickr.com/4164/34227097530_fedfa8ace5_k_d.jpg"
-categories: [chiamata, evento]
+categories: ["chiamata", "evento"]
 by: "Lorenzo"
 ---
 Dopo la presentazione pubblica del progetto open rampette, giovedì 11 maggio si è tenuto il primo incontro di co-progettazione.

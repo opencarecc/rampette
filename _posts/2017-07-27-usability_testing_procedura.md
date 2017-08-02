@@ -3,10 +3,11 @@ layout: post
 title: "test di usabilità del prototipo"
 subtitle: "risultati e approfondimenti sul test di usabilità del prototipo per la compilazione informatizzata della procedura"
 date: 2017-07-27
-image: "/assets/images/IMG_0811.JPG"
-categories: [procedura]
+image: "/assets/images/usertest_procedura.jpg"
+categories: ["procedura"]
 by: "Alessandro"
 ---
+
 Torniamo con un nuovo aggiornamento sulla procedura: risultati e approfondimenti sul test di usabilità del prototipo.
 
 Ci siamo lasciati la scorsa settimana con un post sulla progettazione e lo sviluppo del prototipo per la procedura di regolamentazione. La procedura burocratica è un passaggio necessario per rendere un esercizio commerciale accessibile in regola con la normativa emessa dal Comune di Milano riguardo al regolamento edilizio.

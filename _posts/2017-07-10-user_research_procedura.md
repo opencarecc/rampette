@@ -4,7 +4,7 @@ title: "risultati della ricerca sulla procedura"
 subtitle: "un aggiornamento sulla seconda parte del progetto open rampette: la procedura."
 date: 2017-07-10
 image: "/assets/images/IMG_0811.JPG"
-categories: [procedura]
+categories: ["procedura"]
 by: "Alessandro"
 ---
 

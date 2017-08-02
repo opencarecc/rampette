@@ -4,7 +4,7 @@ title: "Questionario - utilizzo della rampa mobile a chiamata"
 subtitle: "Raccontaci la tua esperienza di accessibilità compilando il form"
 date: 2017-05-23
 image: "/assets/images/research.png"
-categories: [chiamata]
+categories: ["chiamata"]
 by: "Lorenzo"
 ---
 L’incontro dell’11 maggio, di cui trovate report [qui](https://edgeryders.eu/en/open-rampette-la-chiamata-incontro-1105-lastecca30), è stato molto interessante e ci ha permesso di costruire una buona mappatura dell’esperienza del Dioniso e Minerva che si trovano a confrontarsi quotidianamente con le problematiche dell’accessibilità degli spazi pubblici.

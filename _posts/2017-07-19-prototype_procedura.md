@@ -4,7 +4,7 @@ title: "Una nuova procedura, arriva il prototipo"
 subtitle: "Uno strumento digitale per rendere la procedura di regolamentazione più intuitiva, più facile da compilare, più veloce, senza frustrazioni"
 date: 2017-07-19
 image: "https://edgeryders.eu/uploads/default/original/2X/c/cb9ab675aa829a3252d66680a6cd15bff0f44492.jpg"
-categories: [procedura]
+categories: ["procedura"]
 by: "Alessandro"
 ---
 

@@ -4,7 +4,7 @@ title: "incontro 23.05 @ LaStecca3.0 - La Procedura"
 subtitle: "indagine sulla tematica della procedura"
 date: 2017-05-23
 image: "https://farm5.staticflickr.com/4252/34721103722_cdb80a2769_k_d.jpg"
-categories: [procedura, evento]
+categories: ["procedura","evento"]
 by: "Lorenzo"
 ---
 Martedì 23 maggio ha avuto luogo il secondo appuntamento di coprogettazione con l’obiettivo di approfondire l’esperienza legata alla procedura per l’abbattimento di barriere architettoniche con rampe e scivoli.
