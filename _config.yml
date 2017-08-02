@@ -12,7 +12,7 @@ paginate_path: /blog/page:num/
 #this part configures the header in homepage
 
 title: openrampette
-tagline: miglioramento l’accessibilità degli esercizi commerciali
+tagline: miglioriamo l’accessibilità degli esercizi commerciali
 buttons:
   - text: View on GitHub
     link: https://github.com/opencarecc/openrampette
