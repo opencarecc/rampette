@@ -3,7 +3,7 @@ layout: post
 title: "lo sticker di open rampette"
 subtitle: "aiutaci a scegliere lo sticker che caratterizzerà il progetto"
 date: 2017-07-11
-image: /assets/images/questionario_sticker.png
+image: "/assets/images/questionario_sticker.png"
 categories: [comunicazione]
 by: "Lorenzo"
 ---

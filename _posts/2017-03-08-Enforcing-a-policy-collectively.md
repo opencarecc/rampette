@@ -4,7 +4,7 @@ title: "Enforcing a policy 'collectively'"
 subtitle: "Note sulla normativa esistente e l'approccio progettuale"
 date: 2017-03-07
 image: "https://edgeryders.eu/sites/edgeryders.eu/files/styles/challenge_response_node/public/response-header-images/node-7745-header.jpg"
-categories: ""
+categories: []
 by: "Lorenzo"
 ---
 

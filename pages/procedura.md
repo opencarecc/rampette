@@ -15,7 +15,7 @@ features:
   -
 github_release_link: https://github.com/opencarecc/rampette
 gallery:
-  - "/assets/images/usertest_procedura.png"
+  - "/assets/images/usertest_procedura.jpg"
 
 newsCategory: procedura
 ---

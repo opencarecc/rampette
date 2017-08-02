@@ -4,7 +4,7 @@ title: "La storia di dioniso e minerva"
 subtitle: "discutere situazioni conflittuali attraverso lo storytelling"
 date: 2017-04-20
 image: "https://farm5.staticflickr.com/4192/34613102235_59594c04b7_k_d.jpg"
-categories:
+categories: []
 by: "Lorenzo"
 ---
 

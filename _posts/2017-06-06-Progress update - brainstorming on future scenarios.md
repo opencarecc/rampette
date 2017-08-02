@@ -3,7 +3,7 @@ layout: post
 title: "aggiornamento - brainstorming su possibili scenari futuri"
 subtitle: ""
 date: 2017-06-06
-image: https://edgeryders.eu/uploads/default/original/2X/d/df21d75aa4dc9bbe6f7bfabde61aa28923f84b40.jpg
+image: "https://edgeryders.eu/uploads/default/original/2X/d/df21d75aa4dc9bbe6f7bfabde61aa28923f84b40.jpg"
 categories: [chiamata]
 by: "Lorenzo"
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Arrivano i prototipi"
 subtitle: "presentazione dei primi 7 concept realizzati per migliorare l'esperienza di chiamata"
 date: 2017-06-30
-image: https://farm5.staticflickr.com/4266/35189193230_012bf777d6_z_d.jpg
+image: "https://farm5.staticflickr.com/4266/35189193230_012bf777d6_z_d.jpg"
 categories: [chiamata]
 by: "Lorenzo"
 ---

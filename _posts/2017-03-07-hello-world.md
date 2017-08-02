@@ -3,8 +3,8 @@ layout: post
 title:  "Year 0"
 subtitle: "Inizia il viaggio"
 date:   2017-03-07 10:13:04 +0200
-categories: ""
 image: "https://farm3.staticflickr.com/2839/33900113780_84a133df41_h_d.jpg"
+categories: []
 by: "Lorenzo"
 ---
 
