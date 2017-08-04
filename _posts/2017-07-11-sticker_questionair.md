@@ -24,7 +24,7 @@ Qui alcuni aspetti chiave dell'adesivo proposto:
 
 - Lo sticker dovrebbe essere un segno di prestigio per il negozio che lo esibisce (come gli adesivi della guida turistica)
 
-- Inoltre l'adesivo, evidenziando i problemi relativi all'accessibilità, rende la comunità più consapevole e quindi magari anche più interessata a migliorare l’esperienza di accessibilità delle proprie città..
+- Inoltre l'adesivo, evidenziando i problemi relativi all'accessibilità, rende la comunità più consapevole e quindi magari anche più interessata a migliorare l’esperienza di accessibilità delle proprie città.
 
 **Aiutaci a scegliere quello giusto.
 **

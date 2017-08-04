@@ -4,7 +4,7 @@ title: "user testing dei device di chiamata"
 subtitle: "abbiamo installato i devices fatto dei test, ecco i risultati"
 date: 2017-08-04
 image: "/assets/images/chiamata.gif"
-categories: ["chiamata"]
+categories: ["chiamata", "comunicazione"]
 by: "Valeria"
 ---
 

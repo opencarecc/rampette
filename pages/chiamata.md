@@ -28,8 +28,9 @@ Le soluzioni di chiamata proposte sono state progettate sulla base di una proget
 I dispositivi sono stati progettati sulle necessità specifiche della communità e sono già state testate sul campo presso alcuni negozi di Isola.
 
 Per sapere di più riguardo alla metodologia di progetto ed i risultati della ricerca, puoi leggere:
-- incontro 11.05 @ LaStecca3.0 - La Chiamata
-- aggiornamento - brainstorming su possibili scenari futuri
+- [incontro 11.05 @ LaStecca3.0 - La Chiamata]({% post_url 2017-05-11-incontro-11-05@LaStecca %})
+
+- [aggiornamento - brainstorming su possibili scenari futuri]({% post_url 2017-06-06-Progress update - brainstorming on future scenarios %})
 
 
 ### Prima iterazione
@@ -46,3 +47,12 @@ La soluzione proposta è composta da tre parti:
 1. Un campanello personalizzato con uno sticker che identifica il progetto: premendo il pulsante si richiede assistenza al negoziante.
 2. Una app per smartphone che notifica la persona con disabilità motorie ogni volta che si trova nei pressi di un negozio accessibile e permette di richiedere assistenza (suonando il campanello) tramite smartphone.
 3. Un ricevitore del campanello che notifica, con luce, suono o vibrazione, al negoziante la richiesta di assistenza.
+
+
+### Utilizzo del campanello
+![storyboard utilizzo campanello](../assets/images/scenario-1.png)
+
+### Utilizzo del campanello tramite app
+![storyboard utilizzo campanello tramite app](../assets/images/scenario-2.png)
+
+### istruzioni di assemblaggio
