@@ -1,4 +1,4 @@
-name: openrampette by opencare
+name: open rampette
 markdown: kramdown
 baseurl:
 permalink: /blog/:year/:month/:day/:title/
@@ -12,7 +12,7 @@ github: [metadata]
 
 #this part configures the header in homepage
 
-title: openrampette
+title: open rampette
 tagline: miglioriamo l’accessibilità degli esercizi commerciali
 buttons:
   - text: View on GitHub

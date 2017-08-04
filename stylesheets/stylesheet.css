@@ -62,6 +62,20 @@ nav img {
   float: left;
 }
 
+/*the site name in the navbar*/
+h1.site-name {
+    max-width: 100px;
+    font-size: 23px;
+    text-align: left;
+    color: gray;
+    margin-left: 73px;
+    margin-top: -4px;
+    padding: 0px;
+    position: absolute;
+    font-weight: 300;
+    line-height: 30px;
+}
+
 /* NAVIGATION BAR media queries */
 @media screen and (min-width: 64em) {
   nav {
