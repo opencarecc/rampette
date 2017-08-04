@@ -19,7 +19,7 @@ github_release_link: https://github.com/opencarecc/rampette
 gallery:
   - "/assets/images/usertest_procedura.jpg"
 
-newsCategory: procedura
+newsCategory: proceduragrunt
 ---
 Purtroppo i negozianti Milanesi non possono solamente acquistare una rampa e un campanello per essere in regola, ma deve seguire una procedura burocratica per fare in modo che il Comune di Milano possa verificare:
 - Che le dimensioni e gli attributi della rampa siano corretti
