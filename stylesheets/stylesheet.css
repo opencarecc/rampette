@@ -480,7 +480,7 @@ a:last-of-type.btn:hover {
 }
 .column > .video,
 .column > .img_slider {
-  margin-right: 1rem;
+  /*margin-right: 1rem;*/
 }
 
 /* MAIN CONTENT FLEX GRID media queries */

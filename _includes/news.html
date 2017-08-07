@@ -1,9 +1,9 @@
 <div class="column">
-    <h2>Latest news about the project</h2>
+    <h2>Ultime news dal blog</h2>
 
     <!-- {{ include.category }} -->
 
-    <div class="row">
+    <div class="row" style="border: none;">
       <!--if a category is specified print just the news reguarding that-->
       {% if include.category %}
         {% for post in site.categories[include.category] offset: 0 limit: 3 %}
@@ -12,7 +12,7 @@
             <img src="{{ post.image }}">
           </a>
           <h3>{{ post.title }}</h3>
-          <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}">read more</a></p>
+          <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>leggi tutto »</em></a></p>
         </div>
         {% endfor %}
 
@@ -28,7 +28,7 @@
               <img src="{{ post.image }}">
             </a>
             <h3>{{ post.title }}</h3>
-            <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}">read more</a></p>
+            <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>leggi tutto »</em></a></p>
           </div>
         {% endfor %}
 
@@ -37,7 +37,7 @@
 
     <p>
       <a href="{{ site.baseurl }}/blog">
-        <em>See more »</em>
+        <em>Tutte le news »</em>
       </a>
     </p>
 
