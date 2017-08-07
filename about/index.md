@@ -18,7 +18,8 @@ Sono stati affrontati due temi di progettazione:
 - b) la chiamata
 
 I temi sono emersi analizzando il contesto pre-esistente (articoli, interviste), durante delle interviste mirate (User Research), grazie all’utilizzo di tecniche di co-progettazione messe in pratica negli incontri e tramite i canali online.
-La procedura:
+
+## La procedura:
 Un supporto passo passo per il commerciante che viene informato e guidato nella compilazione dei documenti per comunicare al Comune la presenza della rampa a chiamata.
 Un prototipo di mini-sito che consente di inserire e controllare i dati e fornisce il documento da presentare all’ufficio comunale.
 
