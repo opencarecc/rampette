@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About openrampette by opencare.cc
+published: true
 ---
 
 open rampette è un’iniziativa pilota per il miglioramento dell’accessibilità degli esercizi commerciali da parte di chi deve accedere tramite rampa o scivolo ed è promossa da WeMake e dal Comune di Milano.
@@ -13,8 +14,8 @@ Il percorso del progetto open rampette è iniziato ad aprile e conclude la prima
 
 Sono stati affrontati due temi di progettazione:
 
-** a) la procedura
-** b) la chiamata
+- a) la procedura
+- b) la chiamata
 
 I temi sono emersi analizzando il contesto pre-esistente (articoli, interviste), durante delle interviste mirate (User Research), grazie all’utilizzo di tecniche di co-progettazione messe in pratica negli incontri e tramite i canali online.
 La procedura:
