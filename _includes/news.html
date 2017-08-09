@@ -1,10 +1,8 @@
 <div class="column">
-    <h2>Ultime news dal blog</h2>
-
-    <!-- {{ include.category }} -->
+    <h2>Ultime news dal blog <em>{{ include.category }}</em></h2>
 
     <div class="row" style="border: none;">
-      <!--if a category is specified print just the news reguarding that-->
+      <!-- if a category is specified print the news of the specified category only -->
       {% if include.category %}
         {% for post in site.categories[include.category] offset: 0 limit: 3 %}
         <div class="column tutorials">
@@ -15,7 +13,6 @@
           <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>leggi tutto »</em></a></p>
         </div>
         {% endfor %}
-
 
       {% else %}
         {% for post in site.posts offset: 0 limit: 3 %}
@@ -32,7 +29,7 @@
           </div>
         {% endfor %}
 
-        {% endif %}
+      {% endif %}
     </div>
 
     <p>
