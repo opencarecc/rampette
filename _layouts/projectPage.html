@@ -14,6 +14,8 @@
     <!--row con titolo, sottotitolo, descrizione breve e link a github\-->
     <div class="row">
       <h1>{{page.title}} </h1>
+    </div>
+    <div class="row">
       <h2>{{page.subtitle}}</h2>
       <p class="short-about">
         {{page.shortTex}}
@@ -27,9 +29,7 @@
     <!--row con galleria foto e lista features-->
     <div class="row">
       <div class="column">
-        <div class="row">
-          {% include params_slick_slider.html gallery=page.gallery%}
-        </div>
+        {% include params_slick_slider.html gallery=page.gallery%}
       </div>
       <div class="column">
         <h2>{{page.release}}</h2>
@@ -38,11 +38,11 @@
           <li>{{item}}</li>
           {% endfor %}
         </ul>
-        <p>
+        <!-- <p>
           <a href="{{page.github_release_link}}">
               <em>More details »</em>
             </a>
-        </p>
+        </p> -->
       </div>
     </div>
     <!--row con content in markdown-->
