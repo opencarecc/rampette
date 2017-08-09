@@ -45,10 +45,12 @@ La soluzione proposta è composta da tre parti:
 3. Un ricevitore del campanello che notifica, con luce, suono o vibrazione, al negoziante la richiesta di assistenza.
 
 
-### Utilizzo del campanello
+### Scenario di utilizzo del campanello
 ![storyboard utilizzo campanello](../assets/images/scenario-1.png)
 
-### Utilizzo del campanello tramite app
+### Scenario di utilizzo del campanello tramite app
 ![storyboard utilizzo campanello tramite app](../assets/images/scenario-2.png)
 
-### istruzioni di assemblaggio
+### Istruzioni di assemblaggio
+
+_(coming soon)_
