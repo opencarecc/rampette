@@ -637,7 +637,7 @@ iframe, object, embed {
   }
   iframe, object, embed {
     max-width: 100%!important;
-    max-height: 300px!important;
+    /*max-height: 300px!important;*/
   }
 }
 
