@@ -1,16 +1,12 @@
 ---
 layout: "projectPage"
-title: "la procedura"
+title: "La procedura"
 subtitle: "Essere accessibili ed in regola nel 2017"
 shortTex: "Abbiamo fatto delle ricerche sulla procedura di autocertificazione che permette di mettere il proprio negozio in regola e munirsi di rampa mobile a chiamata. Abbiamo identificato delle criticità e identificato delle possibiii soluzioni"
 buttons:
   - text: View on GitHub
     link: https://github.com/opencarecc/openrampette
-  - text: Download .zip
-    link: https://github.com/opencarecc/openrampette/zipball/master
-  - text: Build your own!
-    link: https://github.com/opencarecc/openrampette/wiki
-release: Release 0.1 - 2016/09/12
+release: Release 1.0 - 2017/08/01
 features:
   - web based e cross platform
   - step by step workflow
@@ -34,14 +30,12 @@ La procedura non è esattamente semplice da seguire, quindi abbiamo organizzato 
 
 Abbiamo ricevuto ottimi riscontri e informazioni che ci hanno portato alla preparazione di interviste per gli esercenti da svolgere direttamente nei loro negozi.
 
-`“Non è chiaro quando sia necessario contattare un tecnico professionista…”
-`
-`“Informazioni difficili sono la misura della pedana, altezza e lunghezza e pendenze. Come le calcolo?”
-`
+**_“Non è chiaro quando sia necessario contattare un tecnico professionista…”_**
 
-![Intervista pic](../assets/images/IMG_0796.JPG)
-![Intervista pic](../assets/images/IMG_0797.JPG)
-![Intervista pic](../assets/images/IMG_0811.JPG)
+**_“Informazioni difficili sono la misura della pedana, altezza e lunghezza e pendenze. Come le calcolo?”_**
+
+
+![Intervista pic](../assets/images/0b7c6f1b68b8b49d1af4051f303a7703d64ad48e.png)
 
 Abbiamo inizialmente analizzato le varie situazioni specifiche di ogni esercizio commerciale e abbiamo chiesto informazioni come ad esempio:
 - Come ha ricevuto l’informazione che si dovevi seguire una procedura di regolamentazione?
@@ -51,11 +45,11 @@ Abbiamo inizialmente analizzato le varie situazioni specifiche di ogni esercizio
 
 Pianificare ed eseguire interviste è stato un lavoro piuttosto oneroso, ma è stato anche estremamente utile da una un punto di vista della progettazione. Ci ha aiutato a comprendere molte sfumature sui problemi degli esercenti alla comprensione e compilazione della procedura ed i loro bisogni, desideri e sensibilita’ nel risolvere il problema dell'accessibilità dei loro negozi.
 
-`“Vogliamo far entrare chiunque nel nostro negozio, ci piacerebbe risolvere questo problema per le persone”`
+**_“Vogliamo far entrare chiunque nel nostro negozio, ci piacerebbe risolvere questo problema per le persone”_**
 
-`“Prima cerchiamo di risolvere autonomamente se non ci riusciamo ci facciamo supportare da qualcuno.”`
+**_“Prima cerchiamo di risolvere autonomamente se non ci riusciamo ci facciamo supportare da qualcuno.”_**
 
-`“Se questo stesso modulo fosse possibile averlo online non solo da computer, magari sul sito del comune di milano, che ti possa dare questi risultati mettendo le misure, sarebbe il massimo.”`
+**_“Se questo stesso modulo fosse possibile averlo online non solo da computer, magari sul sito del comune di milano, che ti possa dare questi risultati mettendo le misure, sarebbe il massimo.”_**
 
 Qui sotto si puo’ vedere un grafico che mostra gli argomenti che abbiamo coperto durante le interviste, in cui ognuna delle forme rappresenta il profilo di un esercente che abbiamo intervistato. Sovrapponendo le forme si possono vedere gli argomenti (dubbi, esigenze) che sono risultati più rilevanti (un livello piu’ alto di rilevanza verso l'esterno del grafico, un livello piu’ basso verso il centro).
 
@@ -63,7 +57,6 @@ Qui sotto si puo’ vedere un grafico che mostra gli argomenti che abbiamo coper
 
 Qui di seguito si puo’ invece vedere un altro grafico che ricostruisce il profilo di Minerva che inizialmente avevamo inventato. Aggiungendo le vere esigenze degli esercenti che abbiamo intervistato, finalmente abbiamo un profilo di Minerva realistico che possiamo utilizzare per progettare una procedura migliore!
 
-[Figura del grafico di profilo]
 <iframe src="https://drive.google.com/file/d/0B2Qw-X5Jj_X_ZjFmZnBWVjhXRmc/preview" width="640" height="480"></iframe>
 
 ## Il prototipo
