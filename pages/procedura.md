@@ -35,7 +35,7 @@ Abbiamo ricevuto ottimi riscontri e informazioni che ci hanno portato alla prepa
 **_“Informazioni difficili sono la misura della pedana, altezza e lunghezza e pendenze. Come le calcolo?”_**
 
 
-![Intervista pic](../assets/images/0b7c6f1b68b8b49d1af4051f303a7703d64ad48e.png)
+![Intervista pic](../assets/images/procedura_user_research.png)
 
 Abbiamo inizialmente analizzato le varie situazioni specifiche di ogni esercizio commerciale e abbiamo chiesto informazioni come ad esempio:
 - Come ha ricevuto l’informazione che si dovevi seguire una procedura di regolamentazione?
