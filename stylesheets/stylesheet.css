@@ -620,6 +620,9 @@ iframe, object, embed {
   /*height: 100%;*/
   max-width: 100%!important;
   max-height: 600px!important;
+  margin: 0 auto;
+  display: block;
+  flex-basis: 100%;
 }
 
 @media screen and (max-width: 42em) {
