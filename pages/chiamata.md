@@ -7,7 +7,7 @@ campanello (trasmettitore e ricevitore), utilizzabile anche via smartphome."
 buttons:
   - text: View on GitHub
     link: https://github.com/opencarecc/openrampette
-release: Release 0.1 - 2017/08/01
+release: Release 1.0 - 2017/08/01
 features:
   - "Connessione LORA point to point"
   - "Beacon notifica la presenza del negozio quando si è nelle vicinanze"
