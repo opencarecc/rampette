@@ -1,0 +1,14 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  url: /
+
+- title: Group of Things
+  url: /group/
+  sublinks:
+    - title: chiamata
+      url: /pages/chiamata
+    - title: procedura
+      url: /pages/procedura
+    - title: comunicazione
+      url: /pages/comunicazione
