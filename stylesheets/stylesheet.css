@@ -20,7 +20,8 @@ a {
   transition: all .3s;
 }
 a:hover {
-  border-bottom: 1px solid #602480;
+  /*border-bottom: 1px solid #602480;*/
+  border-bottom: 1px solid #000099;
 }
 
 ul {
@@ -67,7 +68,8 @@ nav img {
 }
 
 nav .current {
-  border-bottom: 1px solid #602480;
+  /*border-bottom: 1px solid #602480;*/
+  border-bottom: 1px solid #000099;
 }
 
 nav .current a,
@@ -112,7 +114,8 @@ nav .current .dropdown-content li a {
 
 nav .dropdown-content li a:hover,
 nav .current .dropdown-content li a:hover {
-  border-bottom-color: #602480;
+  /*border-bottom: 1px solid #602480;*/
+  border-bottom: 1px solid #000099;
 }
 
 
