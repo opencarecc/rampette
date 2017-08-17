@@ -1,14 +1,18 @@
-# Belongs at: /_data/navigation.yml
+- title: ABOUT
+  url: /about
 
-- title: Home
-  url: /
-
-- title: pages
-  url: /pages/
+- title: TEMI
+  url: /pages
   sublinks:
-    - title: chiamata
+    - title: Chiamata
       url: /pages/chiamata
-    - title: procedura
+    - title: Procedura
       url: /pages/procedura
-    - title: comunicazione
+    - title: Comunicazione
       url: /pages/comunicazione
+
+- title: NEWS
+  url: /blog
+
+- title: OPENCARE.CC
+  url: http://opencare.cc
