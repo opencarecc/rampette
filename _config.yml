@@ -1,6 +1,6 @@
 name: open rampette
 markdown: kramdown
-baseurl: http://rampette.opencare.cc
+baseurl: /rampette
 permalink: /blog/:year/:month/:day/:title/
 gems:
   - jekyll-sitemap
