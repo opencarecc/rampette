@@ -13,7 +13,8 @@ body {
 
 a {
   cursor: pointer;
-  color: #602480;
+  /*color: #602480;*/
+  color: #000099;
   text-decoration: none;
   padding-bottom: .15rem;
   transition: all .3s;
