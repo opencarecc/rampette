@@ -63,6 +63,10 @@ nav img {
   float: left;
 }
 
+nav .current {
+  border-bottom: 1px solid #602480;
+}
+
 /*the site name in the navbar*/
 /*h1.site-name {
     max-width: 100px;
