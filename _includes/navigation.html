@@ -24,11 +24,11 @@
         {% endif %}
         {% assign sublinks = entry.sublinks %}
         {% if sublinks %}
-        <li{{ current }}>
+        <li>
             <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
             <ul>
                 {% for sublink in sublinks %}
-                <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+                <li{{ current }}><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
                 {% endfor %}
             </ul>
         </li>
