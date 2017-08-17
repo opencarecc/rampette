@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About openrampette by opencare.cc
+title: About open rampette by opencare.cc
 published: true
 ---
 

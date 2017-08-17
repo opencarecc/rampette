@@ -1,4 +1,4 @@
-# openrampette
+# open rampette
 
 ##how to setup this site locally:
 
