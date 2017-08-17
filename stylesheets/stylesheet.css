@@ -618,13 +618,13 @@ a:last-of-type.btn:hover {
   max-height: 700px!important;
 }
 
-/*iframe, object, embed {
+iframe, object, embed {
   max-width: 100%!important;
   max-height: 700px!important;
-  margin: 0 auto;
+  /*margin: 0 auto;
   display: block;
-  flex-basis: 100%;
-}*/
+  flex-basis: 100%;*/
+}
 
 @media screen and (max-width: 42em) {
   .embed-container iframe,
