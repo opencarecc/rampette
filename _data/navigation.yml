@@ -3,8 +3,8 @@
 - title: Home
   url: /
 
-- title: Group of Things
-  url: /group/
+- title: pages
+  url: /pages/
   sublinks:
     - title: chiamata
       url: /pages/chiamata
