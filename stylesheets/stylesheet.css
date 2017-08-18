@@ -48,6 +48,33 @@ nav {
   margin: 0 auto;
 }
 
+/*the site name in the navbar*/
+/*h1.site-name {
+    max-width: 100px;
+    font-size: 23px;
+    font-size: 1rem;
+    text-align: left;
+    color: gray;
+    margin-left: 73px;
+    margin-top: -4px;
+    padding: 0px;
+    position: absolute;
+    font-weight: 300;
+    line-height: 30px;
+}*/
+nav h1 {
+  max-width: 6rem;
+  font-size: 1.45rem;
+  text-align: left;
+  color: #159957;
+  margin-left: 4.7rem;
+  margin-top: -2px;
+  padding: 0px;
+  position: absolute;
+  font-weight: 300;
+  line-height: 1.7rem;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -137,32 +164,6 @@ nav .current .dropdown-content li a:hover {
   display: none;
 }
 
-/*the site name in the navbar*/
-/*h1.site-name {
-    max-width: 100px;
-    font-size: 23px;
-    font-size: 1rem;
-    text-align: left;
-    color: gray;
-    margin-left: 73px;
-    margin-top: -4px;
-    padding: 0px;
-    position: absolute;
-    font-weight: 300;
-    line-height: 30px;
-}*/
-nav h1 {
-  max-width: 1rem;
-  font-size: 1.45rem;
-  text-align: left;
-  color: #159957;
-  margin-left: 4.7rem;
-  margin-top: -2px;
-  padding: 0px;
-  position: absolute;
-  font-weight: 300;
-  line-height: 1.7rem;
-}
 
 /* NAVIGATION BAR media queries */
 @media screen and (min-width: 64em) {
