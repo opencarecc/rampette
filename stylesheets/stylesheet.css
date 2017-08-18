@@ -125,6 +125,13 @@ nav .current .dropdown-content li a:hover {
   border-bottom: 1px solid #000099;
 }
 
+#dropdown-trigger {
+    display: block;
+    /* critical styles - hide the checkbox input */
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+  }
+
 .nav-trigger {
   display: none;
 }
@@ -274,12 +281,6 @@ flex-direction: column;*/
   }
  
 
-#dropdown-trigger {
-    display: block;
-    /* critical styles - hide the checkbox input */
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
-  }
   label[for="dropdown-trigger"] {
     /* critical positioning styles */
     position: relative;
