@@ -131,23 +131,6 @@ nav .current .dropdown-content li a:hover {
     position: absolute;
     clip: rect(0, 0, 0, 0);
   }
-  label[for="dropdown-trigger"] {
-    /* critical positioning styles */
-    position: relative;
-    /*right: 15px; top: 15px;*/
-    /*right: 1.2rem;
-    top: 1.8rem;
-    z-index: 2;*/
-    
-    /* non-critical apperance styles */
-    /*height: 30px;
-    width: 30px;*/
-    /*height: 20px;
-    width: 25px;
-    cursor: pointer;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect fill='#602480' width='30' height='6'/><rect fill='#602480' y='24' width='30' height='6'/><rect fill='#602480' y='12' width='30' height='6'/></svg>");
-    background-size: contain;*/
-  }
 
 .nav-trigger {
   display: none;
@@ -298,7 +281,23 @@ flex-direction: column;*/
   }
  
 
-  
+  label[for="dropdown-trigger"] {
+    /* critical positioning styles */
+    position: relative;
+    /*right: 15px; top: 15px;*/
+    /*right: 1.2rem;
+    top: 1.8rem;
+    z-index: 2;*/
+    
+    /* non-critical apperance styles */
+    /*height: 30px;
+    width: 30px;*/
+    /*height: 20px;
+    width: 25px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect fill='#602480' width='30' height='6'/><rect fill='#602480' y='24' width='30' height='6'/><rect fill='#602480' y='12' width='30' height='6'/></svg>");
+    background-size: contain;*/
+  }
   /*nav .nav-trigger + label, nav ul {
     transition: left 0.2s;
   }*/
