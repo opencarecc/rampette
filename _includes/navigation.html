@@ -32,7 +32,10 @@
         {% endif %}
         {% assign sublinks = entry.sublinks %}
         {% if sublinks %}
+        <input type="checkbox" id="dropdown-trigger">
+        <label for="dropdown-trigger">
         <li class="dropdown {{ current }}">
+        </label>
             <!-- <a href="{{ site.baseurl }}{{ entry.url }}"> -->{{ entry.title }}<!-- </a> -->
             <ul class="dropdown-content">
                 {% for sublink in sublinks %}
