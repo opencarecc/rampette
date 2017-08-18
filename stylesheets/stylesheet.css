@@ -197,6 +197,8 @@ nav h1 {
     border-bottom: none;
   }
   nav ul {
+    visibility: hidden;
+    opacity: 0;
     /*display: none;*/
     /*margin-top: 1rem;
     padding: 1.2rem;*/
@@ -211,9 +213,8 @@ nav h1 {
     height: 0;
     text-align: center;
     /*float: none;*/
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0.2s, opacity 0.2s linear;
+    
+    transition: margin-top 0.2s, padding 0.2s, visibility 0.15s, opacity 0.18s, height 0.2s linear;
 border-top: 1px solid #eff0f1;
 /*z-index: 999;*/
 /*display: -webkit-flex;
@@ -319,12 +320,13 @@ flex-direction: column;*/
     left: 10px;*/
     /*display: block;
     z-index: 1;*/
-    visibility: visible;
-    opacity: 1;
-    /*display: block;*/
     height: 100%;
     margin-top: 1rem;
     padding: 1.2rem;
+    visibility: visible;
+    opacity: 1;
+    /*display: block;*/
+    
   }
 }
 
