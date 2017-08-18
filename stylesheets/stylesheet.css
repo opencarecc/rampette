@@ -18,10 +18,15 @@ a {
   text-decoration: none;
   padding-bottom: .15rem;
   transition: all .3s;
+  overflow-wrap: break-word;
 }
 a:hover {
   /*border-bottom: 1px solid #602480;*/
   border-bottom: 1px solid #000099;
+}
+
+a h1 {
+  overflow-wrap: normal;
 }
 
 ul {
