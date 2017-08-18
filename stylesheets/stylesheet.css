@@ -19,6 +19,7 @@ a {
   padding-bottom: .15rem;
   transition: all .3s;
   overflow-wrap: break-word;
+  word-break: break-all;
 }
 a:hover {
   /*border-bottom: 1px solid #602480;*/
@@ -27,6 +28,7 @@ a:hover {
 
 a h1 {
   overflow-wrap: normal;
+  word-break: normal;
 }
 
 ul {
