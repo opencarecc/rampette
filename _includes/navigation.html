@@ -17,6 +17,11 @@
       {{site.name}}
     </h1>
   </a>
+
+    <!-- hamburger button -->
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger"></label>
+
     <ul>
     {% for entry in site.data.navigation %}
         {% if entry.url == current_page %}
@@ -40,4 +45,6 @@
         {% endif %}
     {% endfor %}
     </ul>
+
+
 </nav>
