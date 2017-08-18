@@ -18,24 +18,25 @@
     </h1>
   </a>
 
-    <!-- hamburger button -->
-    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-    <label for="nav-trigger"></label>
+<!-- hamburger button: IMPORTANT DO NOT MOVE-->
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
 
-    <ul>
-    {% for entry in site.data.navigation %}
-        {% if entry.url == current_page %}
-            {% assign current = 'current' %}
-        {% else %}
-            <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
-            {% assign current = null %}
-        {% endif %}
-        {% assign sublinks = entry.sublinks %}
-        {% if sublinks %}
-        <input type="checkbox" id="dropdown-trigger">
-        <label for="dropdown-trigger">
-        <li class="dropdown {{ current }}">
-        </label>
+<ul>
+{% for entry in site.data.navigation %}
+    {% if entry.url == current_page %}
+        {% assign current = 'current' %}
+    {% else %}
+        <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
+        {% assign current = null %}
+    {% endif %}
+    {% assign sublinks = entry.sublinks %}
+    {% if sublinks %}
+
+    <!-- dropdown trigger for mobile: IMPORTANT DO NOT MOVE -->
+    <input type="checkbox" id="dropdown-trigger">
+    <label for="dropdown-trigger">
+        <li class="dropdown {{ current }}">    
             <!-- <a href="{{ site.baseurl }}{{ entry.url }}"> -->{{ entry.title }}<!-- </a> -->
             <ul class="dropdown-content">
                 {% for sublink in sublinks %}
@@ -43,11 +44,12 @@
                 {% endfor %}
             </ul>
         </li>
-        {% else %}
-        <li class="{{ current }}"><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-    </ul>
+    </label>
+    {% else %}
+    <li class="{{ current }}"><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
 
 
 </nav>
