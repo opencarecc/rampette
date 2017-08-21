@@ -6,6 +6,7 @@ date: 2017-08-04
 image: "/assets/images/IMG_3226.JPG"
 categories: ["chiamata", "comunicazione", "evento", "procedura"]
 by: "Costantino"
+excerpt: 
 ---
 
 Il 27 luglio ci siamo riuniti nuovamente con la community open rampette per condividere i risultati finali sul progetto.
