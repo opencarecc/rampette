@@ -866,7 +866,36 @@ ul.posts li:last-of-type {
 .meta {
   font-style: italic;
 }
-
+/*.post-header h1:first-letter {
+  text-transform: capitalize;
+}*/
+.post-header,
+.archive-description {
+  width: 100%;
+  padding: 3rem 0 1rem;
+  margin-bottom: 3rem;
+  border-bottom: solid 1px #eff0f1;
+}
+.posts h2 {
+  margin: 0;
+}
+.group-year {
+  margin-top: 2rem!important;
+}
+article {
+  /*margin-left: 1rem;*/
+}
+article time {
+  display: inline-block;
+  font-style: italic;
+}
+article h3 {
+  display: inline-block;
+  /*text-transform: capitalize;*/
+}
+/*article h3:first-letter {
+  text-transform: capitalize;
+}*/
 
 
 /* === DISQUS === */
