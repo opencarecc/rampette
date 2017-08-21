@@ -5,8 +5,8 @@
 
 
 <body>
-  <!--navigation-->
-  {% include navigation.html %}
+{% include return_to_top_button.html %}
+{% include navigation.html %}
 
   <!--main contents-->
   <section class="main-content">
@@ -66,7 +66,9 @@
     {% include footer.html %}
   </section>
 
-  {% include ganalytics.html %} {% include jquery.html %} {% include slick.html %}
+  {% include jquery.html %}
+  {% include return_to_top.html %}
+  {% include slick.html %}
 </body>
 
 </html>
