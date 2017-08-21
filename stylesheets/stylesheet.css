@@ -92,6 +92,9 @@ nav li.dropdown {
   color: #000099;
   cursor: pointer;
 }
+nav li.dropdown {
+  padding-bottom: .15rem;
+}
 
 nav li a {
   display: block;
