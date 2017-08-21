@@ -533,14 +533,27 @@ a:last-of-type.btn:hover {
   margin-top: 0; }
 .main-content img {
   max-width: 100%;
-  margin: 0 auto;
+  margin: 1rem auto;
   display: block;
 }
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
   /*margin-top: 2rem;*/
   margin-bottom: 1rem;
   font-weight: 300;
   color: #159957; }
+.main-content h1:first-letter,
+.main-content h2:first-letter,
+.main-content h3:first-letter,
+.main-content h4:first-letter,
+.main-content h5:first-letter,
+.main-content h6:first-letter {
+  text-transform: capitalize;
+}
 .main-content p {
   margin-bottom: 1em;
   flex-basis: 100%; }
@@ -851,8 +864,11 @@ ul.posts li:last-of-type {
   border-bottom:none;
 }
 .postdate {
-  font-size: .8rem;
+  font-size: .9rem;
   font-style: italic;
+  /*margin-left: .6rem;*/
+  margin-top: 0;
+  padding-top: 0;
 }
 .pagination {
   text-align: center;
