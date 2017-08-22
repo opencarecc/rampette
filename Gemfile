@@ -23,4 +23,5 @@ gem "github-pages", group: :jekyll_plugins
 #   gem "jekyll-github-metadata", "~> 1.0"
   gem "jekyll-sitemap"
   gem "jekyll-paginate"
+  gem 'jekyll-language-plugin'
 # end

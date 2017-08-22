@@ -97,6 +97,7 @@ GEM
     jekyll-github-metadata (2.5.1)
       jekyll (~> 3.1)
       octokit (~> 4.0, != 4.4.0)
+    jekyll-language-plugin (1.3.4)
     jekyll-mentions (1.2.0)
       activesupport (~> 4.0)
       html-pipeline (~> 2.3)
@@ -198,6 +199,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-language-plugin
   jekyll-paginate
   jekyll-sitemap
   minima
