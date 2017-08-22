@@ -39,7 +39,20 @@ ul {
 }
 
 /* === NAVIGATION BAR === */
-nav {
+header {
+  position: fixed;
+  /*background-color: #ffffff;*/
+  background-color: red;
+  width: 100%;
+  z-index: 999;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+#nav-container {
   text-align: center;
   padding: 2rem 4rem;
   /*background: rgba(255,255,255,.5);*/
@@ -62,7 +75,7 @@ nav {
     font-weight: 300;
     line-height: 30px;
 }*/
-nav h1 {
+header h1 {
   max-width: 6rem;
   font-size: 1.45rem;
   text-align: left;
@@ -101,7 +114,7 @@ nav li a {
   cursor: pointer;
 }
 
-nav img {
+header img {
   float: left;
 }
 
@@ -170,29 +183,29 @@ nav .current .dropdown-content li a:hover {
 
 /* NAVIGATION BAR media queries */
 @media screen and (min-width: 64em) {
-  nav {
+  #nav-container {
     max-width: 58rem;
     padding: 1rem 3rem;
   }
   nav ul {
     padding-top: 1rem;
   }
-  nav img {
+  header img {
     max-width: 3.2rem;
   }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  nav {
+  #nav-container {
     padding: 1.2rem 4rem;
   }
   nav ul {
     padding-top: .7rem;
   }
-  nav img {
+  header img {
     max-width: 2.6rem;
   }
-  nav h1 {
+  header h1 {
     font-size: 1.15rem;
     margin-left: 4.1rem;
     line-height: 1.4rem;
@@ -200,7 +213,7 @@ nav .current .dropdown-content li a:hover {
 }
 
 @media screen and (max-width: 42em) {
-  nav {
+  #nav-container {
     padding: 1.2rem 1rem;
     overflow-x: hidden;
     max-width: 100%;
@@ -210,10 +223,10 @@ nav .current .dropdown-content li a:hover {
   nav .current .dropdown-content li a:hover {
     border-bottom: none;
   }
-  nav img {
+  header img {
     max-width: 2.6rem;
   }
-  nav h1 {
+  header h1 {
     font-size: 1.2rem;
     margin-left: 3.5rem;
     line-height: 1.4rem;

@@ -10,44 +10,47 @@
 {% endfor %}
 
 <!-- Then we build the nav bar. -->
-<nav>
-    <a href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/assets/OC-Logo-colortext.svg">
-        <h1 class="site-name">
-          {{site.name}}
-        </h1>
-    </a>
+<header>
+    <div id="nav-container">    
+        <a href="{{ site.baseurl }}/">
+            <img src="{{ site.baseurl }}/assets/OC-Logo-colortext.svg">
+            <h1 class="site-name">
+              {{site.name}}
+            </h1>
+        </a>
+        <nav>
+            <!-- hamburger button: IMPORTANT DO NOT MOVE-->
+            <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+            <label for="nav-trigger"></label>
 
-    <!-- hamburger button: IMPORTANT DO NOT MOVE-->
-    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-    <label for="nav-trigger"></label>
+            <ul>
+            {% for entry in site.data.navigation %}
+                {% if entry.url == current_page %}
+                    {% assign current = 'current' %}
+                {% else %}
+                    <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
+                    {% assign current = null %}
+                {% endif %}
+                {% assign sublinks = entry.sublinks %}
+                {% if sublinks %}
 
-    <ul>
-    {% for entry in site.data.navigation %}
-        {% if entry.url == current_page %}
-            {% assign current = 'current' %}
-        {% else %}
-            <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
-            {% assign current = null %}
-        {% endif %}
-        {% assign sublinks = entry.sublinks %}
-        {% if sublinks %}
-
-        <!-- dropdown trigger for mobile: IMPORTANT DO NOT MOVE -->
-        <input type="checkbox" id="dropdown-trigger">
-        <label for="dropdown-trigger">
-            <li class="dropdown {{ current }}">    
-                <!-- <a href="{{ site.baseurl }}{{ entry.url }}"> -->{{ entry.title }}<!-- </a> -->
-                <ul class="dropdown-content">
-                    {% for sublink in sublinks %}
-                    <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            </li>
-        </label>
-        {% else %}
-        <li class="{{ current }}"><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-    </ul>
-</nav>
+                <!-- dropdown trigger for mobile: IMPORTANT DO NOT MOVE -->
+                <input type="checkbox" id="dropdown-trigger">
+                <label for="dropdown-trigger">
+                    <li class="dropdown {{ current }}">    
+                        <!-- <a href="{{ site.baseurl }}{{ entry.url }}"> -->{{ entry.title }}<!-- </a> -->
+                        <ul class="dropdown-content">
+                            {% for sublink in sublinks %}
+                            <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                </label>
+                {% else %}
+                <li class="{{ current }}"><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>
