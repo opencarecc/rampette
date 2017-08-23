@@ -1,15 +1,16 @@
 <div class="column">
-  <h2>Release 0.1 - 2016/09/12</h2>
+  <h2>{{ site.data["lang"]["release_notes"]["title"] }}</h2>
   <ul>
-    <li>Feature 1</li>
-    <li>Feature 2</li>
-    <li>Feature 3</li>
-    <li>Feature 4</li>
-    <li>Feature 5</li>
+    <li>{{ site.data["lang"]["release_notes"]["note_1"] }}</li>
+    <li>{{ site.data["lang"]["release_notes"]["note_2"] }}</li>
+    <li>{{ site.data["lang"]["release_notes"]["note_3"] }}</li>
   </ul>
   <p>
-    <a href="">
-      <em>More details »</em>
-    </a>
+    <!-- <a href="{{ site.data["lang"]["release_notes"]["more_link"] }}">
+      <em>{{ site.data["lang"]["release_notes"]["more_link.text"] }} &raquo;</em>
+    </a> -->
+    {% for item in site.data["lang"]["release_notes"]["more_link"] %}
+      <a href="{{ item.link_html }}"><em>{{ item.text }} &raquo;</em></a>
+    {% endfor %}
   </p>
 </div>

@@ -24,6 +24,14 @@ topics:
   description_3: "Mettiamo in mostra i negozi accessibili e creiamo un dialogo costruttivo"
 slick:
   description: ""
+release_notes:
+  title: "Release 0.1 - 2016/09/12"
+  note_1: "Nota 1"
+  note_2: "Nota 2"
+  note_3: "Nota 3"
+  more_link:
+    - text: "Maggiori informazioni"
+      link_html: "about"
 news:
   latest_news: "Ultime news dal blog"
   link_to_blog: "Tutte le news"
