@@ -3,6 +3,16 @@ global:
   read_more_post: "Leggi tutto"
 home:
   topics: "I temi trattati"
+header:
+  title: "open rampette"
+  tagline: "miglioriamo l’accessibilità degli esercizi commerciali"
+  buttons:
+    - text: "Vedi su GitHub"
+      link: "https://github.com/opencarecc/openrampette"
+    - text: "Scarica .zip"
+      link: "https://github.com/opencarecc/openrampette/zipball/master"
+    - text: "Costruisci!"
+      link: "https://github.com/opencarecc/openrampette/wiki"
 video:
   title: "Cos'è open rampette?"
   description: "open rampette è un’iniziativa pilota per il miglioramento dell’accessibilità degli esercizi commerciali ed è promossa dal Comune di Milano e da WeMake | fablab e makerspace all’interno del progetto"

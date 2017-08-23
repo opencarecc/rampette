@@ -2,10 +2,12 @@
 
 <section class="page-header">
   <div class="page-header-content">
-    <h1 class="project-name">{{ site.title }}</h1>
-    <h2 class="project-tagline">{{ site.tagline }}</h2>
+    <!-- <h1 class="project-name">{{ site.title }}</h1> -->
+    <h1 class="project-name">{{ site.data["lang"]["header"]["title"] }}</h1>
+    <!-- <h2 class="project-tagline">{{ site.tagline }}</h2> -->
+    <h2 class="project-tagline">{{ site.data["lang"]["header"]["tagline"] }}</h2>
 
-    {% for item in site.buttons %}
+    {% for item in site.data["lang"]["header"]["buttons"] %}
       <a href="{{ item.link }} " class="btn">{{ item.text }} </a>
     {% endfor %}
 

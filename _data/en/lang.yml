@@ -3,6 +3,16 @@ global:
   read_more_post: "Read more"
 home:
   topics: "Project themes"
+header:
+  title: "open rampette"
+  tagline: "accesible shops for everyone"
+  buttons:
+    - text: "View on GitHub"
+      link: "https://github.com/opencarecc/openrampette"
+    - text: "Download .zip"
+      link: "https://github.com/opencarecc/openrampette/zipball/master"
+    - text: "Build your own!"
+      link: "https://github.com/opencarecc/openrampette/wiki"
 video:
   title: "video english title"
   description: "english description"
