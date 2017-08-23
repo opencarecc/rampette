@@ -2,6 +2,7 @@
 layout: home
 title: open rampette by opencarecc
 published: true
+lang: site.data["active_lang"]
 ---
 
 <!-- <iframe width="100%" height="480" src="https://www.youtube.com/embed/bARoyq8Tnto" frameborder="0" allowfullscreen></iframe> -->
@@ -16,7 +17,8 @@ published: true
   {% include video.html %}
 </div>
 
-<h1>I temi trattati</h1>
+<!-- <h1>I temi trattati</h1> -->
+<h1>{{ site.data["lang"]["home"]["topics"] }}</h1>
 <div class="row">
    {% include topics.html %}
 </div>
