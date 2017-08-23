@@ -35,6 +35,16 @@ release_notes:
 news:
   latest_news: "Ultime news dal blog"
   link_to_blog: "Tutte le news"
+tutorials:
+  title_1: "Tutorial 1"
+  description_1: "Questa è la descrizione del Turorial 1"
+  title_2: "Tutorial 2"
+  description_2: "Questa è la descrizione del Turorial 2"
+  title_3: "Tutorial 3"
+  description_3: "Questa è la descrizione del Turorial 3"
+  more_link:
+    - text: "Vedi tutti i tutorial"
+      link_html: "about"
 license:
   title: "Open Source"
 credits:

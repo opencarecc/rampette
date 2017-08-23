@@ -1,24 +1,27 @@
-<!-- IMPORTANT: Please only change text and links. Leave the HTML structure unchanged -->
+<div class="column tutorials">
+  <a href="http://www.google.com">
+    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
+  </a>
+  <h3>{{ site.data["lang"]["tutorials"]["title_1"] }}</h3>
+  <p>{{ site.data["lang"]["tutorials"]["description_1"] }}</p>
+</div>
+<div class="column tutorials">
+  <a href="http://www.google.com">
+    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
+  </a>
+  <h3>{{ site.data["lang"]["tutorials"]["title_2"] }}</h3>
+  <p>{{ site.data["lang"]["tutorials"]["description_2"] }}</p>
+</div>
+<div class="column tutorials">
+  <a href="http://www.google.com">
+    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
+  </a>
+  <h3>{{ site.data["lang"]["tutorials"]["title_3"] }}</h3>
+  <p>{{ site.data["lang"]["tutorials"]["description_3"] }}</p>
+</div>
 
-<div class="column tutorials">
-  <a href="http://www.google.com">
-    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
-  </a>
-  <h3>Tutorial 1</h3>
-  <p>This is a brief description of Tutorial 1</p>
-</div>
-<div class="column tutorials">
-  <a href="http://www.google.com">
-    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
-  </a>
-  <h3>Tutorial 2</h3>
-  <p>This is a brief description of Tutorial 2</p>
-</div>
-<div class="column tutorials">
-  <a href="http://www.google.com">
-    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
-  </a>
-  <h3>Tutorial 3</h3>
-  <p>This is a brief description of Tutorial 3</p>
-</div>
-<span style="width:100%;text-align:center;margin-top:1rem;"><a href=""><em>Check all the tutorials »</em></a></span>
+{% for item in site.data["lang"]["tutorials"]["more_link"] %}
+  <span style="width:100%;text-align:center;margin-top:1rem;">
+    <a href="{{ item.link_html }}"><em>{{ item.text }} &raquo;</em></a>
+  </span>
+{% endfor %}

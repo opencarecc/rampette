@@ -35,6 +35,16 @@ release_notes:
 news:
   latest_news: "Latest news from the blog"
   link_to_blog: "All the news"
+tutorials:
+  title_1: "Tutorial 1"
+  description_1: "This is a brief description of Tutorial 1"
+  title_2: "Tutorial 2"
+  description_2: "This is a brief description of Tutorial 2"
+  title_3: "Tutorial 3"
+  description_3: "This is a brief description of Tutorial 3"
+  more_link:
+    - text: "Check all the tutorials"
+      link_html: "about"
 license:
   title: "Open Source"
 credits:
