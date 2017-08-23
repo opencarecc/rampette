@@ -18,3 +18,5 @@ slick:
 news:
   latest_news: "Ultime news dal blog"
   link_to_blog: "Tutte le news"
+license:
+  title: "Open Source"
