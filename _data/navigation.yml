@@ -2,14 +2,14 @@
   url: /about
 
 - title: TEMI
-  url: /
+  url: /pages
   sublinks:
     - title: Chiamata
-      url: /chiamata
+      url: /pages/chiamata
     - title: Procedura
-      url: /procedura
+      url: /pages/procedura
     - title: Comunicazione
-      url: /comunicazione
+      url: /pages/comunicazione
 
 - title: NEWS
   url: /blog
