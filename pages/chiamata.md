@@ -18,6 +18,8 @@ github_release_link: https://github.com/opencarecc/rampette
 gallery:
   - "/assets/images/flier.jpg"
 newsCategory: chiamata
+published: true
+permalink: /chiamata
 ---
 
 Le soluzioni di chiamata proposte sono state progettate sulla base di una progettazione partecipara con le istituzioni, i negozianti ed i cittadini milanesi.
