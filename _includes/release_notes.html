@@ -6,11 +6,9 @@
     <li>{{ site.data["lang"]["release_notes"]["note_3"] }}</li>
   </ul>
   <p>
-    <!-- <a href="{{ site.data["lang"]["release_notes"]["more_link"] }}">
-      <em>{{ site.data["lang"]["release_notes"]["more_link.text"] }} &raquo;</em>
-    </a> -->
-    {% for item in site.data["lang"]["release_notes"]["more_link"] %}
-      <a href="{{ item.link_html }}"><em>{{ item.text }} &raquo;</em></a>
-    {% endfor %}
+
+  {% for item in site.data["lang"]["release_notes"]["more_link"] %}
+    <a href="{{ item.link_html }}"><em>{{ item.text }} &raquo;</em></a>
+  {% endfor %}
   </p>
 </div>
