@@ -1,6 +1,6 @@
 ---
 layout: "projectPage"
-title: "La procedura"
+title: "EN La procedura"
 subtitle: "Essere accessibili ed in regola nel 2017"
 shortTex: "Abbiamo fatto delle ricerche sulla procedura di autocertificazione che permette di mettere il proprio negozio in regola e munirsi di rampa mobile a chiamata. Abbiamo identificato delle criticità e identificato delle possibiii soluzioni"
 buttons:
@@ -16,6 +16,8 @@ gallery:
   - "/assets/images/usertest_procedura.jpg"
 
 newsCategory: procedura
+lang: en
+permalink: procedura/
 ---
 Purtroppo i negozianti Milanesi non possono solamente acquistare una rampa e un campanello per essere in regola, ma deve seguire una procedura burocratica per fare in modo che il Comune di Milano possa verificare:
 - Che le dimensioni e gli attributi della rampa siano corretti

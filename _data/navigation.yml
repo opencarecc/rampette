@@ -5,11 +5,11 @@
   url: /pages
   sublinks:
     - title: Chiamata
-      url: /pages/chiamata
+      url: /chiamata
     - title: Procedura
-      url: /pages/procedura
+      url: /procedura
     - title: Comunicazione
-      url: /pages/comunicazione
+      url: /comunicazione
 
 - title: NEWS
   url: /blog
