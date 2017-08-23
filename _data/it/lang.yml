@@ -1,18 +1,18 @@
 global:
-  read-more: "Scopri di più"
-  read-more-post: "Leggi tutto"
+  read_more: "Scopri di più"
+  read_more_post: "Leggi tutto"
 home:
   topics: "I temi trattati"
 video:
   title: "Cos'è open rampette?"
   description: "open rampette è un’iniziativa pilota per il miglioramento dell’accessibilità degli esercizi commerciali ed è promossa dal Comune di Milano e da WeMake | fablab e makerspace all’interno del progetto"
 topics:
-  title-1: "La chiamata"
-  description-1: "Miglioriamo l'esperienza di utilizzo della rampa mobile a chiamata"
-  title-2: "La procedura"
-  description-2: "Snelliamo la procedura di regolamentarizzazione dei commercianti"
-  title-3: "La comunicazione"
-  description-3: "Mettiamo in mostra i negozi accessibili e creiamo un dialogo costruttivo"
+  title_1: "La chiamata"
+  description_1: "Miglioriamo l'esperienza di utilizzo della rampa mobile a chiamata"
+  title_2: "La procedura"
+  description_2: "Snelliamo la procedura di regolamentarizzazione dei commercianti"
+  title_3: "La comunicazione"
+  description_3: "Mettiamo in mostra i negozi accessibili e creiamo un dialogo costruttivo"
 slick:
   description: ""
 news:

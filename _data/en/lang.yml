@@ -1,18 +1,18 @@
 global:
-  read-more: "Read more"
-  read-more-post: "Read more"
+  read_more: "Read more"
+  read_more_post: "Read more"
 home:
   topics: "Project themes"
 video:
   title: "video english title"
   description: "english description"
 topics:
-  title-1: "topic 1"
-  description-1: "topic 1 description"
-  title-2: "topic 2"
-  description-2: "topic 2 description"
-  title-3: "topic 3"
-  description-3: "topic 3 description"
+  title_1: "topic 1"
+  description_1: "topic 1 description"
+  title_2: "topic 2"
+  description_2: "topic 2 description"
+  title_3: "topic 3"
+  description_3: "topic 3 description"
 slick:
   description: ""
 news:
