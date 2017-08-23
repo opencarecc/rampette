@@ -1,8 +1,6 @@
 global:
   read_more: "Read more"
   read_more_post: "Read more"
-home:
-  topics: "Project themes"
 header:
   title: "open rampette"
   tagline: "accesible shops for everyone"
@@ -17,6 +15,7 @@ video:
   title: "video english title"
   description: "english description"
 topics:
+  title: "Project themes"
   title_1: "topic 1"
   description_1: "topic 1 description"
   title_2: "topic 2"
