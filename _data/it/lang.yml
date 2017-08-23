@@ -13,3 +13,8 @@ topics:
   description-2: "Snelliamo la procedura di regolamentarizzazione dei commercianti"
   title-3: "La comunicazione"
   description-3: "Mettiamo in mostra i negozi accessibili e creiamo un dialogo costruttivo"
+slick:
+  description: ""
+news:
+  latest_news: "Ultime news dal blog"
+  link_to_blog: "Tutte le news"

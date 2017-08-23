@@ -13,3 +13,8 @@ topics:
   description-2: "topic 2 description"
   title-3: "topic 3"
   description-3: "topic 3 description"
+slick:
+  description: ""
+news:
+  latest_news: "Latest news from the blog"
+  link_to_blog: "All the news"
