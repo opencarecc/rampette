@@ -1,2 +1,8 @@
+global:
+  read-more: "Read more"
+  read-more-post: "Read more"
 home:
   topics: "Project themes"
+video:
+  title: "video title"
+  description: "english description"
