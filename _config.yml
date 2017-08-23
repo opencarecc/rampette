@@ -5,6 +5,7 @@ permalink: /blog/:year/:month/:day/:title/
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-polyglot
 exclude: [README.md]
 paginate: 10
 paginate_path: /blog/page:num/
@@ -21,3 +22,10 @@ buttons:
     link: https://github.com/opencarecc/openrampette/zipball/master
   - text: Build your own!
     link: https://github.com/opencarecc/openrampette/wiki
+
+# jekyll polyglot stuff
+
+languages: ["it", "en"]
+default_lang: "it"
+exclude_from_localization: ["javascript", "images", "css"]
+parallel_localization: true
