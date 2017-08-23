@@ -50,6 +50,12 @@
                 <li class="{{ current }}"><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
                 {% endif %}
             {% endfor %}
+                
+            {% for tongue in site.languages %}
+                <li>
+                    <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>
+                </li>
+            {% endfor %}    
             </ul>
         </nav>
     </div>
