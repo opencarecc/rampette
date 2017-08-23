@@ -2,12 +2,16 @@
 
 <footer class="site-footer">
   <div class="column">
+    <!-- <span class="owner">
+      <a href="{{ site.baseurl }}/">{{site.name}} </a>is maintained by 
+      <a href="https://opencare.cc">opencarecc</a>.
+    </span> -->
     <span class="owner">
-      <a href="https://github.com/opencarecc/MicroWebsiteTemplate">open rampette</a> is maintained by 
-      <a href="https://github.com/opencarecc">opencarecc</a>.
+      <a href="{{ site.baseurl }}/">{{site.name}} </a>{{ site.data["lang"]["footer"]["credits_line_html"] }}
     </span>
 
-      <p class="credits">This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 688670</p>
+    <!-- <p class="credits">This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 688670</p> -->
+    <p class="credits">{{ site.data["lang"]["footer"]["eu_agreement_line"] }}</p>
   </div>
   <div class="column">
     <img src="http://opencarecc.github.io/MicroWebsiteTemplate/assets/OC-EC-H2020.jpg">
