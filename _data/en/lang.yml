@@ -86,3 +86,10 @@ category:
   title: "Archive for category"
   year: "Year"
   category: "filed under"
+pagination:
+  next: "Next"
+  previous: "Previous"
+  page_1: "Page"
+  page_2: "of"
+
+  

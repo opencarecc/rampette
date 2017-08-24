@@ -80,3 +80,10 @@ category:
   title: "Archivio delle news nella categoria"
   year: "Anno"
   category: "categoria"
+pagination:
+  next: "Seguente"
+  previous: "Precedente"
+  page_1: "Pagina"
+  page_2: "di"
+
+  

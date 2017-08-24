@@ -15,7 +15,7 @@ title: All the News about open rampette
         <p class="postdate">{{ post.date | date_to_string }}</p>
         <img src="{{ post.image }}">
         {{ post.excerpt }}
-        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><em>leggi tutto »</em></a>
+        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><em>{{ site.data["lang"]["global"]["read_more_post"] }} &raquo;</em></a>
       </li>
 	  {% endfor %}
 	</ul>
@@ -23,14 +23,14 @@ title: All the News about open rampette
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">« Previous</a>
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">&laquo; {{ site.data["lang"]["pagination"]["previous"] }}</a>
     {% endif %}
 
     {% if paginator.total_pages > 1 %}
-      <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      <span class="page_number ">{{ site.data["lang"]["pagination"]["page_1"] }} {{ paginator.page }} {{ site.data["lang"]["pagination"]["page_2"] }} {{ paginator.total_pages }}</span>
     {% endif %}
 
     {% if paginator.next_page %}
-      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next »</a>
+      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">{{ site.data["lang"]["pagination"]["next"] }} &raquo;</a>
     {% endif %}
   </div>
