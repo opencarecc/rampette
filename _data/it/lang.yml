@@ -76,3 +76,7 @@ contribute:
 footer:
   credits_line_html: "è curato da <a href='https://opencare.cc'>opencarecc</a>"
   eu_agreement_line: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 688670"
+category:
+  title: "Archivio delle news nella categoria"
+  year: "Anno"
+  category: "categoria"
