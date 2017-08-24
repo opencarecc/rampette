@@ -22,6 +22,19 @@ topics:
   description_2: "topic 2 description"
   title_3: "topic 3"
   description_3: "topic 3 description"
+  topic_column:
+    - title: "The call"
+      description: "topic 1 description"
+      link: "chiamata"
+      img_url: "assets/images/device-custom.png"
+    - title: "The procedure"
+      description: "topic 2 description"
+      link: "procedura"
+      img_url: "assets/images/procedura.png"
+    - title: "Identity"
+      description: "topic 3 description"
+      link: "comunicazione"
+      img_url: "assets/images/sticker.png"
 slick:
   description: ""
 release_notes:
