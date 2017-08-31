@@ -1,9 +1,21 @@
+# Hello, this is the translation file for ENGLISH language
+
+
+# ------------------------------
+# --- GLOBAL dictionary keys --- 
+# ------------------------------
 global:
   read_more: "Read more"
   read_more_post: "Read more"
+
+
+# ---------------------------------
+# --- HOME page dictionary keys --- 
+# ---------------------------------
+# dictionary keys for homeheader.html include file
 header:
   title: "open rampette"
-  tagline: "accesible shops for everyone"
+  tagline: "accessible shops for everyone"
   buttons:
     - text: "View on GitHub"
       link: "https://github.com/opencarecc/openrampette"
@@ -11,17 +23,15 @@ header:
       link: "https://github.com/opencarecc/openrampette/zipball/master"
     - text: "Build your own!"
       link: "https://github.com/opencarecc/openrampette/wiki"
+
+# dictionary keys for video.html include file
 video:
   title: "video english title"
   description: "english description"
+
+# dictionary keys for topics.html include file
 topics:
   title: "Project themes"
-  title_1: "topic 1"
-  description_1: "topic 1 description"
-  title_2: "topic 2"
-  description_2: "topic 2 description"
-  title_3: "topic 3"
-  description_3: "topic 3 description"
   topic_column:
     - title: "The call"
       description: "topic 1 description"
@@ -35,8 +45,12 @@ topics:
       description: "topic 3 description"
       link: "comunicazione"
       img_url: "assets/images/sticker.png"
+
+# dictionary keys for slick_slider.html include file
 slick:
   description: ""
+
+# dictionary keys for release_notes.html include file
 release_notes:
   title: "Release 0.1 - 2016/09/12"
   note_1: "Release Note 1"
@@ -45,9 +59,13 @@ release_notes:
   more_link:
     - text: "More details"
       link_html: "about"
+
+# dictionary keys for news.html include file
 news:
   latest_news: "Latest news from the blog"
   link_to_blog: "All the news"
+
+# dictionary keys for tutorials.html include file
 tutorials:
   tutorial_column:
     - title: "Tutorial 1"
@@ -65,8 +83,12 @@ tutorials:
   more_link:
     - text: "Check all the tutorials"
       link_html: "about"
+
+# dictionary keys for license.html include file
 license:
   title: "Open Source"
+
+# dictionary keys for credits.html include file
 credits:
   title: "Credits"
   credits_content_html: "This website is maintained by <a href='http://wemake.cc' target='_blank'>WeMake</a> as part of the <a href='http://opencare.cc/' target='_blank'>opencare.cc</a> project.
@@ -74,18 +96,38 @@ credits:
                         This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 688670.
                         <br><br>
                         Got questions? Leave a comment below or get in touch <a href='mailto:opencare@wemake.cc?subject=In Pe' info request'>here</a>"
+
+# dictionary keys for contribute.html include file
 contribute:
   title: "How to contribute"
   contribute_1: "Contribute 1"
   contribute_2: "Contribute 2"
   contribute_3: "Contribute 3"
+
+
+# ------------------------------
+# --- FOOTER dictionary keys --- 
+# ------------------------------
+# dictionary keys for footer.html include file
 footer:
   credits_line_html: "is maintained by <a href='https://opencare.cc'>opencarecc</a>"
   eu_agreement_line: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 688670"
+
+
+# --------------------------------
+# --- CATEGORY dictionary keys --- 
+# --------------------------------
+# dictionary keys for category.html & post.html layout files
 category:
   title: "Archive for category"
   year: "Year"
   category: "filed under"
+
+
+# ----------------------------
+# --- BLOG dictionary keys --- 
+# ----------------------------
+# dictionary keys for blog/index.html file
 pagination:
   next: "Next"
   previous: "Previous"
