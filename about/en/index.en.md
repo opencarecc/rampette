@@ -1,6 +1,7 @@
 ---
 layout: default
-title: EN About open rampette by opencare.cc
+title:
+  en: About
 published: true
 lang: en
 permalink: about/
