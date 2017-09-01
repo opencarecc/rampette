@@ -13,12 +13,12 @@
 
     <!--row con titolo, sottotitolo, descrizione breve e link a github\-->
     <div class="row">
-      <h1>{{page.title}} </h1>
+      <h1>{{ page.title[lang] }} </h1>
     </div>
     <div class="row">
-      <h2>{{page.subtitle}}</h2>
+      <h2>{{ page.subtitle }}</h2>
       <p class="short-about">
-        {{page.shortTex}}
+        {{ page.shortTex }}
       </p>
       <p>
         {% for item in page.buttons %}
@@ -32,10 +32,10 @@
         {% include params_slick_slider.html gallery=page.gallery%}
       </div>
       <div class="column">
-        <h2>{{page.release}}</h2>
+        <h2>{{ page.release }}</h2>
         <ul>
           {% for item in page.features %}
-          <li>{{item}}</li>
+          <li>{{ item }}</li>
           {% endfor %}
         </ul>
         <!-- <p>
