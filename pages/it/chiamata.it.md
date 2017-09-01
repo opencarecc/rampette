@@ -1,6 +1,7 @@
 ---
 layout: "projectPage"
-title: "IT La chiamata"
+title:
+  it: La chiamata
 subtitle: "Quanto possiamo migliorare l’accessibilità dei negozi milanesi mediante un campanello ad-hoc ed una comunicazione adeguata?"
 shortTex: "Un'importante tema che abbiamo trattato è stato quello della chiamata; come possiamo migliorare l'accessibilità dei negozi milanesi migliorando l'esperienza di utilizzo del campanello di chiamata? Abbiamo sviluppato e testato un prototipo di un nuovo
 campanello (trasmettitore e ricevitore), utilizzabile anche via smartphome."

@@ -1,6 +1,7 @@
 ---
 layout: "projectPage"
-title: "IT La procedura"
+title:
+  it: La procedura
 subtitle: "Essere accessibili ed in regola nel 2017"
 shortTex: "Abbiamo fatto delle ricerche sulla procedura di autocertificazione che permette di mettere il proprio negozio in regola e munirsi di rampa mobile a chiamata. Abbiamo identificato delle criticità e identificato delle possibiii soluzioni"
 buttons:

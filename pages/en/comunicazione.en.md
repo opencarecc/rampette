@@ -1,6 +1,7 @@
 ---
 layout: "projectPage"
-title: "EN La comunicazione"
+title:
+  en: Communication
 subtitle: "abbattere le barriere tramite informazioni chiare e dialogo"
 shortTex: "Durante il progetto ci siamo resi conto di quanto una comunicazione efficace sia fondamentale per creare il necessario dialogo tra la figura di dioniso ed il commerciante. Il tema della comunicazione ha affrontato i seguenti interrogativi: Come riconosco quali sono i negozi accessibili? Dove sono i negozi accessibili?"
 buttons:
