@@ -17,7 +17,9 @@ github: [metadata]
 languages: ["it", "en"]
 default_lang: "it"
 exclude_from_localization: ["javascript", "images", "css"]
-parallel_localization: false
+parallel_localization: true
+data_dir: ./_data
+destination:  ./_site
 
 title:
   en: "open rampette by opencarecc"
