@@ -1,15 +1,23 @@
 <!-- IMPORTANT: Please only change text and links. Leave the HTML structure unchanged -->
 
-<section class="page-header">
+<!-- <section class="page-header">
   <div class="page-header-content">
-    <!-- <h1 class="project-name">{{ site.title }}</h1> -->
     <h1 class="project-name">{{ site.data["lang"]["header"]["title"] }}</h1>
-    <!-- <h2 class="project-tagline">{{ site.tagline }}</h2> -->
     <h2 class="project-tagline">{{ site.data["lang"]["header"]["tagline"] }}</h2>
 
     {% for item in site.data["lang"]["header"]["buttons"] %}
       <a href="{{ item.link }} " class="btn">{{ item.text }} </a>
     {% endfor %}
+  </div>
+</section> -->
 
+<section class="page-header">
+  <div class="page-header-content">
+    <h1 class="project-name">{{ site.title }}</h1>
+    <h2 class="project-tagline">{{ site.tagline }}</h2>
+
+    <a href="https://github.com/opencarecc/openrampette" class="btn">Vedi su GitHub</a>
+    <a href="https://github.com/opencarecc/openrampette/zipball/master" class="btn">Scarica .zip</a>
+    <a href="https://github.com/opencarecc/openrampette/wiki" class="btn">Costruisci!</a>
   </div>
 </section>

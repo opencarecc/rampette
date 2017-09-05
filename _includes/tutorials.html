@@ -1,4 +1,4 @@
-{% for item in site.data["lang"]["tutorials"]["tutorial_column"] %}
+<!-- {% for item in site.data["lang"]["tutorials"]["tutorial_column"] %}
   <div class="column tutorials">
     <a href="{{ item.link }}">
       <img src="{{ item.img_url }}">
@@ -12,4 +12,33 @@
   <span style="width:100%;text-align:center;margin-top:1rem;">
     <a href="{{ item.link_html }}"><em>{{ item.text }} &raquo;</em></a>
   </span>
-{% endfor %}
+{% endfor %} -->
+
+
+<div class="column tutorials">
+  <a href="http://www.google.com">
+    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
+  </a>
+  <h3>Tutorial 1</h3>
+  <p>Questa è la descrizione del Turorial 1</p>
+</div>
+<div class="column tutorials">
+  <a href="http://www.google.com">
+    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
+  </a>
+  <h3>Tutorial 2/h3>
+  <p>Questa è la descrizione del Turorial 2/p>
+</div>
+<div class="column tutorials">
+  <a href="http://www.google.com">
+    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
+  </a>
+  <h3>Tutorial 3</h3>
+  <p>Questa è la descrizione del Turorial 3</p>
+</div>
+
+
+
+<span style="width:100%;text-align:center;margin-top:1rem;">
+  <a href="{{ site.baseurl }}/about"><em>Vedi tutti i tutorial &raquo;</em></a>
+</span>
