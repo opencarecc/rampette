@@ -15,7 +15,7 @@ features:
   - visualizzazione dinamica della rampa generata
 github_release_link: https://github.com/opencarecc/rampette
 gallery:
-  - "/assets/images/usertest_procedura.jpg"
+  - "../assets/images/usertest_procedura.jpg"
 
 newsCategory: procedura
 <!-- lang: it -->

@@ -18,7 +18,7 @@ features:
   - "Conferma della corretta ricezione della chiamata"
 github_release_link: https://github.com/opencarecc/rampette
 gallery:
-  - "/assets/images/flier.jpg"
+  - "../assets/images/flier.jpg"
 newsCategory: chiamata
 published: true
 <!-- lang: it -->

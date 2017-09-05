@@ -19,8 +19,8 @@ features:
   - Esplicità che si tratta dell'accessibilità al superamento del gradino tramite rampa temporanea.
 github_release_link: https://github.com/opencarecc/rampette
 gallery:
-  - "/assets/images/adesivo.jpg"
-  - "/assets/images/risultati_questionario.png"
+  - "../assets/images/adesivo.jpg"
+  - "../assets/images/risultati_questionario.png"
 newsCategory: comunicazione
 <!-- lang: it -->
 permalink: comunicazione/
