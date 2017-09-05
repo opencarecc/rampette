@@ -1,5 +1,14 @@
 <!-- This finds the current page so it can be highlighted. -->
-{% for entry in site.data.lang.navigation %}
+<!-- {% for entry in site.data.lang.navigation %}
+{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+    {% if fullurl == page.url %}
+        {% assign current_page = fullurl %}
+        {% break %}
+    {% elsif page.url contains fullurl %}
+        {% assign current_page = fullurl %}
+    {% endif %}
+{% endfor %} -->
+{% for entry in site.data.navigation %}
 {% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
     {% if fullurl == page.url %}
         {% assign current_page = fullurl %}
@@ -24,7 +33,7 @@
             <label for="nav-trigger"></label>
 
             <!-- Language picker stuff: IMPORTANT DO NOT MOVE -->
-            <div id="lang-picker">
+            <!-- <div id="lang-picker">
                 <input type="checkbox" id="lang-trigger">
                 <label for="lang-trigger">
                     <li class="dropdown">
@@ -39,7 +48,7 @@
                         </ul>
                     </li>               
                 </label>
-            </div>
+            </div> -->
 
             <ul>
             {% for entry in site.data.navigation %}

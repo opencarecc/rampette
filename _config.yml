@@ -6,7 +6,7 @@ permalink: /blog/:year/:month/:day/:title/
 gems:
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-polyglot
+  # - jekyll-polyglot
 exclude: [README.md]
 paginate: 10
 paginate_path: /blog/page:num/
@@ -14,13 +14,13 @@ github: [metadata]
 
 # jekyll polyglot stuff
 
-languages: ["it", "en"]
-default_lang: "it"
-exclude_from_localization: ["javascript", "images", "css"]
-parallel_localization: true
-data_dir: ./_data
-destination:  ./_site
+# languages: ["it", "en"]
+# default_lang: "it"
+# exclude_from_localization: ["javascript", "images", "css"]
+# parallel_localization: true
+# data_dir: ./_data
+# destination:  ./_site
 
-title:
-  en: "open rampette by opencarecc"
-  it: "open rampette by opencarecc"
+# title:
+#   en: "open rampette by opencarecc"
+#   it: "open rampette by opencarecc"
