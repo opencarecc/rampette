@@ -23,5 +23,5 @@ group :jekyll_plugins do
   # gem "jekyll-github-metadata", "~> 1.0"
   gem "jekyll-sitemap"
   gem "jekyll-paginate"
-  gem "jekyll-polyglot"
+  # gem "jekyll-polyglot"
 end

@@ -3,10 +3,9 @@ author: WeMake
 markdown: kramdown
 baseurl: 
 permalink: /blog/:year/:month/:day/:title/
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
-  # - jekyll-polyglot
 exclude: [README.md]
 paginate: 10
 paginate_path: /blog/page:num/
