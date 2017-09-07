@@ -1,18 +1,18 @@
 - title: ABOUT
-  url: /about
+  url: /en/about
 
 - title: THEMES
-  url: /pages
+  url: /en/pages
   sublinks:
     - title: THE CALL
-      url: /chiamata
+      url: /en/chiamata
     - title: THE PROCEDURE
-      url: /procedura
+      url: /en/procedura
     - title: COMMUNICATION
-      url: /comunicazione
+      url: /en/comunicazione
 
 - title: NEWS
-  url: /blog
+  url: /en/blog
 
 - title: OPENCARE.CC
   url: http://opencare.cc
