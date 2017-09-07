@@ -1,16 +1,16 @@
 ---
 layout: default
-<!-- title:
-  it: About -->
 title: About
 published: true
-<!-- lang: it -->
-permalink: about/
+ref: about
+lang: it
 ---
+
+IT
 
 open rampette è un’iniziativa pilota per il miglioramento dell’accessibilità degli esercizi commerciali da parte di chi deve accedere tramite rampa o scivolo ed è promossa da WeMake e dal Comune di Milano.
 
-![open rampette](../assets/images/open-rampette_immagine-wp-960x600.png)
+![open rampette]({{ site.baseurl }}/assets/images/open-rampette_immagine-wp-960x600.png)
 
 Il percorso del progetto open rampette è iniziato ad Aprile 2017 e conclude una prima fase di ricerca e sviluppo dopo circa due mesi e mezzo di lavori a fine Luglio. In particolare dal 19 al 26 Luglio sono state testate in alcuni esercizi commerciali della zona Isola di Milano le applicazioni e i prototipi prodotti in questi mesi durante il percorso di co-progettazione.
 
