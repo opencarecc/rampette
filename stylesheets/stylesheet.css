@@ -38,6 +38,10 @@ ul {
   width: 100%;
 }
 
+.no-border {
+  border: none!important; 
+}
+
 /* === NAVIGATION BAR === */
 header {
   position: fixed;
