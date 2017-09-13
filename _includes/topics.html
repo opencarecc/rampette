@@ -13,7 +13,7 @@
   {% endfor %}
 </div> -->
 
-<h1>I temi trattati</h1>
+<!-- <h1>I temi trattati</h1>
 <div class="row" style="border-bottom: none;">  
   <div class="column topics">
     <a href="{{ site.baseurl }}/chiamata">
@@ -41,5 +41,19 @@
       <a href="{{ site.baseurl }}/comunicazione"><br><em>Scopri di più &raquo;</em></a>
     </a>
   </div>
+</div> -->
+
+<h1>{{ site.data[page.lang].lang["topics"]["title"] }}</h1>
+<div class="row" style="border-bottom: none;">  
+  {% for item in site.data[page.lang].lang["topics"]["topic_column"] %}
+    <div class="column topics">
+      <a href="{{ site.baseurl }}/{{ item.link }}">
+        <img src="{{ site.baseurl }}/{{ item.img_url }}">
+        <h3>{{ item.title }}</h3>
+        <p style="color: #606c71;">{{ item.description }}</p>
+        <a href="{{ site.baseurl }}/{{ item.link }}"><br><em>{{ site.data[page.lang].lang["global"]["read_more"] }} &raquo;</em></a>
+      </a>
+    </div>
+  {% endfor %}
 </div>
 
