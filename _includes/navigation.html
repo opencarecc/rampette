@@ -51,6 +51,29 @@
                 </label>
             </div> -->
 
+            <!-- Language picker stuff: IMPORTANT DO NOT MOVE -->
+            <div id="lang-picker">
+                <input type="checkbox" id="lang-trigger">
+                <label for="lang-trigger">
+                    <li class="dropdown">
+                        <span class="lang">{{ page.lang }}</span>
+                        <span class="lang-icon"><img src="{{ site.baseurl }}/assets/OC-lang.svg"></span>
+                        <ul class="dropdown-content">
+                            <!-- {% for tongue in site.languages %}
+                                <li>
+                                    <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>
+                                </li>
+                            {% endfor %} -->
+                              <!-- {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+                              {% for post in posts %} <li><a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a></li> {% endfor %} -->
+
+                              {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                              {% for page in pages %} <li><a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a></li> {% endfor %}
+                        </ul>
+                    </li>               
+                </label>
+            </div>
+
             <ul>
             {% for entry in site.data[page.lang].navigation %}
                 {% if entry.url == current_page %}
@@ -80,13 +103,13 @@
             {% endfor %}
             </ul>
 
-            <div class="wrapper" style="text-align: right; line-height: 2em">
+            <!-- <div class="wrapper" style="text-align: right; line-height: 2em">
               {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
               {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
 
               {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
               {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
-            </div>
+            </div> -->
         </nav>
     </div>
 </header>
