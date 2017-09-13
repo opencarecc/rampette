@@ -2,24 +2,27 @@
 layout: default
 type: archive
 published: true
-lang: site.data["active_lang"]
+<!-- lang: site.data["active_lang"] -->
 ---
 
 <div class="archive-description"> 
   <!-- <h1 class="archive-title">{{ site.data["lang"]["category"]["title"] }} <em>"{{ page.category }}"</em></h1> -->
-  <h1 class="archive-title">Archivio delle news nella categoria <em>"{{ page.category }}"</em></h1>
+  <!-- <h1 class="archive-title">Archivio delle news nella categoria <em>"{{ page.category }}"</em></h1> -->
+  <h1 class="archive-title">{{ site.data[page.lang].lang["category"]["title"] }} <em>"{{ page.category }}"</em></h1>
   <!-- {{ content }} -->
 </div>
 
 <div class="wrap">
 {% if site.categories[page.category] %}
   <div class="group-year">
-    {% for post in site.categories[page.category] %}
+    {% assign posts=site.categories[page.category] | where:"lang", page.lang %}
+    {% for post in posts %}
       {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
       {% unless year == this_year %}
         {% assign year = this_year %}
         <!-- <h3>{{ site.data["lang"]["category"]["year"] }} {{ year }}</h3> -->
-        <h3>Anno {{ year }}</h3>
+        <!-- <h3>Anno {{ year }}</h3> -->
+        <h3>{{ site.data[page.lang].lang["category"]["year"] }} {{ year }}</h3>
       {% endunless %}
       <article>
         <span>» </span>
