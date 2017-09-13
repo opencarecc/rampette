@@ -21,9 +21,11 @@ gallery:
   - "../assets/images/flier.jpg"
 newsCategory: chiamata
 published: true
-<!-- lang: it -->
+lang: it
+ref: chiamata-page
 permalink: chiamata/
 ---
+IT
 
 Le soluzioni di chiamata proposte sono state progettate sulla base di una progettazione partecipara con le istituzioni, i negozianti ed i cittadini milanesi.
 I dispositivi sono stati progettati sulle necessità specifiche della communità e sono già state testate sul campo presso alcuni negozi di Isola.

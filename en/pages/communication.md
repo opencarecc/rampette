@@ -1,7 +1,6 @@
 ---
 layout: "projectPage"
-title:
-  en: Communication
+title: Communication
 subtitle: "abbattere le barriere tramite informazioni chiare e dialogo"
 shortTex: "Durante il progetto ci siamo resi conto di quanto una comunicazione efficace sia fondamentale per creare il necessario dialogo tra la figura di dioniso ed il commerciante. Il tema della comunicazione ha affrontato i seguenti interrogativi: Come riconosco quali sono i negozi accessibili? Dove sono i negozi accessibili?"
 buttons:
@@ -20,10 +19,12 @@ github_release_link: https://github.com/opencarecc/rampette
 gallery:
   - "/assets/images/adesivo.jpg"
   - "/assets/images/risultati_questionario.png"
-newsCategory: comunicazione
+newsCategory: communication
 lang: en
-permalink: comunicazione/
+ref: comunicazione-page
+permalink: en/communication/
 ---
+EN
 
 Attraverso i vari momenti di confronto, il dialogo con i negozianti e con gli utenti finali ciò che è emerso in modo ricorrente è la necessità di una comunicazione efficace che, oltre a trasferire con chiarezza il messaggio dell'importanza di essere accessibili a tutti, rendendo la comunità più consapevole, agisca anche come elemento di attivazione collettiva per il miglioramento dell’esperienza di accessibilità nella propria città.
 

@@ -18,9 +18,12 @@ gallery:
   - "../assets/images/usertest_procedura.jpg"
 
 newsCategory: procedura
-<!-- lang: it -->
+lang: it
+ref: procedura-page
 permalink: procedura/
 ---
+IT
+
 Purtroppo i negozianti Milanesi non possono solamente acquistare una rampa e un campanello per essere in regola, ma deve seguire una procedura burocratica per fare in modo che il Comune di Milano possa verificare:
 - Che le dimensioni e gli attributi della rampa siano corretti
 - Se è possibile posizionare la rampa davanti al negozio senza compromettere l'uso del marciapiede

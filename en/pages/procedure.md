@@ -1,7 +1,6 @@
 ---
 layout: "projectPage"
-title:
-  en: The procedure
+title: The procedure
 subtitle: "Essere accessibili ed in regola nel 2017"
 shortTex: "Abbiamo fatto delle ricerche sulla procedura di autocertificazione che permette di mettere il proprio negozio in regola e munirsi di rampa mobile a chiamata. Abbiamo identificato delle criticità e identificato delle possibiii soluzioni"
 buttons:
@@ -16,10 +15,13 @@ github_release_link: https://github.com/opencarecc/rampette
 gallery:
   - "/assets/images/usertest_procedura.jpg"
 
-newsCategory: procedura
+newsCategory: the-procedure
 lang: en
-permalink: procedura/
+ref: procedura-page
+permalink: en/procedure/
 ---
+EN
+
 Purtroppo i negozianti Milanesi non possono solamente acquistare una rampa e un campanello per essere in regola, ma deve seguire una procedura burocratica per fare in modo che il Comune di Milano possa verificare:
 - Che le dimensioni e gli attributi della rampa siano corretti
 - Se è possibile posizionare la rampa davanti al negozio senza compromettere l'uso del marciapiede
