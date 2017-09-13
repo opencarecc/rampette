@@ -45,6 +45,7 @@ ul {
 /* === NAVIGATION BAR === */
 header {
   position: fixed;
+  top: 0!important;
   background-color: rgba(255,255,255,.95);
   /*background-color: red;*/
   width: 100%;
@@ -692,12 +693,15 @@ header {
 
 /* HEADER BANNER media queries */
 @media screen and (min-width: 64em) {
-  .page-header {}
+  .page-header {
+    margin-top: 6rem;
+  }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
     background-attachment: scroll;
+    margin-top: 5rem;
   }
   .page-header-content {
     max-width: 100%;
@@ -716,6 +720,7 @@ header {
 @media screen and (max-width: 42em) {
   .page-header {
     background-attachment: scroll;
+    margin-top: 5rem;
   }
   .page-header-content {
     max-width: 100%;
@@ -984,14 +989,16 @@ a:last-of-type.btn:hover {
 @media screen and (min-width: 64em) {
   .main-content {
     max-width: 64rem;
-    padding: 8rem 6rem 2rem;
+    /*padding: 8rem 6rem 2rem;*/
+    padding: 4rem 6rem 2rem;
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
-    padding: 8rem 4rem 2rem;
+    /*padding: 8rem 4rem 2rem;*/
+    padding: 4rem 4rem 2rem;
   }
   .main-content ul {
     padding-left: 20px;
@@ -1000,7 +1007,8 @@ a:last-of-type.btn:hover {
 
 @media screen and (max-width: 42em) {
   .main-content {
-    padding: 7rem 1rem 2rem;
+    /*padding: 7rem 1rem 2rem;*/
+    padding: 4rem 1rem 2rem;
     font-size: 1rem;
     /*overflow-x: hidden;*/
   }
