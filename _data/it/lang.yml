@@ -129,9 +129,9 @@ category:
 # --- BLOG dictionary keys --- 
 # ----------------------------
 # dictionary keys for blog/index.html file
-pagination:
-  next: "Seguente"
-  previous: "Precedente"
-  page_1: "Pagina"
-  page_2: "di"
+# pagination:
+#   next: "Seguente"
+#   previous: "Precedente"
+#   page_1: "Pagina"
+#   page_2: "di"
 

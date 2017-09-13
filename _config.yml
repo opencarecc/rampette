@@ -2,13 +2,13 @@ name: open rampette
 author: WeMake
 markdown: kramdown
 baseurl: 
-permalink: /blog/:year/:month/:day/:title/
+permalink: blog/:year/:month/:day/:title/
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
+  # - jekyll-paginate
 exclude: [README.md]
-paginate: 10
-paginate_path: /blog/page:num/
+# paginate: 10
+# paginate_path: /blog/page:num/
 github: [metadata]
 
 # jekyll polyglot stuff
