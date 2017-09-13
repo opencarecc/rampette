@@ -1,7 +1,6 @@
 ---
 layout: "projectPage"
-title:
-  en: The call
+title: The call
 subtitle: "Quanto possiamo migliorare l’accessibilità dei negozi milanesi mediante un campanello ad-hoc ed una comunicazione adeguata?"
 shortTex: "Un'importante tema che abbiamo trattato è stato quello della chiamata; come possiamo migliorare l'accessibilità dei negozi milanesi migliorando l'esperienza di utilizzo del campanello di chiamata? Abbiamo sviluppato e testato un prototipo di un nuovo
 campanello (trasmettitore e ricevitore), utilizzabile anche via smartphome."
@@ -18,11 +17,13 @@ features:
 github_release_link: https://github.com/opencarecc/rampette
 gallery:
   - "/assets/images/flier.jpg"
-newsCategory: chiamata
+newsCategory: the-call
 published: true
 lang: en
-permalink: chiamata/
+ref: chiamata-page
+permalink: en/call/
 ---
+EN
 
 Le soluzioni di chiamata proposte sono state progettate sulla base di una progettazione partecipara con le istituzioni, i negozianti ed i cittadini milanesi.
 I dispositivi sono stati progettati sulle necessità specifiche della communità e sono già state testate sul campo presso alcuni negozi di Isola.

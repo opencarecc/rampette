@@ -1,6 +1,7 @@
 <div class="column">
-    <h2>Ultime news dal blog<em> {{ include.category }}</em></h2>
+    <!-- <h2>Ultime news dal blog<em> {{ include.category }}</em></h2> -->
     <!-- <h2>{{ site.data["lang"]["news"]["latest_news"] }}<em> {{ include.category }}</em></h2> -->
+    <h2>{{ site.data[page.lang].lang["news"]["latest_news"] }}<em> {{ include.category }}</em></h2>
 
     <div class="row" style="border: none;">
       <!-- if a category is specified print the news of the specified category only -->
@@ -12,7 +13,8 @@
           </a>
           <h3>{{ post.title }}</h3>
           <!-- <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>{{ site.data["lang"]["global"]["read_more_post"] }} &raquo;</em></a></p> -->
-          <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>Leggi tutto &raquo;</em></a></p>
+          <!-- <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>Leggi tutto &raquo;</em></a></p> -->
+          <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>{{ site.data[page.lang].lang["global"]["read_more_post"] }} &raquo;</em></a></p>
         </div>
         {% endfor %}
 
@@ -28,7 +30,8 @@
             </a>
             <h3>{{ post.title }}</h3>
             <!-- <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>{{ site.data["lang"]["global"]["read_more_post"] }} &raquo;</em></a></p> -->
-            <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>Leggi tutto &raquo;</em></a></p>
+            <!-- <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>Leggi tutto &raquo;</em></a></p> -->
+            <p>{{ post.subtitle }}... <a href="{{ site.baseurl }}{{ post.url }}"><br><em>{{ site.data[page.lang].lang["global"]["read_more_post"] }} &raquo;</em></a></p>
           </div>
         {% endfor %}
 
@@ -38,7 +41,8 @@
     <p>
       <a href="{{ site.baseurl }}/blog">
         <!-- <em>{{ site.data["lang"]["news"]["link_to_blog"] }} &raquo;</em> -->
-        <em>Tutte le news &raquo;</em>
+        <!-- <em>Tutte le news &raquo;</em> -->
+        <em>{{ site.data[page.lang].lang["news"]["link_to_blog"] }} &raquo;</em>
       </a>
     </p>
 

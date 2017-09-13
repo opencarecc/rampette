@@ -1,7 +1,7 @@
 ---
 
 layout: default
-lang: site.data["active_lang"]
+
 ---
 
 <div class="post-header">
@@ -9,9 +9,11 @@ lang: site.data["active_lang"]
   <span class="meta">{{ page.date | date_to_string }}</span>
   <span style="margin: 0 .5rem;">|</span>
   <!-- <span class="category">{{ site.data["lang"]["category"]["category"] }}: -->
-  <span class="category">categoria:
+  <!-- <span class="category">categoria: -->
+  <span class="category">{{ site.data[page.lang].lang["category"]["category"] }}:
       {% for category in page.categories %}
-          <a href="{{site.baseurl}}/category/{{category}}" class="post-tag">
+          <!-- <a href="{{site.baseurl}}/category/{{category}}" class="post-tag"> -->
+          <a href="{{site.baseurl}}/categories/{{category}}" class="post-tag">
               {{ category }}
           </a>
       {% endfor %}

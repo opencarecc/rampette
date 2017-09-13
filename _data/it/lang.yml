@@ -1,3 +1,4 @@
+home: "Casa"
 # Hello, this is the translation file for ITALIAN language
 
 
@@ -27,7 +28,7 @@ header:
 # dictionary keys for video.html include file
 video:
   title: "Cos'è open rampette?"
-  description: "open rampette è un’iniziativa pilota per il miglioramento dell’accessibilità degli esercizi commerciali ed è promossa dal Comune di Milano e da WeMake | fablab e makerspace all’interno del progetto"
+  description: "open rampette è un’iniziativa pilota per il miglioramento dell’accessibilità degli esercizi commerciali ed è promossa dal Comune di Milano e da WeMake | fablab e makerspace all’interno del progetto <a href='http://opencare.cc' target='_blank'>opencare</a>."
 
 # dictionary keys for topics.html include file
 topics:
@@ -128,9 +129,9 @@ category:
 # --- BLOG dictionary keys --- 
 # ----------------------------
 # dictionary keys for blog/index.html file
-pagination:
-  next: "Seguente"
-  previous: "Precedente"
-  page_1: "Pagina"
-  page_2: "di"
+# pagination:
+#   next: "Seguente"
+#   previous: "Precedente"
+#   page_1: "Pagina"
+#   page_2: "di"
 
