@@ -6,11 +6,19 @@
     <li>{{ site.data["lang"]["contribute"]["contribute_3"] }}</li>
   </ul>
 </div> -->
-<div class="column">
+<!-- <div class="column">
   <h2>Come contribuire al progetto</h2>
   <ul>
     <li>Contribuire 1</li>
     <li>Contribuire 2</li>
     <li>Contribuire 3</li>
+  </ul>
+</div> -->
+<div class="column">
+  <h2>{{ site.data[page.lang].lang["contribute"]["title"] }}</h2>
+  <ul>
+    {% for item in site.data[page.lang].lang["contribute"]["contribution_guidelines"] %}
+      <li>{{ item.guideline }}</li>
+    {% endfor %}
   </ul>
 </div>

@@ -101,9 +101,10 @@ credits:
 # dictionary keys for contribute.html include file
 contribute:
   title: "Come contribuire al progetto"
-  contribute_1: "Contribuire 1"
-  contribute_2: "Contribuire 2"
-  contribute_3: "Contribuire 3"
+  contribution_guidelines:
+    - guideline: "Contribuire 1"
+    - guideline: "Contribuire 2"
+    - guideline: "Contribuire 3"
 
 
 # ------------------------------
