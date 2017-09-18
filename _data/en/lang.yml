@@ -65,21 +65,13 @@ release_notes:
 # dictionary keys for news.html include file
 news:
   latest_news: "Latest news from the blog"
-  link_to_blog: "All the news"
+  link_to_blog: "Read all the news"
 
 # dictionary keys for tutorials.html include file
 tutorials:
   tutorial_column:
     - title: "Tutorial 1"
       description: "This is a brief description of Tutorial 1"
-      link: "http://www.google.com"
-      img_url: "http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg"
-    - title: "Tutorial 2"
-      description: "This is a brief description of Tutorial 2"
-      link: "http://www.google.com"
-      img_url: "http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg"
-    - title: "Tutorial 3"
-      description: "This is a brief description of Tutorial 3"
       link: "http://www.google.com"
       img_url: "http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg"
   more_link:

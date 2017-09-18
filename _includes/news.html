@@ -3,7 +3,7 @@
     <!-- <h2>{{ site.data["lang"]["news"]["latest_news"] }}<em> {{ include.category }}</em></h2> -->
     <h2>{{ site.data[page.lang].lang["news"]["latest_news"] }}<em> {{ include.category }}</em></h2>
 
-    <div class="row" style="border: none;">
+    <div class="row no-border">
       <!-- if a category is specified print the news of the specified category only -->
       {% if include.category %}
         {% for post in site.categories[include.category] offset: 0 limit: 3 %}
@@ -38,7 +38,7 @@
       {% endif %}
     </div>
 
-    <p>
+    <p style="text-align: center;">
       <!-- <a href="{{ site.baseurl }}/blog"> -->
       {% assign blog_pages=site.pages | where:"ref", "blog" %} <!-- this finds all the pages with the "blog" ref -->
       {% assign blog_page=blog_pages | where:"lang", page.lang %} <!-- this finds the blog page within the current lang -->
