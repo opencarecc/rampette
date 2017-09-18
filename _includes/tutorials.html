@@ -15,7 +15,7 @@
 {% endfor %} -->
 
 
-<div class="column tutorials">
+<!-- <div class="column tutorials">
   <a href="http://www.google.com">
     <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
   </a>
@@ -41,4 +41,23 @@
 
 <span style="width:100%;text-align:center;margin-top:1rem;">
   <a href="{{ site.baseurl }}/about"><em>Vedi tutti i tutorial &raquo;</em></a>
-</span>
+</span> -->
+<div class="row no-border">
+{% for item in site.data[page.lang].lang["tutorials"]["tutorial_column"] %}
+  <div class="column tutorials">
+    <a href="{{ item.link }}">
+      <img src="{{ item.img_url }}">
+    </a>
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.description }}</p>
+  </div>
+{% endfor %}
+</div>
+
+{% for item in site.data[page.lang].lang["tutorials"]["more_link"] %}
+  <!-- <span style="width:100%;text-align:center;margin-top:1rem;"> -->
+  <p style="text-align: center;">
+    <a href="{{ item.link_html }}"><em>{{ item.text }} &raquo;</em></a>
+  </p>
+  <!-- </span> -->
+{% endfor %}
