@@ -39,11 +39,16 @@
     </div>
 
     <p>
-      <a href="{{ site.baseurl }}/blog">
-        <!-- <em>{{ site.data["lang"]["news"]["link_to_blog"] }} &raquo;</em> -->
-        <!-- <em>Tutte le news &raquo;</em> -->
-        <em>{{ site.data[page.lang].lang["news"]["link_to_blog"] }} &raquo;</em>
-      </a>
+      <!-- <a href="{{ site.baseurl }}/blog"> -->
+      {% assign blog_pages=site.pages | where:"ref", "blog" %} <!-- this finds all the pages with the "blog" ref -->
+      {% assign blog_page=blog_pages | where:"lang", page.lang %} <!-- this finds the blog page within the current lang -->
+      {% for page in blog_page %}
+        <a href="{{ page.url | prepend: site.baseurl }}">
+          <!-- <em>{{ site.data["lang"]["news"]["link_to_blog"] }} &raquo;</em> -->
+          <!-- <em>Tutte le news &raquo;</em> -->
+          <em>{{ site.data[page.lang].lang["news"]["link_to_blog"] }} &raquo;</em>
+        </a>
+      {% endfor %}
     </p>
 
 </div>
