@@ -50,6 +50,11 @@ topics:
 # dictionary keys for slick_slider.html include file
 slick:
   description: ""
+  # pics:
+  #   - pic: 'https://farm5.staticflickr.com/4211/34767438573_c6c73445d7_z_d.jpg'
+  #   - pic: 'https://farm5.staticflickr.com/4217/35189199200_654c462308_z_d.jpg'
+  #   - pic: '{{ site.baseurl }}/assets/images/usertest_procedura.jpg'
+  #   - pic: '{{ site.baseurl }}/assets/images/flier.jpg'
 
 # dictionary keys for release_notes.html include file
 release_notes:
