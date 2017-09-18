@@ -54,9 +54,10 @@ slick:
 # dictionary keys for release_notes.html include file
 release_notes:
   title: "Release 0.1 - 2016/09/12"
-  note_1: "Nota 1"
-  note_2: "Nota 2"
-  note_3: "Nota 3"
+  notes:
+    - note: "Nota 1"
+    - note: "Nota 2"
+    - note: "Nota 3"
   more_link:
     - text: "Maggiori informazioni"
       link_html: "about"
