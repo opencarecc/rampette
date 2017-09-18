@@ -64,8 +64,8 @@
                                     <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>
                                 </li>
                             {% endfor %} -->
-                              <!-- {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-                              {% for post in posts %} <li><a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a></li> {% endfor %} -->
+                              {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+                              {% for post in posts %} <li><a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a></li> {% endfor %}
 
                               {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                               {% for page in pages %} <li><a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a></li> {% endfor %}
