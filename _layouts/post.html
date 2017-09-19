@@ -12,14 +12,19 @@ layout: default
   <!-- <span class="category">categoria: -->
   <span class="category">{{ site.data[page.lang].lang["category"]["category"] }}:
       {% for category in page.categories %}
-      {% if category == page.lang %}
-        {% continue %}
-      {% else %}
-          <!-- <a href="{{site.baseurl}}/category/{{category}}" class="post-tag"> -->
-          <a href="{{site.baseurl}}/categories/{{category}}" class="post-tag">
+        {% if category == page.lang %}
+          {% continue %}
+        {% else %}
+          {% if page.lang == site.default_lang %}
+            <a href="{{site.baseurl}}/category/{{category}}" class="post-tag">
               {{ category }}
-          </a>
-      {% endif %}
+            </a>
+          {% else %}
+            <a href="{{site.baseurl}}/{{page.lang}}/category/{{category}}" class="post-tag">
+              {{ category }}
+            </a>
+          {% endif %}
+        {% endif %}
       {% endfor %}
   </span>
 </div>
