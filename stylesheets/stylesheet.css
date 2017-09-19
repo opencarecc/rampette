@@ -1034,8 +1034,8 @@ a:last-of-type.btn:hover {
   display: -webkit-flex;
   flex-flow: row wrap;
   -webkit-flex-flow: row wrap;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
+  /*justify-content: space-between;
+  -webkit-justify-content: space-between;*/
 }
 .row:first-of-type {
   padding-top: 1.5rem;
