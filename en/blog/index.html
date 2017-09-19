@@ -1,63 +1,43 @@
 ---
 layout: default
-<!-- title:
-  it: Tutte le news su open rampette
-  en: All the news from open rampette -->
 title: All the news about open rampette
 ref: blog
 lang: en
 ---
-<!-- {% assign lang = site.active_lang %} -->
 
-EN
+<!-- title -->
+<div class="row">
+  <h1>{{ page.title }}</h1>
+</div>
 
-  <!-- <h1 style="float:left;">{{ page.title }}</h1>
-  <p class="atom"><a href="{{ site.baseurl }}/blog/atom.xml" target="_blank">Subscribe to RSS feed</a></p> -->
-  <div class="row">
-      <!-- <h1>{{ page.title[lang] }}</h1> -->
-      <h1>{{ page.title }}</h1>
-  </div>
-	<!-- <ul class="posts">
-	  {% for post in site.posts %}
-	    <li>
-        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><h2>{{ post.title }}</span></h2></a>
-        <p class="postdate">{{ post.date | date_to_string }}</p>
-        <img src="{{ post.image }}">
-        {{ post.excerpt }}
-        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><em>{{ site.data["lang"]["global"]["read_more_post"] }} &raquo;</em></a>
-        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><em>Leggi tutto &raquo;</em></a>
-      </li>
-	  {% endfor %}
-	</ul> -->
-
-  <ul class="posts">
+<!-- list of posts in lang -->
+<ul class="posts">
   {% assign posts=site.posts | where:"lang", page.lang %}
   {% for post in posts %}
-      <li>
-          <!-- <a href="{{ post.url }}">{{ post.title }}</a> -->
-          <a href="{{ post.url }}" title="{{ post.title }}"><h2>{{ post.title }}</span></h2></a>
-          <p class="postdate">{{ post.date | date_to_string }}</p>
-          <img src="{{ post.image }}">
-          {{ post.excerpt }}
-          <a href="{{ post.url }}" title="{{ post.title }}"><em>{{ site.data[page.lang].lang["global"]["read_more_post"] }} &raquo;</em></a>
-      </li>
+    <li>
+      <a href="{{ post.url }}" title="{{ post.title }}"><h2>{{ post.title }}</span></h2></a>
+      <p class="postdate">{{ post.date | date_to_string }}</p>
+      <img src="{{ post.image }}">
+      {{ post.excerpt }}
+      <a href="{{ post.url }}" title="{{ post.title }}"><em>{{ site.data[page.lang].lang["global"]["read_more_post"] }} &raquo;</em></a>
+    </li>
   {% endfor %}
-  </ul>
+</ul>
 
-  <!-- Pagination links -->
-  <!-- <div class="pagination"> -->
-    <!-- {% if paginator.previous_page %} -->
-      <!-- <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">&laquo; {{ site.data["lang"]["pagination"]["previous"] }}</a> -->
-      <!-- <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">&laquo; Precedente</a> -->
-    <!-- {% endif %} -->
+<!-- Pagination links -->
+<!-- <div class="pagination"> -->
+  <!-- {% if paginator.previous_page %} -->
+    <!-- <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">&laquo; {{ site.data["lang"]["pagination"]["previous"] }}</a> -->
+    <!-- <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">&laquo; Precedente</a> -->
+  <!-- {% endif %} -->
 
-    <!-- {% if paginator.total_pages > 1 %} -->
-      <!-- <span class="page_number ">{{ site.data["lang"]["pagination"]["page_1"] }} {{ paginator.page }} {{ site.data["lang"]["pagination"]["page_2"] }} {{ paginator.total_pages }}</span> -->
-      <!-- <span class="page_number ">Pagina {{ paginator.page }} di {{ paginator.total_pages }}</span> -->
-    <!-- {% endif %} -->
+  <!-- {% if paginator.total_pages > 1 %} -->
+    <!-- <span class="page_number ">{{ site.data["lang"]["pagination"]["page_1"] }} {{ paginator.page }} {{ site.data["lang"]["pagination"]["page_2"] }} {{ paginator.total_pages }}</span> -->
+    <!-- <span class="page_number ">Pagina {{ paginator.page }} di {{ paginator.total_pages }}</span> -->
+  <!-- {% endif %} -->
 
-    <!-- {% if paginator.next_page %} -->
-      <!-- <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">{{ site.data["lang"]["pagination"]["next"] }} &raquo;</a> -->
-      <!-- <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Seguente &raquo;</a> -->
-    <!-- {% endif %} -->
-  <!-- </div> -->
+  <!-- {% if paginator.next_page %} -->
+    <!-- <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">{{ site.data["lang"]["pagination"]["next"] }} &raquo;</a> -->
+    <!-- <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Seguente &raquo;</a> -->
+  <!-- {% endif %} -->
+<!-- </div> -->
