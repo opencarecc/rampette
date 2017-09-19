@@ -6,7 +6,7 @@ ref: about
 lang: en
 ---
 
-EN
+THIS PAGE NEEDS TO BE TRANSLATED
 
 open rampette è un’iniziativa pilota per il miglioramento dell’accessibilità degli esercizi commerciali da parte di chi deve accedere tramite rampa o scivolo ed è promossa da WeMake e dal Comune di Milano.
 
@@ -14,7 +14,7 @@ open rampette è un’iniziativa pilota per il miglioramento dell’accessibilit
 
 Il percorso del progetto open rampette è iniziato ad Aprile 2017 e conclude una prima fase di ricerca e sviluppo dopo circa due mesi e mezzo di lavori a fine Luglio. In particolare dal 19 al 26 Luglio sono state testate in alcuni esercizi commerciali della zona Isola di Milano le applicazioni e i prototipi prodotti in questi mesi durante il percorso di co-progettazione.
 
-![open rampette](../assets/images/34721097262_1b50e547c5_z.jpg)
+![open rampette]({{ site.baseurl }}/assets/images/34721097262_1b50e547c5_z.jpg)
 
 Sono stati affrontati due temi di progettazione:
 
@@ -27,7 +27,7 @@ I temi sono emersi analizzando il contesto pre-esistente (articoli, interviste),
 Un supporto passo passo per il commerciante che viene informato e guidato nella compilazione dei documenti per comunicare e validare con il Comune di Milano la presenza della rampa a chiamata.
 Un prototipo di mini-sito consente di inserire e controllare i dati e fornisce il documento compilato da presentare all’ufficio comunale.
 
-![open rampette](../assets/images/PROCEDURA.gif)
+![open rampette]({{ site.baseurl }}/assets/images/PROCEDURA.gif)
 
 ## La chiamata:
 Un nuovo campanello di chiamata che potrebbe migliorare l’accessibilità dei negozi, da testare per capire come e quanto il prodotto è efficace nel risolvere la problematica individuata.
@@ -36,14 +36,14 @@ Il prototipo consiste di tre parti:
 2. Una app per smartphone che notifica la persona con disabilità motorie ogni volta che si trova nei pressi di un negozio accessibile e permette di richiedere assistenza (suonando il campanello) tramite smartphone
 3. Un ricevitore del campanello che notifica, con luce, suono o vibrazione, il negoziante della richiesta di assistenza
 
-![open rampette](../assets/images/prototipiCartoon-1.png)
+![open rampette]({{ site.baseurl }}/assets/images/prototipiCartoon-1.png)
 
 La ricerca e il percorso di co-progettazione hanno inoltre sollevato la necessità di affrontare un terzo tema progettuale, la comunicazione.
 
 ## L’adesivo:
 Un’altra proposta selezionata durante il percorso è stata quella di creare un adesivo che segnala in modo immediato i negozi accessibili nel quartiere. È un’idea semplice che non ha richiesto molta tecnologia nella sua realizzazione, ma che cerca di risolvere in modo molto diretto una domanda importante emersa durante la nostra ricerca: “come faccio a capire se un negozio è accessibile o meno?”
 
-![open rampette](../assets/images/adesivo.jpg)
+![open rampette]({{ site.baseurl }}/assets/images/adesivo.jpg)
 
 Per noi è stato fondamentale portare all’interno degli incontri di questi mesi l’approccio “maker”: tramite strumenti di design partecipato abbiamo indagato le problematiche con i diretti interessati e con loro abbiamo trovato e costruito delle soluzioni
 
