@@ -695,6 +695,7 @@ header {
 @media screen and (min-width: 64em) {
   .page-header {
     margin-top: 6rem;
+    margin-bottom: -4rem;
   }
 }
 
@@ -702,6 +703,7 @@ header {
   .page-header {
     background-attachment: scroll;
     margin-top: 5rem;
+    margin-bottom: -4rem;
   }
   .page-header-content {
     max-width: 100%;
@@ -721,6 +723,7 @@ header {
   .page-header {
     background-attachment: scroll;
     margin-top: 5rem;
+    margin-bottom: -4rem;
   }
   .page-header-content {
     max-width: 100%;
@@ -867,7 +870,7 @@ a:last-of-type.btn:hover {
 .main-content {
   font-weight: 300;
   font-size: 1rem;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
 }
 .main-content :first-child {
   margin-top: 0; }
@@ -989,16 +992,16 @@ a:last-of-type.btn:hover {
 @media screen and (min-width: 64em) {
   .main-content {
     max-width: 64rem;
-    /*padding: 8rem 6rem 2rem;*/
-    padding: 4rem 6rem 2rem;
+    padding: 8rem 6rem 2rem;
+    /*padding: 4rem 6rem 2rem;*/
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
-    /*padding: 8rem 4rem 2rem;*/
-    padding: 4rem 4rem 2rem;
+    padding: 8rem 4rem 2rem;
+    /*padding: 4rem 4rem 2rem;*/
   }
   .main-content ul {
     padding-left: 20px;
@@ -1007,8 +1010,8 @@ a:last-of-type.btn:hover {
 
 @media screen and (max-width: 42em) {
   .main-content {
-    /*padding: 7rem 1rem 2rem;*/
-    padding: 4rem 1rem 2rem;
+    padding: 7rem 1rem 2rem;
+    /*padding: 4rem 1rem 2rem;*/
     font-size: 1rem;
     /*overflow-x: hidden;*/
   }
