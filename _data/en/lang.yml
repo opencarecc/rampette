@@ -28,6 +28,7 @@ header:
 video:
   title: "video english title"
   description: "english description"
+  link: "about"
 
 # dictionary keys for topics.html include file
 topics:
@@ -59,7 +60,7 @@ release_notes:
     - note: "Note 3"
   more_link:
     - text: "More details"
-      link_html: "about"
+      link: "about"
 
 # dictionary keys for news.html include file
 news:
@@ -83,7 +84,7 @@ tutorials:
       img_url: "http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg"
   more_link:
     - text: "Check all the tutorials"
-      link_html: "about"
+      link: "about"
 
 # dictionary keys for license.html include file
 license:
@@ -108,6 +109,9 @@ contribute:
     - guideline: "Contribute 1"
     - guideline: "Contribute 2"
     - guideline: "Contribute 3"
+  more_link:
+    - text: "Read more"
+      link: "about"
 
 
 # ------------------------------
@@ -133,10 +137,10 @@ category:
 # --- BLOG dictionary keys --- 
 # ----------------------------
 # dictionary keys for blog/index.html file
-pagination:
-  next: "Next"
-  previous: "Previous"
-  page_1: "Page"
-  page_2: "of"
+# pagination:
+#   next: "Next"
+#   previous: "Previous"
+#   page_1: "Page"
+#   page_2: "of"
 
   

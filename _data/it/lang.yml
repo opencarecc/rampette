@@ -28,6 +28,7 @@ header:
 video:
   title: "Cos'è open rampette?"
   description: "open rampette è un’iniziativa pilota per il miglioramento dell’accessibilità degli esercizi commerciali ed è promossa dal Comune di Milano e da WeMake | fablab e makerspace all’interno del progetto <a href='http://opencare.cc' target='_blank'>opencare</a>."
+  link: "about"
 
 # dictionary keys for topics.html include file
 topics:
@@ -52,7 +53,7 @@ slick:
   # pics:
   #   - pic: 'https://farm5.staticflickr.com/4211/34767438573_c6c73445d7_z_d.jpg'
   #   - pic: 'https://farm5.staticflickr.com/4217/35189199200_654c462308_z_d.jpg'
-  #   - pic: '{{ site.baseurl }}/assets/images/usertest_procedura.jpg'
+  #   - pic: 'https://opencare.github.io/rampette/assets/images/usertest_procedura.jpg'
   #   - pic: '{{ site.baseurl }}/assets/images/flier.jpg'
 
 # dictionary keys for release_notes.html include file
@@ -64,7 +65,7 @@ release_notes:
     - note: "Nota 3"
   more_link:
     - text: "Maggiori informazioni"
-      link_html: "about"
+      link: "about"
 
 # dictionary keys for news.html include file
 news:
@@ -88,7 +89,7 @@ tutorials:
       img_url: "http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg"
   more_link:
     - text: "Vedi tutti i tutorial"
-      link_html: "about"
+      link: "about"
 
 # dictionary keys for license.html include file
 license:
@@ -113,6 +114,9 @@ contribute:
     - guideline: "Contribuire 1"
     - guideline: "Contribuire 2"
     - guideline: "Contribuire 3"
+  more_link:
+    - text: "Maggiori informazioni"
+      link: "about"
 
 
 # ------------------------------

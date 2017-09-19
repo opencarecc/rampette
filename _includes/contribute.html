@@ -1,24 +1,19 @@
-<!-- <div class="column">
-  <h2>{{ site.data["lang"]["contribute"]["title"] }}</h2>
-  <ul>
-    <li>{{ site.data["lang"]["contribute"]["contribute_1"] }}</li>
-    <li>{{ site.data["lang"]["contribute"]["contribute_2"] }}</li>
-    <li>{{ site.data["lang"]["contribute"]["contribute_3"] }}</li>
-  </ul>
-</div> -->
-<!-- <div class="column">
-  <h2>Come contribuire al progetto</h2>
-  <ul>
-    <li>Contribuire 1</li>
-    <li>Contribuire 2</li>
-    <li>Contribuire 3</li>
-  </ul>
-</div> -->
+<!-- To edit the content of this module please check lang.yml -->
 <div class="column">
+  <!-- title -->
   <h2>{{ site.data[page.lang].lang["contribute"]["title"] }}</h2>
+
+  <!-- content -->
   <ul>
     {% for item in site.data[page.lang].lang["contribute"]["contribution_guidelines"] %}
       <li>{{ item.guideline }}</li>
     {% endfor %}
   </ul>
+
+  <!-- link to more -->
+  <p>
+    {% for item in site.data[page.lang].lang["contribute"]["more_link"] %}
+      <a href="{{ item.link }}"><em>{{ item.text }} &raquo;</em></a>
+    {% endfor %}
+  </p>
 </div>

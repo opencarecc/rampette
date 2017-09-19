@@ -1,50 +1,8 @@
-<!-- IMPORTANT: Please only change text and links. Leave the HTML structure unchanged -->
-<!-- <h1>{{ site.data["lang"]["topics"]["title"] }}</h1>
-<div class="row" style="border-bottom: none;">  
-  {% for item in site.data["lang"]["topics"]["topic_column"] %}
-    <div class="column topics">
-      <a href="{{ site.baseurl }}/{{ item.link }}">
-        <img src="{{ site.baseurl }}/{{ item.img_url }}">
-        <h3>{{ item.title }}</h3>
-        <p style="color: #606c71;">{{ item.description }}</p>
-        <a href="{{ site.baseurl }}/{{ item.link }}"><br><em>{{ site.data["lang"]["global"]["read_more"] }} &raquo;</em></a>
-      </a>
-    </div>
-  {% endfor %}
-</div> -->
-
-<!-- <h1>I temi trattati</h1>
-<div class="row" style="border-bottom: none;">  
-  <div class="column topics">
-    <a href="{{ site.baseurl }}/chiamata">
-      <img src="{{ site.baseurl }}/assets/images/device-custom.png">
-      <h3>La chiamata</h3>
-      <p style="color: #606c71;">Miglioriamo l'esperienza di utilizzo della rampa mobile a chiamata</p>
-      <a href="{{ site.baseurl }}/chiamata"><br><em>Scopri di più &raquo;</em></a>
-    </a>
-  </div>
-
-  <div class="column topics">
-    <a href="{{ site.baseurl }}/procedura">
-      <img src="{{ site.baseurl }}/assets/images/procedura.png">
-      <h3>La procedura</h3>
-      <p style="color: #606c71;">Snelliamo la procedura di regolamentarizzazione dei commercianti</p>
-      <a href="{{ site.baseurl }}/procedura"><br><em>Scopri di più &raquo;</em></a>
-    </a>
-  </div>
-
-  <div class="column topics">
-    <a href="{{ site.baseurl }}/comunicazione">
-      <img src="{{ site.baseurl }}/assets/images/sticker.png">
-      <h3>La comunicazione</h3>
-      <p style="color: #606c71;">Mettiamo in mostra i negozi accessibili e creiamo un dialogo costruttivo</p>
-      <a href="{{ site.baseurl }}/comunicazione"><br><em>Scopri di più &raquo;</em></a>
-    </a>
-  </div>
-</div> -->
-
+<!-- title -->
 <h1>{{ site.data[page.lang].lang["topics"]["title"] }}</h1>
-<div class="row" style="border-bottom: none;">  
+
+<!-- content -->
+<div class="row no-border">  
   {% for item in site.data[page.lang].lang["topics"]["topic_column"] %}
     <div class="column topics">
       <a href="{{ site.baseurl }}/{{ item.link }}">
