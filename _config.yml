@@ -11,22 +11,10 @@ exclude: [README.md]
 # paginate_path: /blog/page:num/
 github: [metadata]
 
-# jekyll polyglot stuff
-
-# languages: ["it", "en"]
-# default_lang: "it"
-# exclude_from_localization: ["javascript", "images", "css"]
-# parallel_localization: true
-# data_dir: ./_data
-# destination:  ./_site
-
-# title:
-#   en: "open rampette by opencarecc"
-#   it: "open rampette by opencarecc"
-
-title: "open rampette"
+title: "open rampette by opencarecc"
 tagline: "miglioriamo l’accessibilità degli esercizi commerciali"
 
+# multilingual stuff
 index:
   it:
   en: en/index.html
