@@ -23,7 +23,8 @@ lang: en
 ref: chiamata-page
 permalink: en/call/
 ---
-EN
+
+THIS PAGE NEEDS TO BE TRANSLATED
 
 Le soluzioni di chiamata proposte sono state progettate sulla base di una progettazione partecipara con le istituzioni, i negozianti ed i cittadini milanesi.
 I dispositivi sono stati progettati sulle necessità specifiche della communità e sono già state testate sul campo presso alcuni negozi di Isola.
@@ -51,10 +52,10 @@ La soluzione proposta è composta da tre parti:
 
 
 ### Scenario di utilizzo del campanello
-![storyboard utilizzo campanello](../assets/images/scenario-1.png)
+![storyboard utilizzo campanello]({{ site.baseurl }}/assets/images/scenario-1.png)
 
 ### Scenario di utilizzo del campanello tramite app
-![storyboard utilizzo campanello tramite app](../assets/images/scenario-2.png)
+![storyboard utilizzo campanello tramite app]({{ site.baseurl }}/assets/images/scenario-2.png)
 
 ### Istruzioni di assemblaggio
 

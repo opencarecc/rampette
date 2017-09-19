@@ -20,7 +20,8 @@ lang: en
 ref: procedura-page
 permalink: en/procedure/
 ---
-EN
+
+THIS PAGE NEEDS TO BE TRANSLATED
 
 Purtroppo i negozianti Milanesi non possono solamente acquistare una rampa e un campanello per essere in regola, ma deve seguire una procedura burocratica per fare in modo che il Comune di Milano possa verificare:
 - Che le dimensioni e gli attributi della rampa siano corretti
@@ -40,7 +41,7 @@ Abbiamo ricevuto ottimi riscontri e informazioni che ci hanno portato alla prepa
 **_“Informazioni difficili sono la misura della pedana, altezza e lunghezza e pendenze. Come le calcolo?”_**
 
 
-![Intervista pic](../assets/images/procedura_user_research.png)
+![Intervista pic]({{ site.baseurl }}/assets/images/procedura_user_research.png)
 
 Abbiamo inizialmente analizzato le varie situazioni specifiche di ogni esercizio commerciale e abbiamo chiesto informazioni come ad esempio:
 - Come ha ricevuto l’informazione che si dovevi seguire una procedura di regolamentazione?
@@ -74,8 +75,8 @@ Ecco i fattori chiave che ci hanno portato a progettare uno strumento che si con
 
 È molto comune purtroppo che le procedure burocratiche siano progettate in modo da soddisfare principalmente le esigenze della burocrazia. Nel nostro caso ad esempio il modo in cui sono organizzate le informazioni nella procedura non prende in considerazione come Minerva (la proprietaria del nostro negozio) avrebbe ragionato davanti al problema dell'accessibilità, ma altresì sono poste nella prospettiva di risolvere un problema burocratico, principalmente dal punto di vista della persona che avrebbe esaminato il modulo riempito.
 Quindi la prima cosa che abbiamo fatto è stata la creazione di uno schema logico delle domande che Minerva si sarebbe chiesta approcciando il problema dell'accessibilità.
-[
-[Pic data flow]](https://edgeryders.eu/uploads/default/original/2X/9/9a613777d0431bccbdada123312b4a7ad8233e1c.jpg)
+
+![Pic data flow](https://edgeryders.eu/uploads/default/original/2X/9/9a613777d0431bccbdada123312b4a7ad8233e1c.jpg)
 
 Le domande che avrebbero esonerato in modo più diretto Minerva dal completamento della procedura sono state messe in primo piano. Questo potrebbe sembrare strano o ingiusto per alcuni di voi, come se volessimo favorire gli esercenti a saltare la procedura, ma naturalmente questo non è quello che vogliamo... Proviamo a metterci per un secondo nei panni di Minerva, saresti felice o frustrata di aver calcolato marciapiede, scalino, pendenza, aver cercato online una rampa (o contattato un produttore di rampe) solo per poi sapere che dato che il tuo negozio è in fase di ristrutturazione è obbligatorio seguire un altro tipo di procedura? Penso che chiunque tra noi Minerve si sentirebbe alquanto frustrata...
 

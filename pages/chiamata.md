@@ -1,7 +1,5 @@
 ---
 layout: "projectPage"
-<!-- title:
-  it: La chiamata -->
 title: La chiamata
 subtitle: "Quanto possiamo migliorare l’accessibilità dei negozi milanesi mediante un campanello ad-hoc ed una comunicazione adeguata?"
 shortTex: "Un'importante tema che abbiamo trattato è stato quello della chiamata; come possiamo migliorare l'accessibilità dei negozi milanesi migliorando l'esperienza di utilizzo del campanello di chiamata? Abbiamo sviluppato e testato un prototipo di un nuovo
@@ -25,7 +23,6 @@ lang: it
 ref: chiamata-page
 permalink: chiamata/
 ---
-IT
 
 Le soluzioni di chiamata proposte sono state progettate sulla base di una progettazione partecipara con le istituzioni, i negozianti ed i cittadini milanesi.
 I dispositivi sono stati progettati sulle necessità specifiche della communità e sono già state testate sul campo presso alcuni negozi di Isola.
@@ -53,10 +50,10 @@ La soluzione proposta è composta da tre parti:
 
 
 ### Scenario di utilizzo del campanello
-![storyboard utilizzo campanello](../assets/images/scenario-1.png)
+![storyboard utilizzo campanello]({{ site.baseurl }}/assets/images/scenario-1.png)
 
 ### Scenario di utilizzo del campanello tramite app
-![storyboard utilizzo campanello tramite app](../assets/images/scenario-2.png)
+![storyboard utilizzo campanello tramite app]({{ site.baseurl }}/assets/images/scenario-2.png)
 
 ### Istruzioni di assemblaggio
 

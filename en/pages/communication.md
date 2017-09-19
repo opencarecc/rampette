@@ -24,7 +24,8 @@ lang: en
 ref: comunicazione-page
 permalink: en/communication/
 ---
-EN
+
+THIS PAGE NEEDS TO BE TRANSLATED
 
 Attraverso i vari momenti di confronto, il dialogo con i negozianti e con gli utenti finali ciò che è emerso in modo ricorrente è la necessità di una comunicazione efficace che, oltre a trasferire con chiarezza il messaggio dell'importanza di essere accessibili a tutti, rendendo la comunità più consapevole, agisca anche come elemento di attivazione collettiva per il miglioramento dell’esperienza di accessibilità nella propria città.
 
