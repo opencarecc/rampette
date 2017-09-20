@@ -104,7 +104,7 @@ header.shrink {
   padding: 2rem 4rem;
   /*background: rgba(255,255,255,.5);*/
   display: block;
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin: 0 auto;
 }
 
@@ -394,7 +394,7 @@ header.shrink #lang-picker .dropdown-content {
 @media screen and (max-width: 42em) {
   #nav-container {
     padding: 0 1rem;
-    overflow-x: hidden;
+    overflow: hidden;
     max-width: 100%;
   }
   nav a:hover, 
