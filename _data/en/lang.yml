@@ -36,15 +36,15 @@ topics:
   topic_column:
     - title: "The call"
       description: "topic 1 description"
-      link: "chiamata"
+      link: "en/call"
       img_url: "assets/images/device-custom.png"
     - title: "The procedure"
       description: "topic 2 description"
-      link: "procedura"
+      link: "en/procedure"
       img_url: "assets/images/procedura.png"
     - title: "Identity"
       description: "topic 3 description"
-      link: "comunicazione"
+      link: "en/communication"
       img_url: "assets/images/sticker.png"
 
 # dictionary keys for slick_slider.html include file
