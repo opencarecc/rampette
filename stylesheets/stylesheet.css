@@ -973,6 +973,8 @@ a:last-of-type.btn:hover {
   display: -webkit-flex;
   flex-flow: row wrap;
   -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
 }
 .row:first-of-type {
   padding-top: 1.5rem;
@@ -1009,8 +1011,6 @@ a:last-of-type.btn:hover {
     -webkit-flex-flow: column;
     justify-content: center;
     -webkit-justify-content: center;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
   }
   .row > .column {
     padding: 0 1rem!important;
@@ -1030,17 +1030,8 @@ a:last-of-type.btn:hover {
   }
 }
 @media screen and (max-width: 42em) {
-  .row {
-    flex-flow: column;
-    -webkit-flex-flow: column;
-    justify-content: center;
-    -webkit-justify-content: center;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-  }
   .column.topics img {
-    /*max-width: 300px;*/
-    max-width: 16rem;
+    max-width: 300px;
   }
 }
 
