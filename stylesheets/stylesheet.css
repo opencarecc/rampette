@@ -47,7 +47,6 @@ header {
   position: fixed;
   top: 0!important;
   background-color: rgba(255,255,255,.95);
-  /*background-color: red;*/
   width: 100%;
   z-index: 999;
   -webkit-transition: all 0.3s;
@@ -61,20 +60,6 @@ header {
   -o-transition: box-shadow 0s;
   transition: box-shadow 0s;
 }
-/*the site name in the navbar*/
-/*h1.site-name {
-    max-width: 100px;
-    font-size: 23px;
-    font-size: 1rem;
-    text-align: left;
-    color: gray;
-    margin-left: 73px;
-    margin-top: -4px;
-    padding: 0px;
-    position: absolute;
-    font-weight: 300;
-    line-height: 30px;
-}*/
 header h1 {
   max-width: 6rem;
   font-size: 1.45rem;
@@ -102,7 +87,7 @@ header img {
 }
 header.shrink {
   height: 3rem;
-    padding: .5rem 0;
+  padding: .5rem 0;
   /*overflow: hidden;*/
   -webkit-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.1);
@@ -123,8 +108,6 @@ header.shrink {
   margin: 0 auto;
 }
 
-
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -136,7 +119,6 @@ nav ul {
   -o-transition: all 0.1s;
   transition: all 0.1s;
 }
-
 nav li,
 nav li.dropdown {
   display: inline-block;
@@ -155,7 +137,6 @@ nav li.dropdown {
 nav li.dropdown {
   padding-bottom: .15rem;
 }
-
 nav li a {
   display: block;
   cursor: pointer;
@@ -165,7 +146,6 @@ nav .current {
   /*border-bottom: 1px solid #602480;*/
   border-bottom: 1px solid #000099;
 }
-
 nav .current a,
 nav .current a:hover,
 nav .current a:active  {
@@ -180,11 +160,9 @@ nav .dropdown::after {
   border-top: 6px solid #000099;
   margin: 2px 0px 2px 2px;
 }
-
 nav .dropdown:hover .dropdown-content {
     display: block;
 }
-
 nav .dropdown-content {
   display: none;
   position: absolute;
@@ -195,20 +173,16 @@ nav .dropdown-content {
   z-index: 99;
   text-align: left;
 }
-
 header.shrink nav ul.dropdown-content {
   padding: .2rem;
 }
-
 nav .dropdown-content li {
   padding: .5rem 0; 
 }
-
 nav .dropdown-content li a,
 nav .current .dropdown-content li a {
   border-bottom: 1px solid #f9f9f9; /* this is a fix to avoid the bouncing effect on the div */
 }
-
 nav .dropdown-content li a:hover,
 nav .current .dropdown-content li a:hover {
   /*border-bottom: 1px solid #602480;*/
@@ -217,11 +191,11 @@ nav .current .dropdown-content li a:hover {
 
 /* Dropdown trigger for mobile */
 #dropdown-trigger {
-    display: block;
-    /* critical styles - hide the checkbox input */
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
-  }
+  display: block;
+  /* critical styles - hide the checkbox input */
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
 
 .nav-trigger {
   display: none;
@@ -242,41 +216,19 @@ nav .current .dropdown-content li a:hover {
   display: none;
 }
 label[for="lang-trigger"] {
-  /*border: 1px solid #000099;*/
-  /*border-radius: 5px;*/
-  /*margin-left: .2rem;*/
-  /*padding: .2rem;*/
-  /*padding-bottom: .25rem;*/
   padding: 0;
 }
-/*nav #lang-picker .dropdown::after {
-  content: "";
-  display: inline-block;
-  border: none;
-  margin: 0;
-  background-image: url('../assets/OC-lang.svg');
-  background-size: 1rem 1rem;
-  background-repeat: no-repeat;
-  height: 1rem;
-  width: 1rem;  
-}*/
 nav #lang-picker .dropdown::after {
   content: '';
   display: none;
 }
-/*.lang-icon img {
-  float: right;
-  margin-left: .3rem;
-}*/
 #lang-picker .dropdown {
   position: relative;
-  /*margin: 0 .5em 0 .6rem;*/
   margin: 0;
-  /*padding-bottom: .1rem;*/
-      display: flex;
-    flex-direction: row;
-    padding-bottom: .05rem;
-    -webkit-transition: all 0.1s;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: .05rem;
+  -webkit-transition: all 0.1s;
   -moz-transition: all 0.1s;
   -ms-transition: all 0.1s;
   -o-transition: all 0.1s;
@@ -335,21 +287,21 @@ nav #lang-picker .dropdown::after {
   border-bottom: 1px solid #f9f9f9;
 }
 header.shrink #lang-picker {
-    margin-top: .35rem
-  }
-  header.shrink #lang-picker .dropdown {
-    padding-bottom: 0;
-  }
-  header.shrink #lang-picker .dropdown span {
-    font-size: .7rem;
-    letter-spacing: .05rem;
-  }
-  header.shrink #lang-picker .dropdown .lang-icon img {
-    max-width: 1rem;
-  }
-  header.shrink #lang-picker .dropdown-content {
-    top: 1.5rem;
-  }
+  margin-top: .35rem
+}
+header.shrink #lang-picker .dropdown {
+  padding-bottom: 0;
+}
+header.shrink #lang-picker .dropdown span {
+  font-size: .7rem;
+  letter-spacing: .05rem;
+}
+header.shrink #lang-picker .dropdown .lang-icon img {
+  max-width: 1rem;
+}
+header.shrink #lang-picker .dropdown-content {
+  top: 1.5rem;
+}
 
 
 /* NAVIGATION BAR media queries */
@@ -552,7 +504,7 @@ header {
     margin: 2px 0px 2px 2px;
   }
  
-  /*Dropdown trigger for mobile stuff*/
+  /* Dropdown trigger for mobile stuff */
   label[for="dropdown-trigger"] {
     /* critical positioning styles */
     position: relative;
@@ -560,14 +512,12 @@ header {
   #dropdown-trigger:checked + label[for="dropdown-trigger"] > li.dropdown > ul.dropdown-content {
     display: block;    
   }
-  /*Mobile fix for dropdown menu triggered by checkbox, by removing this it will always stay visibile after first trigger*/
+  /* Mobile fix for dropdown menu triggered by checkbox, by removing this it will always stay visibile after first trigger */
   nav .dropdown:hover .dropdown-content {
     display: none;
   }
 
-  
-
-  /*Hamburger button stuff*/
+  /* Hamburger button stuff */
   .nav-trigger {
     display: block;
     /* critical styles - hide the checkbox input */
@@ -616,8 +566,6 @@ header {
     background-color: rgba(255,255,255,.95);
   }
 
-
-
   /* Language picker stuff */
   #lang-picker {
         position: absolute;
@@ -625,15 +573,7 @@ header {
     top: 1.55rem;
     right: 3.8rem;
   }
-  label[for="lang-trigger"] {
-    /* critical positioning styles */
-    /*position: absolute;*/
-    /*right: 3.7rem;*/
-    /*top: 1.4rem;*/
-    /*z-index: 2;*/
-    /*background-color: red;*/
-    /*border: 1px solid red;*/
-  }
+  label[for="lang-trigger"] {}
   #lang-trigger:checked + label[for="lang-trigger"] > li.dropdown > ul.dropdown-content {
     display: block; 
     position: absolute; 
@@ -738,7 +678,6 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
   }
 }
-
 
 
 
@@ -1121,9 +1060,6 @@ footer.column {
 .credits {
   color: #819198;
   font-size: .8rem;
-  /*float: left;
-  max-width: 50%;
-  margin: 1rem 0;*/
 }
 
 footer img {
@@ -1160,12 +1096,6 @@ footer img {
     flex-direction: column;
     font-size: 0.9rem;
     text-align: center;
-  }
-  .credits {
-    /*clear: both;
-    float: none;*/
-    /*text-align: center;*/
-    /*max-width: 100%;*/
   }
   footer img {
     max-width: 280px!important;
@@ -1275,9 +1205,6 @@ ul.posts li:last-of-type {
 }
 .group-year {
   margin-top: 2rem!important;
-}
-article {
-  /*margin-left: 1rem;*/
 }
 article time {
   display: inline-block;
