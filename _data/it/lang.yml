@@ -2,7 +2,7 @@
 
 
 # ------------------------------
-# --- GLOBAL dictionary keys --- 
+# --- GLOBAL dictionary keys ---
 # ------------------------------
 global:
   read_more: "Scopri di più"
@@ -10,7 +10,7 @@ global:
 
 
 # ---------------------------------
-# --- HOME page dictionary keys --- 
+# --- HOME page dictionary keys ---
 # ---------------------------------
 # dictionary keys for homeheader.html include file
 header:
@@ -27,6 +27,7 @@ header:
 # dictionary keys for video.html include file
 video:
   title: "Cos'è open rampette?"
+  url: "https://www.youtube.com/embed/bARoyq8Tnto"
   description: "open rampette è un’iniziativa pilota per il miglioramento dell’accessibilità degli esercizi commerciali ed è promossa dal Comune di Milano e da WeMake | fablab e makerspace all’interno del progetto <a href='http://opencare.cc' target='_blank'>opencare</a>."
   link: "about"
 
@@ -120,7 +121,7 @@ contribute:
 
 
 # ------------------------------
-# --- FOOTER dictionary keys --- 
+# --- FOOTER dictionary keys ---
 # ------------------------------
 # dictionary keys for footer.html include file
 footer:
@@ -129,7 +130,7 @@ footer:
 
 
 # --------------------------------
-# --- CATEGORY dictionary keys --- 
+# --- CATEGORY dictionary keys ---
 # --------------------------------
 # dictionary keys for category.html & post.html layout files
 category:
@@ -139,7 +140,7 @@ category:
 
 
 # ----------------------------
-# --- BLOG dictionary keys --- 
+# --- BLOG dictionary keys ---
 # ----------------------------
 # dictionary keys for blog/index.html file
 # pagination:
@@ -147,4 +148,3 @@ category:
 #   previous: "Precedente"
 #   page_1: "Pagina"
 #   page_2: "di"
-
