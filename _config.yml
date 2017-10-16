@@ -1,7 +1,7 @@
 name: open rampette
 author: WeMake
 markdown: kramdown
-baseurl: 
+baseurl:
 permalink: blog/:year/:month/:day/:title/
 plugins:
   - jekyll-sitemap
@@ -20,4 +20,19 @@ index:
   en: en/index.html
 
 default_lang: "it"
-  
+
+# Facebook OpenGraph stuff
+opengraph:
+  title: "open rampette by opencarecc"
+  url: "rampette.opencare.cc"
+  description: "miglioriamo l’accessibilità degli esercizi commerciali"
+  image_url: "http://opencarecc.github.io/rampette/assets/OC-Logo-socials.png"
+
+# Twitter Card stuff
+twitter:
+  site: "open rampette by opencarecc"
+  title: "open rampette by opencarecc"
+  description: "miglioriamo l’accessibilità degli esercizi commerciali"
+  creator: "opencarecc"
+  domain: "rampette.opencare.cc"
+  image_url: "http://opencarecc.github.io/rampette/assets/OC-Logo-socials.png"
