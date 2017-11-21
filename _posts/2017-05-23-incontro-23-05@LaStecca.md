@@ -7,7 +7,7 @@ image: "https://farm5.staticflickr.com/4252/34721103722_cdb80a2769_k_d.jpg"
 categories: ["procedura","evento"]
 by: "Lorenzo"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

@@ -7,7 +7,7 @@ image: "/assets/images/risultati_questionario.png"
 categories: ["chiamata"]
 by: "Lorenzo"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

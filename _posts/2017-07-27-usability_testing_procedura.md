@@ -7,7 +7,7 @@ image: "/assets/images/usertest_procedura.jpg"
 categories: ["procedura"]
 by: "Alessandro"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

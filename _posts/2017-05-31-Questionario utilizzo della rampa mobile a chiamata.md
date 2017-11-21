@@ -7,7 +7,7 @@ image: "/assets/images/research.png"
 categories: ["chiamata"]
 by: "Lorenzo"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

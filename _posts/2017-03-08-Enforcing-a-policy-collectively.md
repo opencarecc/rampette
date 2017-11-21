@@ -7,7 +7,7 @@ image: "https://edgeryders.eu/sites/edgeryders.eu/files/styles/challenge_respons
 categories: ["chiamata", "comunicazione", "procedura"]
 by: "Lorenzo"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

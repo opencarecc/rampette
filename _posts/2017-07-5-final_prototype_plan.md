@@ -7,7 +7,7 @@ image: "/assets/images/prototype_plan.png"
 categories: ["chiamata"]
 by: "Valeria"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

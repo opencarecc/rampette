@@ -7,7 +7,7 @@ image: "https://edgeryders.eu/uploads/default/original/2X/c/cb9ab675aa829a3252d6
 categories: ["procedura"]
 by: "Alessandro"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

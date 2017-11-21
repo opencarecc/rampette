@@ -7,7 +7,7 @@ image: "https://farm5.staticflickr.com/4164/34227097530_fedfa8ace5_k_d.jpg"
 categories: ["chiamata", "evento"]
 by: "Lorenzo"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

@@ -7,7 +7,7 @@ image: "https://farm3.staticflickr.com/2833/34126794252_c01dd7adb2_h_d.jpg"
 categories: ["evento"]
 by: "Lorenzo"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

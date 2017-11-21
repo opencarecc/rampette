@@ -7,7 +7,7 @@ image: "/assets/images/questionario_sticker.png"
 categories: ["comunicazione"]
 by: "Lorenzo"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

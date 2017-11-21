@@ -7,7 +7,7 @@ image: "https://farm5.staticflickr.com/4192/34613102235_59594c04b7_k_d.jpg"
 categories: ["chiamata", "comunicazione", "procedura"]
 by: "Lorenzo"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

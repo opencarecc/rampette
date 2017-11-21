@@ -7,7 +7,7 @@ image: "https://edgeryders.eu/uploads/default/original/2X/d/df21d75aa4dc9bbe6f7b
 categories: ["chiamata"]
 by: "Lorenzo"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

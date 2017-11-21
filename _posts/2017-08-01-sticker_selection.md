@@ -7,7 +7,7 @@ image: "/assets/images/final_sticker.jpg"
 categories: ["comunicazione"]
 by: "Valeria"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---

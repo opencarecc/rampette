@@ -7,7 +7,7 @@ image: "/assets/images/IMG_0811.JPG"
 categories: ["procedura"]
 by: "Alessandro"
 excerpt:
-lang: en
+lang: it
 ref:
 published: true
 ---
