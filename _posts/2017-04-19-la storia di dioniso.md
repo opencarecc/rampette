@@ -4,8 +4,12 @@ title: "La storia di dioniso e minerva"
 subtitle: "discutere situazioni conflittuali attraverso lo storytelling"
 date: 2017-04-20
 image: "https://farm5.staticflickr.com/4192/34613102235_59594c04b7_k_d.jpg"
-categories: []
+categories: ["chiamata", "comunicazione", "procedura"]
 by: "Lorenzo"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 Con Progettazione partecipata, si intende la  Progettazione che prevede la partecipazione anche di coloro che saranno i fruitori dell’oggetto o del luogo che si sta progettando.

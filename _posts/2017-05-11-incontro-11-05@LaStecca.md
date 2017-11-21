@@ -6,6 +6,10 @@ date: 2017-05-11
 image: "https://farm5.staticflickr.com/4164/34227097530_fedfa8ace5_k_d.jpg"
 categories: ["chiamata", "evento"]
 by: "Lorenzo"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 Dopo la presentazione pubblica del progetto open rampette, giovedì 11 maggio si è tenuto il primo incontro di co-progettazione.
 

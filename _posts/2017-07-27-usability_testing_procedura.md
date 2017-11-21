@@ -6,6 +6,10 @@ date: 2017-07-27
 image: "/assets/images/usertest_procedura.jpg"
 categories: ["procedura"]
 by: "Alessandro"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 Torniamo con un nuovo aggiornamento sulla procedura: risultati e approfondimenti sul test di usabilità del prototipo.

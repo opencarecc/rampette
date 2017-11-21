@@ -6,6 +6,10 @@ date: 2017-07-19
 image: "https://edgeryders.eu/uploads/default/original/2X/c/cb9ab675aa829a3252d66680a6cd15bff0f44492.jpg"
 categories: ["procedura"]
 by: "Alessandro"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 Ciao, nuovo aggiornamento dal progetto open rampette - la procedura!

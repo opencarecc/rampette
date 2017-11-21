@@ -6,7 +6,7 @@ date: 2017-08-04
 image: "/assets/images/IMG_3226.JPG"
 categories: ["chiamata", "comunicazione", "procedura"]
 by: "Costantino"
-excerpt: 
+excerpt:
 lang: it
 ref: incontro-27-08-finissage
 ---

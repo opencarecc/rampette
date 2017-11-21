@@ -6,6 +6,10 @@ date: 2017-04-19
 image: "https://farm3.staticflickr.com/2833/34126794252_c01dd7adb2_h_d.jpg"
 categories: ["evento"]
 by: "Lorenzo"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 Mercoledì 19 aprile alle ore 18.45 presso la Stecca 3.0, in via De Castillia 26 a Milano è stato presentato il progetto open rampette.

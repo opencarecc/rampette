@@ -6,6 +6,10 @@ date: 2017-08-04
 image: "/assets/images/chiamata.gif"
 categories: ["chiamata", "comunicazione"]
 by: "Valeria"
+excerpt: 
+lang: en
+ref:
+published: true
 ---
 
 Ciao amici di open rampette!

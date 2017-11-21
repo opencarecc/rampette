@@ -6,6 +6,10 @@ date: 2017-07-05
 image: "/assets/images/prototype_plan.png"
 categories: ["chiamata"]
 by: "Valeria"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 L’evento del 21 Giugno è stato un momento interessante per dare voce alla community.

@@ -6,6 +6,10 @@ date: 2017-07-11
 image: "/assets/images/questionario_sticker.png"
 categories: ["comunicazione"]
 by: "Lorenzo"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 Alcune settimane fa, dopo aver presentato [la prima serie di prototipi](https://edgeryders.eu/en/open-rampette-the-call-here-come-the-prototypes-21-05-2017) alla comunità, abbiamo votato le idee con il potenziale di migliorare drasticamente l'esperienza utente della rampa temporanea.

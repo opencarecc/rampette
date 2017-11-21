@@ -2,10 +2,14 @@
 layout: post
 title: "Enforcing a policy 'collectively'"
 subtitle: "Note sulla normativa esistente e l'approccio progettuale"
-date: 2017-03-07
+date: 2017-03-08
 image: "https://edgeryders.eu/sites/edgeryders.eu/files/styles/challenge_response_node/public/response-header-images/node-7745-header.jpg"
-categories: []
+categories: ["chiamata", "comunicazione", "procedura"]
 by: "Lorenzo"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 > Gli spazi pubblici devono essere accessibili a tutti indipendentemente dalle capacità motorie degli utenti. Al momento solo il 10% degli esercizi commerciali rispettano la normativa.

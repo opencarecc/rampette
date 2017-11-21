@@ -6,6 +6,10 @@ date: 2017-07-10
 image: "/assets/images/IMG_0811.JPG"
 categories: ["procedura"]
 by: "Alessandro"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 Ciao, ecco un aggiornamento sulla seconda parte del progetto open rampette: la procedura.

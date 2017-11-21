@@ -6,6 +6,10 @@ date: 2017-08-01
 image: "/assets/images/final_sticker.jpg"
 categories: ["comunicazione"]
 by: "Valeria"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 Attraverso questi momenti di confronto, il dialogo con i negozianti e con gli utenti finali ciò che è emerso in modo ricorrente è la necessità di una comunicazione efficace che, oltre a  trasferire con chiarezza  il messaggio rendendo la comunità più consapevole, agisca anche come elemento di attivazione collettiva per il miglioramento dell’esperienza di accessibilità nella propria città.

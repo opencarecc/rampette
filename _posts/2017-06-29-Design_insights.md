@@ -6,6 +6,10 @@ date: 2017-06-29
 image: "/assets/images/risultati_questionario.png"
 categories: ["chiamata"]
 by: "Lorenzo"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 Un paio di settimane fa, dopo aver raccolto tutti i dati dell'evento pubblico del 11 maggio, abbiamo anche prodotto un questionario online per capire meglio l'esperienza utente di un dioniso di fronte alla rampa temporanea.

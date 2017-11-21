@@ -6,6 +6,10 @@ date: 2017-06-30
 image: "https://farm5.staticflickr.com/4266/35189193230_012bf777d6_z_d.jpg"
 categories: ["chiamata", "comunicazione"]
 by: "Lorenzo"
+excerpt:
+lang: en
+ref:
+published: true
 ---
 
 Il progetto open rampette si è rapidamente spostato alla fase di progettazione.
