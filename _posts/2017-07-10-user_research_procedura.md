@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "risultati della ricerca sulla procedura"
-subtitle: "un aggiornamento sulla seconda parte del progetto open rampette: la procedura."
+subtitle: "un aggiornamento sulla seconda parte del progetto **open rampette**: la procedura."
 date: 2017-07-10
 image: "/assets/images/IMG_0811.JPG"
 categories: ["procedura"]
 by: "Alessandro"
 ---
 
-Ciao, ecco un aggiornamento sulla seconda parte del progetto open rampette: la procedura.
+Ciao, ecco un aggiornamento sulla seconda parte del progetto **open rampette**: la procedura.
 
 Ormai dovreste avere una certa familiarità con Dioniso e Minerva (Dioniso rappresenta i desideri e le necessita’ di persone con mobilità ridotta che vogliono entrare in un negozio, mentre Minerva rappresenta tutti i proprietari di negozi che vogliono accogliere chiunque nei loro negozi).
 

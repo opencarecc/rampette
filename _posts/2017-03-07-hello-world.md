@@ -8,5 +8,5 @@ categories: []
 by: "Lorenzo"
 ---
 
-qui inizia il viaggio di open rampette, un progetto che nasce dal basso con l'obbiettivo di migliorare l'accessibilità del comune di milano.
+qui inizia il viaggio di **open rampette**, un progetto che nasce dal basso con l'obbiettivo di migliorare l'accessibilità del comune di milano.
 Sequiteci!

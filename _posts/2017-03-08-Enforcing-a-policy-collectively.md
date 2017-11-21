@@ -10,7 +10,7 @@ by: "Lorenzo"
 
 > Gli spazi pubblici devono essere accessibili a tutti indipendentemente dalle capacità motorie degli utenti. Al momento solo il 10% degli esercizi commerciali rispettano la normativa.
 
-[Matteo Matteini](https://twitter.com/bazarov23) ci racconta dell'attuale normativa in vigore nel comune di Milano e dell'approccio bottom up adottato dal progetto open rampette.
+[Matteo Matteini](https://twitter.com/bazarov23) ci racconta dell'attuale normativa in vigore nel comune di Milano e dell'approccio bottom up adottato dal progetto **open rampette**.
 
 [Trovi l'articolo intero su edgeryders qui.
 ](https://edgeryders.eu/en/enforcing-a-policy-collectively)

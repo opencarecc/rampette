@@ -15,7 +15,7 @@ Sebbene sulla carta possa sembrare qualcosa di estremamente facile, nell’esecu
 Fra tutte, coinvolgere una comunità interessata alla risoluzione di un problema; sebbene assistita e pianificata da addetti ai lavori come designer, makers, e policy makers non è mai cosa facile.
 Osservare una problematica con gli occhi di tutti gli attori coinvolti non è sempre facile per chi si affaccia per la prima volta alla progettazione e dunque richiede spesso grosso sforzo progettuale da parte di chi guida il processo e conosce bene la metodologia e gli obiettivi da raggiungere.
 
-In particolare, il progetto open rampette si inserisce all'interno di uno scenario estremamente conflittuale:
+In particolare, il progetto **open rampette** si inserisce all'interno di uno scenario estremamente conflittuale:
 da un lato i negozianti che sono costretti ad adeguare il loro negozio alle nuove norme di accessibilità introdotte dal comune di Milano, dall'altra persone con disabilità gravi che da sempre si scontrano con scalini troppo alti e macchine parcheggiate sulle rampe.
 
 Come fare a creare un dialogo tra le due realtà che porti ad un confronto serio con finalità progettuale e non si risolva in una faida al fulmicotone con toni da Porta a Porta?

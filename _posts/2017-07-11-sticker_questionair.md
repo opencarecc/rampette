@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "lo sticker di open rampette"
+title: "lo sticker di **open rampette**"
 subtitle: "aiutaci a scegliere lo sticker che caratterizzerà il progetto"
 date: 2017-07-11
 image: "/assets/images/questionario_sticker.png"
@@ -16,7 +16,7 @@ Una delle idee selezionate, è un adesivo che segna i negozi accessibili nel qua
 **Come faccio a capire se un negozio è accessibile o meno?
 **
 
-L'adesivo proposto identifica i negozi che partecipano al progetto open rampette e in generale i negozi accessibili.
+L'adesivo proposto identifica i negozi che partecipano al progetto **open rampette** e in generale i negozi accessibili.
 
 Qui alcuni aspetti chiave dell'adesivo proposto:
 

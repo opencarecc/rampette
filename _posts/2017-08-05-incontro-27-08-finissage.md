@@ -11,7 +11,7 @@ lang: it
 ref: incontro-27-08-finissage
 ---
 
-Il 27 luglio ci siamo riuniti nuovamente con la community open rampette per condividere i risultati finali sul progetto.
+Il 27 luglio ci siamo riuniti nuovamente con la community **open rampette** per condividere i risultati finali sul progetto.
 
 Abbiamo presentato le evoluzioni dei prototipi prodotti per entrambe i temi trattati: "la chiamata" e "la procedura"; Oltre a lavorare sui due temi, abbiamo capito che c'era un terzo argomento che stava emergendo e necessitava di essere trattato a parte: "la comunicazione ”.
 

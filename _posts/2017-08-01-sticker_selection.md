@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "lo sticker di open rampette"
+title: "lo sticker di **open rampette**"
 subtitle: "abbiamo ascoltato i vostri consigli, ecco lo sticker definitivo"
 date: 2017-08-01
 image: "/assets/images/final_sticker.jpg"

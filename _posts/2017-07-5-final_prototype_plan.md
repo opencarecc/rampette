@@ -17,7 +17,7 @@ Dopo aver raccolto tutti i feedback li abbiamo analizzati, provando a capire su 
 Alla fine del processo ne abbiamo selezionati 4 dei 7 che avevamo presentato:
 
 1. **Uno sticker per riconoscere i negozi accessibili:**
-Lo sticker identifica i negozi che stanno prendendo parte al progetto di open rampette e i negozi accessibili in generale. La grafica è esplicita ma non è la solita rappresentazione dell’omino in sedia a rotelle. È un segno di prestigio per il negozio che lo esibisce (come per gli adesivi delle guide turistiche).
+Lo sticker identifica i negozi che stanno prendendo parte al progetto di **open rampette** e i negozi accessibili in generale. La grafica è esplicita ma non è la solita rappresentazione dell’omino in sedia a rotelle. È un segno di prestigio per il negozio che lo esibisce (come per gli adesivi delle guide turistiche).
 PERCHÉ? È impossibile riconoscere un negozio accessibile munito di rampa removibile senza un segnale chiaro.
 
 2. **Un campanello con una migliore usabilità:**
