@@ -11,7 +11,7 @@ exclude: [README.md]
 # paginate_path: /blog/page:num/
 github: [metadata]
 
-title: "**open rampette** by opencarecc"
+title: "open rampette by opencarecc"
 tagline: "miglioriamo l’accessibilità degli esercizi commerciali"
 
 # multilingual stuff
@@ -23,15 +23,15 @@ default_lang: "it"
 
 # Facebook OpenGraph stuff
 opengraph:
-  title: "**open rampette** by opencarecc"
+  title: "open rampette by opencarecc"
   url: "rampette.opencare.cc"
   description: "miglioriamo l’accessibilità degli esercizi commerciali"
   image_url: "http://opencarecc.github.io/rampette/assets/OC-Logo-socials.png"
 
 # Twitter Card stuff
 twitter:
-  site: "**open rampette** by opencarecc"
-  title: "**open rampette** by opencarecc"
+  site: "open rampette by opencarecc"
+  title: "open rampette by opencarecc"
   description: "miglioriamo l’accessibilità degli esercizi commerciali"
   creator: "opencarecc"
   domain: "rampette.opencare.cc"

@@ -8,7 +8,7 @@ categories: ["procedura"]
 by: "Alessandro"
 ---
 
-Ciao, nuovo aggiornamento dal progetto **open rampette** - la procedura!
+Ciao, nuovo aggiornamento dal progetto open rampette - la procedura!
 
 Ci siamo lasciati con i risultati della nostra ricerca tra gli utenti durante l'ultimo episodio (link). Tutte intuizioni utili per la squadra di WeMake per iniziare a prototipare una nuova interfaccia, uno strumento digitale per rendere la procedura di regolamentazione più intuitiva, più facile da compilare, più veloce, senza frustrazioni.
 

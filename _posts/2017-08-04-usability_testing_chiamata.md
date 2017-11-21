@@ -8,7 +8,7 @@ categories: ["chiamata", "comunicazione"]
 by: "Valeria"
 ---
 
-Ciao amici di **open rampette**!
+Ciao amici di open rampette!
 
 L'ultimo aggiornamento pubblicato riguarda la selezione dei prototipi, oggi vorremmo condividere con voi quello che è successo nelle ultime settimane.
 Siamo stati molto occupati di recente a produrre i prototipi finali dei dispositivi progettati; insomma abbiamo fatto quello che sappiamo fare meglio; i maker: programmare, saldare, stampare in 3d, ecc. Abbiamo costruito diversi prototipi di campanelli ed un'app che consente all'utente di eseguire la chiamata via Bluetooth.

@@ -8,7 +8,7 @@ categories: ["chiamata", "comunicazione"]
 by: "Lorenzo"
 ---
 
-Il progetto **open rampette** si è rapidamente spostato alla fase di progettazione.
+Il progetto open rampette si è rapidamente spostato alla fase di progettazione.
 Abbiamo appena finito uno sprint di progettazione con l'obiettivo di presentare 7 nuovi concept alla riunione con la community del il 21 giugno.
 
 I prototipi sono stati ispirati dalle intuizioni raccolte dalla ricerca degli utenti condotta con la comunità online e offline. [Qui](https://edgeryders.eu/t/open-rampette-la-chiamata-insights-from-the-questionnaire/839) puoi trovare un rapporto sulle principali intuizioni.

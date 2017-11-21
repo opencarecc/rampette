@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WeMake e il comune di Milano presentano **open rampette**"
+title: "WeMake e il comune di Milano presentano open rampette"
 subtitle: "un percorso di co-progettazione portatori di interesse, esercenti, policy maker, designer, maker"
 date: 2017-04-19
 image: "https://farm3.staticflickr.com/2833/34126794252_c01dd7adb2_h_d.jpg"
@@ -8,11 +8,11 @@ categories: ["evento"]
 by: "Lorenzo"
 ---
 
-Mercoledì 19 aprile alle ore 18.45 presso la Stecca 3.0, in via De Castillia 26 a Milano è stato presentato il progetto **open rampette**.
+Mercoledì 19 aprile alle ore 18.45 presso la Stecca 3.0, in via De Castillia 26 a Milano è stato presentato il progetto open rampette.
 
 Si è parlato del percorso partecipato che sarà portato avanti all'interno del progetto col fine di abbattere le barriere architettoniche.
 
-Il progetto **open rampette** vuole coinvolgere attivamente in un percorso di co-progettazione portatori di interesse, esercenti, policy maker, designer, maker, mantenendo un collegamento con altre esperienze internazionali.
+Il progetto open rampette vuole coinvolgere attivamente in un percorso di co-progettazione portatori di interesse, esercenti, policy maker, designer, maker, mantenendo un collegamento con altre esperienze internazionali.
 
 Sono intervenuti:
 - **Cristina Tajani** – Assessore alle Politiche del lavoro, Attività produttive, Commercio e Risorse umane del Comune di Milano
