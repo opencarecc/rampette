@@ -85,4 +85,6 @@ Infine, open rampette si svolge nell’ambito di [opencare](https://www.google.c
 
 - open rampette - THE PROCEDURE - User research [https://edgeryders.eu/it/open-rampette-the-procedure-user-research](https://www.google.com/url?q=https://edgeryders.eu/it/open-rampette-the-procedure-user-research&sa=D&ust=1501168238384000&usg=AFQjCNEU-lhACR9TOUePZN4LuKTDwvdpFA)
 
+---
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQROH8mCnBy5O9zRBqcVtnm-Tr_agc47VmI9g2yCZxOLH-r4VBbXnmYraTHjyPSDDD7iC3FHQVcbc8C/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
